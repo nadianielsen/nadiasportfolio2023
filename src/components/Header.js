@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 
 
 const Header = () => {
     return ( 
-        <header className="w-full header-box-shadow flex justify-center items-center">
+        <header className="w-full header-box-shadow flex items-center">
+            <Link to={"/"} className="mr-auto ml-40">Logo???</Link>
             <Navigation />
         </header>
      );
