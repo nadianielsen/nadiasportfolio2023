@@ -34,10 +34,32 @@
 
     .border-transition:hover:after { transform: scaleX(1);}
   }
+  
+  .text-shadow {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.188);
+  }
 
+  .home-text{
+    animation: slide-left 4s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 80%;
+      width: 80%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 80%;
+    }
+  }
+  
+  
 }
 
 #root {
   display: grid;
   grid-template-rows: 5rem 1fr;
 }
+
