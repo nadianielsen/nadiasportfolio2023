@@ -7,23 +7,26 @@ const Footer = () => {
         <footer className="w-full border-t-2 border-black border-opacity-10 h-[15rem]">
             <section className=" border-y-2 border-black w-[50%] h-[10rem] m-auto grid grid-cols-2 grid-rows-3 mt-10">
                 <section className="flex gap-x-2 justify-center items-center">
-                    <BsInstagram className="text-2xl" />
+                    {/* <BsInstagram className="text-2xl" /> */}
+                    <img src="./images/instagram.png" alt="" className="w-6"/>
                     <p className="font-medium hover:text-transparent bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] w-20 ">Instagram</p>
                 </section>
                 <section className="cols-start-1 row-start-2 flex justify-center gap-x-2 items-center mr-8">
-                    <FaLinkedin className="text-2xl"/>
-                    <p className="font-medium hover:text-blue-700">LinkedIn</p>
+                    {/* <FaLinkedin className="text-2xl"/> */}
+                    <img src="./images/linkedin.png" alt="" className="w-6"/>
+                    <p className="font-medium hover:text-sky-600">LinkedIn</p>
                 </section>
                 <section className="col-start-1 row-start-3 flex justify-center items-center gap-x-2 mr-6">
-                    <FaFacebookSquare className="text-2xl"/>
+                    {/* <FaFacebookSquare className="text-2xl"/> */}
+                    <img src="./images/facebook.png" alt="" className="w-6"/>
                     <p className="font-medium hover:text-blue-900">FaceBook</p>
                 </section>
                 <section className="flex justify-center items-center gap-x-2">
-                    <SiGmail /> 
+                    <SiGmail className="text-xl"/> 
                     <p>nadiamarie2111@gmail.com</p>
                 </section>
                 <section className="flex justify-center items-center gap-x-2 mr-20">
-                    <BsFillTelephoneFill />
+                    <BsFillTelephoneFill className="text-xl"/>
                     <p>60 66 84 87</p>
                 </section>
                 <p className="flex items-center justify-center pr-4">Contact me on any platform</p>

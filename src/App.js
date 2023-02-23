@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="row-start-2 my-6">
+      <main className="row-start-2">
         <Outlet />
       </main>
       <Footer />
