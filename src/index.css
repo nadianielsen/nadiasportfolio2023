@@ -39,19 +39,27 @@
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.188);
   }
 
+  .white-shadow {
+    text-shadow: 0 0 2px rgb(187, 186, 186);
+  }
+
+  .card-shadow {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+  }
+
   .home-text{
-    animation: slide-left 4s;
+    animation: slide-left 2.8s;
   }
   
   @keyframes slide-left {
     from {
       margin-left: 80%;
-      width: 80%; 
+      width: 50%; 
     }
   
     to {
       margin-left: 0%;
-      width: 80%;
+      width: 50%;
     }
   }
   
