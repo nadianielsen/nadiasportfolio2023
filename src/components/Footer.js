@@ -3,8 +3,13 @@ import { FaLinkedin, FaFacebookSquare } from "react-icons/fa"
 import { SiGmail } from "react-icons/si"
 
 const Footer = () => {
+
+    //Found this on stackoverflow
+    const today = new Date();
+    const year = today.getFullYear();
+
     return ( 
-        <footer className="w-full border-t-2 border-black border-opacity-10 h-[15rem]">
+        <footer className="w-full border-t-2 border-black border-opacity-5 h-[15rem]">
             <section className=" border-y-2 border-black w-[50%] h-[10rem] m-auto grid grid-cols-2 grid-rows-3 mt-10">
                 <section className="flex gap-x-2 justify-center items-center">
                     {/* <BsInstagram className="text-2xl" /> */}
@@ -19,7 +24,7 @@ const Footer = () => {
                 <section className="col-start-1 row-start-3 flex justify-center items-center gap-x-2 mr-6">
                     {/* <FaFacebookSquare className="text-2xl"/> */}
                     <img src="./images/facebook.png" alt="" className="w-6"/>
-                    <p className="font-medium hover:text-blue-900">FaceBook</p>
+                    <a href="https://www.facebook.com/nadia.nielsen.5817300/" className="font-medium hover:text-blue-900">FaceBook</a>
                 </section>
                 <section className="flex justify-center items-center gap-x-2">
                     <SiGmail className="text-xl"/> 
@@ -31,7 +36,7 @@ const Footer = () => {
                 </section>
                 <p className="flex items-center justify-center pr-4">Contact me on any platform</p>
             </section>
-            <h3 className="flex justify-center pt-2">©Copyright - Nadia Nielsen</h3>
+            <h3 className="flex justify-center pt-2">©Copyright {year} - Nadia Nielsen</h3>
         </footer>
      );
 }
