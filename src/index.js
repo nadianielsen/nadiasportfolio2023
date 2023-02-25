@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
@@ -8,7 +8,7 @@ import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Websites from './pages/Websites';
-import GraphicDesigns from './pages/GraphicDesigns';
+import GraphicDesign from './pages/GraphicDesign';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
       <Route path='/about' element={<About />} />
       <Route path='/gallery' element={<Gallery />} />
       <Route path='/websites' element={<Websites />} />
-      <Route path='/graphicdesigns' element={<GraphicDesigns />} />
+      <Route path='/graphicdesign' element={<GraphicDesign />} />
       <Route path='/contact' element={<Contact />} />
     </Route>
   )
