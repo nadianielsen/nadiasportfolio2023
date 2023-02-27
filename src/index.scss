@@ -17,7 +17,7 @@
 
   @responsive {
     .header-box-shadow {
-      box-shadow: 0 0 10px #404040;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
     }
 
     .border-transition {
@@ -39,23 +39,61 @@
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.188);
   }
 
+  .white-shadow {
+    text-shadow: 0 0 2px rgb(187, 186, 186);
+  }
+
+  .white-border-shadow {
+    box-shadow: 0 0 10px white;
+  }
+
+  .card-shadow {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+  }
+
+  .gallery-card-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.138);
+  }
+
   .home-text{
-    animation: slide-left 4s;
+    animation: slide-left 2.8s;
+  }
+  
+  .border-home{
+    animation: slide-right 2.8s;
   }
   
   @keyframes slide-left {
     from {
       margin-left: 80%;
-      width: 80%; 
+      width: 70%; 
     }
   
     to {
       margin-left: 0%;
-      width: 80%;
+      width: 70%;
     }
   }
+  @keyframes slide-right {
+    from {
+      margin-left: -80%;
+      width: 65%; 
+    }
   
+    to {
+      margin-right: -0%;
+      width: 65%;
+    }
+  }
+
+  .gallery-card:hover {
+    transform: translateY(10.1rem);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0%;
+  }
+
   
+
 }
 
 #root {
