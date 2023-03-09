@@ -7,7 +7,7 @@ const Home = () => {
             <div className="w-full h-screen z-50 flex justify-center items-center">
                 <div className="w-[50vw] bg-neutral-100 h-[60vh] bg-opacity-50 absolute backdrop-blur-sm rounded-xl">
                     <div className="mt-32 ml-52 overflow-hidden slide-left">
-                        <p className="home-text w-[70%] font-bold text-7xl uppercase text-white text-shadow">Welcome to my portfolio</p>
+                        <p className="home-text w-[70%] font-semibold text-7xl uppercase text-white text-shadow">Welcome to my portfolio</p>
                     </div>
                     <div className="ml-52 overflow-hidden slide-right ">
                         <div className="w-[65%] border-b-[0.18rem] border-home"></div>
