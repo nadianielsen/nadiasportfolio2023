@@ -1,5 +1,6 @@
 import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs"
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa"
+import { SiGmail } from "react-icons/si";
 
 import { Link } from "react-router-dom";
 
@@ -28,6 +29,12 @@ const Contact = () => {
                     <FaFacebookSquare className="text-4xl ml-[1.1rem]"/>
                         <div>
                             <Link to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="hover:text-blue-900 transition-all">FaceBook</Link>
+                        </div>
+                    </div>
+                    <div className=" border-l-2 col-start-2 row-start-2 border-black">
+                        <div className="flex gap-x-2 justify-center items-center mt-10">
+                        <SiGmail className="text-xl"/> 
+                        <p>nadiamarie2111@gmail.com</p>
                         </div>
                     </div>
             </article>
