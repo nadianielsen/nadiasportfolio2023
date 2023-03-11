@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import GalleryPagesLinks from "../components/GalleryPagesLinks";
+import WebsiteCard from "../components/WebsiteCard";
 
 
 const Websites = () => {
@@ -6,10 +8,12 @@ const Websites = () => {
         <>
         <GalleryPagesLinks location={"/websites"} page="Websites" />
         <article className="w-[70%] h-screen grid grid-cols-3 m-auto">
-            <a className="place-self-center translate-y-1 transition" href="https://nadianielsenseksamensopgave.netlify.app">Exam assignment - June 2022</a>
-            <a className=" place-self-center" href="https://examtryoutnadianielsen.netlify.app">Exam try out - June 2022</a>
-            <a className=" place-self-center" href="https://mymoviesnadianielsen.netlify.app/">MyMovies assigment - September 2022</a>
-            <a className=" place-self-center" href="https://cph-architects-gridassignment-nadian.netlify.app/">A real first grid assigment -  March 2022</a>
+            <WebsiteCard img={"./images/oldportfolio.jpg"} link={"https://myportfolio-nadianielsen.netlify.app"} text={"Portfolio 2022"}/>
+            <WebsiteCard img={"./images/burgos.jpg"} link={"https://nadianielsenseksamensopgave.netlify.app"} text={"Exam assignment 2022"}/>
+            <WebsiteCard img={"./images/theBox.jpg"} link={"https://examtryoutnadianielsen.netlify.app"} text={"Pre exam assignment 2022"}/>
+            <WebsiteCard img={"./images/mymovies.jpg"} link={"https://examtryoutnadianielsen.netlify.app"} text={"Mymovies with Javascript"}/>
+            <WebsiteCard img={"./images/cpharchitects.jpg"} link={"https://cph-architects-gridassignment-nadian.netlify.app/"} text={"First real website"}/>
+            <WebsiteCard img={"./images/movibes.jpg"} link={"https://cph-architects-gridassignment-nadian.netlify.app/"} text={"Movibes with React"}/>
         </article>
         </>
      );
