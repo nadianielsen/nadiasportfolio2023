@@ -88,11 +88,13 @@
 
   .gallery-card:hover {
     transform: translateY(10.1rem);
-    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
     opacity: 0%;
   }
 
-  
+  .website-card-shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.242);
+  }
 
 }
 

@@ -2,6 +2,8 @@
 
 
 const About = () => {
+
+
     return ( 
         <article className="w-[50%] h-full m-auto grid ">
             <article className="">
