@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navigation = () => {
@@ -7,7 +7,7 @@ const Navigation = () => {
     const normalLink = "font-medium text-[1.1rem] w-12 border-transition border-transition:after border-transition:hover:after"
 
     return ( 
-        <nav className="grid grid-cols-4 w-[25rem] ml-auto mr-40 text-center">
+        <nav className="flex gap-x-10 text-center">
             <NavLink to={"/"} className={({isActive}) => (isActive ? activeLink : normalLink)}>Home</NavLink>
             <NavLink to={"/about"} className={({isActive}) => (isActive ? activeLink : normalLink)}>About</NavLink>
             <NavLink to={"/gallery"} className={({isActive}) => (isActive ? activeLink : normalLink)}>Gallery</NavLink>

@@ -16,7 +16,8 @@ const Home = () => {
                     <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full"/>
             </div>
         <article className="w-full h-screen grid grid-cols-2">
-            <span className="col-start-1 w-[10rem] h-2 border-b-2 border-black mt-auto row-start-1 relative justify-self-center bottom-24 right-16"></span>
+               <img src="./images/me - photo 2.jpg" alt="" className="w-[30rem] place-self-center" />
+            {/* <span className="col-start-1 w-[10rem] h-2 border-b-2 border-black mt-auto row-start-1 relative justify-self-center bottom-24 right-16"></span>
             <span className="col-start-1 w-2 h-[22rem] border-l-2 border-black mt-auto row-start-1 relative justify-self-center left-40 bottom-36"></span>
             <div className="col-start-1 row-start-1">
                 <p className="text-center relative left-44 top-[15.2rem] text-lg font-medium">N</p>
@@ -34,7 +35,7 @@ const Home = () => {
             </div>
             <div className="bg-red-300 w-[18rem] h-[32rem] rounded-t-full relative place-self-center col-start-1 row-start-1">
                 <img src="./images/me.jpg" alt="" className="absolute object-cover w-full h-full rounded-t-full"/>
-            </div>
+            </div> */}
             <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center"></div>
             <div className="w-[53%] place-self-center col-start-2 row-start-1">
                  <p className=" text-xl ">Hello and welcome. My name is Nadia Nielsen and I am 18 years old. I come from Denmark and I am right now taking the web developer education.</p>
