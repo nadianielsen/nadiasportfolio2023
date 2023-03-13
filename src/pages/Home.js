@@ -16,7 +16,7 @@ const Home = () => {
                     <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full"/>
             </div>
         <article className="w-full h-screen grid grid-cols-2">
-            <img src="./images/me - photo 2.jpg" alt="" className="h-[70%] place-self-center" />
+               <img src="./images/me - photo 2.jpg" alt="" className="w-[30rem] place-self-center" />
             {/* <span className="col-start-1 w-[10rem] h-2 border-b-2 border-black mt-auto row-start-1 relative justify-self-center bottom-24 right-16"></span>
             <span className="col-start-1 w-2 h-[22rem] border-l-2 border-black mt-auto row-start-1 relative justify-self-center left-40 bottom-36"></span>
             <div className="col-start-1 row-start-1">
