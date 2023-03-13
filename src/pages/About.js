@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 
 
@@ -10,7 +11,7 @@ const About = () => {
                 <h2 className="text-xl font-semibold">About</h2>
                 <h3 className="underline pt-1">Information about me</h3>
                 <p>My name is Nadia Nielsen and I am 18 years old. I come from Denmark and I am right now taking the web developer education.</p>
-                <p>My plan is to become a web developer, mostly frontend and the I have plans about taking the media graphic designer (mediegrafiker) education since I also have a passion for digital design.</p>
+                <p>My plan is to become a web developer, mostly frontend and then I have plans about taking the media graphic designer (mediegrafiker) education since I also have a passion for digital design.</p>
             </article>
             <article className="">
                 <h2 className="text-xl font-semibold">Web developer education</h2>
