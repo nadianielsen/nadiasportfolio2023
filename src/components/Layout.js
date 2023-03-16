@@ -6,7 +6,7 @@ import Header from "./Header";
 function Layout() {
     return (
         <>
-        <ScrollToTop />
+        <ScrollToTop/>
             <Header />
             <main className="row-start-2">
                 <Outlet />
