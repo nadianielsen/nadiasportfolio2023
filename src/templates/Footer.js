@@ -20,7 +20,7 @@ const Footer = () => {
                 <section className="cols-start-1 row-start-2 flex justify-center gap-x-2 items-center mr-8">
                     <FaLinkedin className="text-2xl"/>
                     {/* <img src="./images/linkedin.png" alt="" className="w-6"/> */}
-                    <Link className="font-medium hover:text-sky-600 transition-all">LinkedIn</Link>
+                    <Link className="font-medium hover:text-sky-600 transition-all" to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"}>LinkedIn</Link>
                 </section>
                 <section className="col-start-1 row-start-3 flex justify-center items-center gap-x-2 mr-6">
                     <FaFacebookSquare className="text-2xl"/>
