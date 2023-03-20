@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import GalleryPagesLinks from "../components/GalleryPagesLinks";
 import WebsiteCard from "../components/WebsiteCard";
 

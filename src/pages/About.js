@@ -1,6 +1,4 @@
-import { useState } from "react";
 import ImgAbout from "../components/ImgAbout";
-
 
 
 const About = () => {
