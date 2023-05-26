@@ -86,8 +86,8 @@ const GraphicDesign = () => {
     return ( 
         <>
         <GalleryPagesLinks location={"/graphicdesign"} page="Graphic Design"/>
-        <h3 className="font-semibold ml-20 md:ml-40 mt-2">Wallpapers and posters</h3>
-        <article className="grid gap-y-6 md:grid-cols-2 lg:grid-cols-3 justify-items-center my-6">
+        <h3 className="font-semibold ml-30 md:ml-40 mt-2">Wallpapers and posters</h3>
+        <article className="grid w-[80%] gap-y-6 md:grid-cols-2 lg:grid-cols-3 my-6 justify-items-center m-auto">
             {galleryImg?.map(({img, title, headline}) => (
                 <GalleryCards  img={img} headline={headline} text={title}/>
             ))}
