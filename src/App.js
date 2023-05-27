@@ -6,6 +6,9 @@ import Websites from './pages/Websites';
 import GraphicDesign from './pages/GraphicDesign';
 import { createRoutesFromElements, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from './components/Layout';
+import Albums from './pages/Albums';
+import Posters from './pages/Posters';
+import Drawings from './pages/Drawings';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/websites' element={<Websites />} />
         <Route path='/graphicdesign' element={<GraphicDesign />} />
+        <Route path='/albums' element={<Albums />} />
+        <Route path='/posters' element={<Posters />} />
+        <Route path='/drawings' element={<Drawings />} />
         <Route path='/contact' element={<Contact />} />
       </Route>
     )

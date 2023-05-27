@@ -1,4 +1,4 @@
-import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs"
+import { BsInstagram } from "react-icons/bs"
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa"
 import { SiGmail } from "react-icons/si";
 
