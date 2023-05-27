@@ -1,5 +1,6 @@
 import GalleryCards from "../components/GalleryCards";
 import GalleryPagesLinks from "../components/GalleryPagesLinks";
+import LinkCards from "../components/LinkCards";
 
 
 const GraphicDesign = () => {
@@ -84,16 +85,20 @@ const GraphicDesign = () => {
 
 
     return ( 
-        <>
-        <GalleryPagesLinks location={"/graphicdesign"} page="Graphic Design"/>
+        <article className="flex justify-center gap-x-20 items-center h-screen">
+            <LinkCards url={"/albums"} subscription={"Here is my album covers of musicians"} heading={"Albums"} img={"./images/albums/The Weeknd - Playlist Cover - Red.jpg"} alt={"Albums - Page - Link"}/>
+            <LinkCards url={"/drawings"} subscription={"Here is my drawings of artists and actors"} heading={"Drawings"} img={"./images/drawings/Adele.jpg"} alt={"Drawings - Page - Link"}/>
+            <LinkCards url={"/posters"} subscription={"Here is my posters and wallpapers of influencer and celebrities, etc..."} heading={"Posters and wallpapers"} img={"./images/posters-wallpapers/eyes.jpg"} alt={"Posters and Wallpapers - Page - Link"}/>
+        </article>      
+     );
+}
+ 
+export default GraphicDesign;
+
+  {/* <GalleryPagesLinks location={"/graphicdesign"} page="Graphic Design"/>
         <h3 className="font-semibold ml-30 md:ml-40 mt-2">Wallpapers and posters</h3>
         <article className="grid w-[80%] gap-y-6 md:grid-cols-2 lg:grid-cols-3 my-6 justify-items-center m-auto">
             {galleryImg?.map(({img, title, headline}) => (
                 <GalleryCards  img={img} headline={headline} text={title}/>
             ))}
-        </article>
-        </>
-     );
-}
- 
-export default GraphicDesign;
+        </article> */}
