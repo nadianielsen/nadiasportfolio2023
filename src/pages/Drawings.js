@@ -53,7 +53,7 @@ const Drawings = () => {
     
     return ( 
         <>
-            <GalleryPagesLinks location={"/drawings"} page={"Drawings"}/>
+            <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/drawings"} page={"Drawings"}/>
         <article className="grid grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
             {drawingsImg.map(({img, headline, text}) => (
                 <img src={img} alt={img} className="rounded-2xl"/>

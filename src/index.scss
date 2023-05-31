@@ -20,19 +20,19 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
     }
 
-    // .border-transition {
-    //    display:inline-block;
-    // }
+    .border-transition {
+       display:inline-block;
+    }
 
-    // .border-transition:after {
-    //   display: block;
-    //   content: '';
-    //   border-bottom: solid 2px black;
-    //   transform: scaleX(0);
-    //   transition: transform 250ms ease-in-out;
-    // }
+    .border-transition:after {
+      display: block;
+      content: '';
+      border-bottom: solid 2px black;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
 
-    // .border-transition:hover:after { transform: scaleX(1);}
+    .border-transition:hover:after { transform: scaleX(1);}
   }
   
   .text-shadow {
