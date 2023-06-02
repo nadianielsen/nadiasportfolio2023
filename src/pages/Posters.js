@@ -10,6 +10,11 @@ const Posters = () => {
             text: "",
         },
         {
+            img: "./images/posters-wallpapers/Wallpaper---The-Dark---294-2023.jpg",
+            headline: "",
+            text: "",
+        },
+        {
             img: "./images/posters-wallpapers/Flower - Matching wallpaper.jpg",
             headline: "",
             text: "",
@@ -96,16 +101,16 @@ const Posters = () => {
         },
     ]
 
-    return ( 
+    return (
         <>
-            <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"}/>
-     <article className="grid grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
-        {posterswallpapers.map(({img, headline, text}) => (
-            <img src={img} alt={img} className="rounded-2xl"/>
-        ))}
-    </article>
-    </>
-     );
+            <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"} />
+            <article className="grid grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+                {posterswallpapers.map(({ img, headline, text }) => (
+                    <img src={img} alt={img} className="rounded-2xl" />
+                ))}
+            </article>
+        </>
+    );
 }
- 
+
 export default Posters;

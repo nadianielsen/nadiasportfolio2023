@@ -1,17 +1,21 @@
 import { Link } from "react-router-dom";
 import { IoMdArrowRoundForward } from "react-icons/io"
+import { motion } from "framer-motion";
 
 const Home = () => {
     return (
         <>
             <div className="w-full h-screen z-50 flex justify-center items-center">
-                <div className="w-[50vw] bg-neutral-100 h-[60vh] bg-opacity-50 absolute backdrop-blur-sm rounded-xl">
-                    <div className="mt-32 ml-52 overflow-hidden slide-left">
-                        <p className="home-text w-[70%] font-semibold text-7xl uppercase text-white text-shadow">Welcome to my portfolio</p>
-                    </div>
-                    <div className="ml-52 overflow-hidden slide-right ">
-                        <div className="w-[65%] border-b-[0.18rem] border-home"></div>
-                    </div>
+                <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 h-[60vh] md:h-[40vh] lg:h-[60vh] bg-opacity-50 absolute backdrop-blur-sm rounded-xl ">
+                    <motion.div initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden lg:mt-36 lg:ml-44 ml-16 mt-2 md:mt-40 md:ml-36">
+                        <motion.p className="home-text w-[70%] font-semibold text-5xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
+                    </motion.div>
+                    {/* <div>
+                        <div className="border-b-2 w-[30rem]"></div>
+                    </div> */}
+                    <motion.div initial={{ x: -100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden md:ml-36 lg:ml-44 ml-16 my-2">
+                        <div className="w-[76%] md:w-[70%] lg:w-[65%] border-b-[0.18rem] border-white"></div>
+                    </motion.div>
                 </div>
                 <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
             </div>
