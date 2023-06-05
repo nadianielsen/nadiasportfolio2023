@@ -7,8 +7,8 @@ const Home = () => {
         <>
             <div className="w-full h-screen z-50 flex justify-center items-center">
                 <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 h-[60vh] md:h-[40vh] lg:h-[60vh] bg-opacity-50 absolute backdrop-blur-sm rounded-xl ">
-                    <motion.div initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden lg:mt-36 lg:ml-44 ml-16 mt-2 md:mt-40 md:ml-36">
-                        <motion.p className="home-text w-[70%] font-semibold text-5xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
+                    <motion.div initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden lg:mt-36 lg:ml-44 ml-16 mt-28 md:mt-40 md:ml-36">
+                        <motion.p className="home-text w-[70%] font-semibold text-5xl md:text-6xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
                     </motion.div>
                     {/* <div>
                         <div className="border-b-2 w-[30rem]"></div>

@@ -26,18 +26,18 @@ const Drawings = () => {
         },
         {
             img: "./images/drawings/Jimin Bts - Drawing.jpeg",
-            headline: "",
-            text: "",
+            headline: "Jimin BTS - Drawing",
+            text: "Drawing of Jimin from BTS",
         },
         {
             img: "./images/drawings/Taylor Swift.jpg",
-            headline: "",
-            text: "",
+            headline: "Taylor Swift - Drawing",
+            text: "Drawing of Taylor Swift",
         },
         {
             img: "./images/drawings/Twilight.jpg",
-            headline: "",
-            text: "",
+            headline: "Twilight - Drawing",
+            text: "A drawing of the Twilight movie",
         },
         {
             img: "./images/drawings/Leonardo di caprio.jpg",
@@ -54,7 +54,7 @@ const Drawings = () => {
     return (
         <>
             <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/drawings"} page={"Drawings"} />
-            <article className="grid grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <img src={img} alt={img} className="rounded-2xl" />
                 ))}

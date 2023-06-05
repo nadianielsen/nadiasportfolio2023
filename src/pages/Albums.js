@@ -48,34 +48,34 @@ const Albums = () => {
             img: "./images/albums/bts v.jpg",
             headline: "",
             text: ""
-        },        
+        },
         {
             img: "./images/albums/AhLove - Seventeen - Album Cover.jpg",
             headline: "",
             text: ""
-        },        
+        },
         {
             img: "./images/albums/jinyoung - got7.jpg",
             headline: "",
             text: ""
-        },        
+        },
         {
             img: "./images/albums/nct dream.jpg",
             headline: "",
             text: ""
-        },        
+        },
     ]
 
-    return ( 
+    return (
         <>
-        <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/albums"} page={"Albums"}/>
-        <article className="grid grid-cols-3 gap-y-10 w-[75%] m-auto justify-items-center my-10">
-            {albumsImg.map(({img, headline, text}) => (
-                <img className="w-[20rem] h-[20rem] rounded-2xl" src={img} alt={img} />
-            ))}
-        </article>
+            <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
+            <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+                {albumsImg.map(({ img, headline, text }) => (
+                    <img className="rounded-2xl" src={img} alt={img} />
+                ))}
+            </article>
         </>
-     );
+    );
 }
- 
+
 export default Albums;

@@ -104,7 +104,7 @@ const Posters = () => {
     return (
         <>
             <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"} />
-            <article className="grid grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     <img src={img} alt={img} className="rounded-2xl" />
                 ))}
