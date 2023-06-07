@@ -31,13 +31,13 @@ const Footer = () => {
                     <SiGmail className="text-xl" />
                     <p>nadiamarie2111@gmail.com</p>
                 </section>
-                <section className="flex justify-center items-center gap-x-2 mr-20">
+                <section className="flex justify-center items-center gap-x-2 mr-[4.5rem]">
                     <BsFillTelephoneFill className="text-xl" />
                     <p>60 66 84 87</p>
                 </section>
                 <p className="flex items-center justify-center pr-4">Contact me on any platform</p>
             </section>
-            <h3 className="flex justify-center pt-2">©Copyright {year} - Nadia Nielsen</h3>
+            <h3 className="flex justify-center pt-2 pb-3">©Copyright {year} - Nadia Nielsen</h3>
         </footer>
     );
 }

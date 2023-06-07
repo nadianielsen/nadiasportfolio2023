@@ -1,5 +1,3 @@
-import GalleryCards from "../components/GalleryCards";
-import GalleryPagesLinks from "../components/GalleryPagesLinks";
 import LinkCards from "../components/LinkCards";
 
 
