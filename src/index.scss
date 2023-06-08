@@ -4,12 +4,12 @@
 @tailwind utilities;
 
 @layer base {
-  
+
   body {
     margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
   }
-  
+
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
@@ -20,21 +20,23 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.200);
     }
 
-    // .border-transition {
-    //    display:inline-block;
-    // }
+    .border-transition {
+      display: inline-block;
+    }
 
-    // .border-transition:after {
-    //   display: block;
-    //   content: '';
-    //   border-bottom: solid 2px black;
-    //   transform: scaleX(0);
-    //   transition: transform 250ms ease-in-out;
-    // }
+    .border-transition:after {
+      display: block;
+      content: '';
+      border-bottom: solid 2px black;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
 
-    // .border-transition:hover:after { transform: scaleX(1);}
+    .border-transition:hover:after {
+      transform: scaleX(1);
+    }
   }
-  
+
   .text-shadow {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.188);
   }
@@ -59,36 +61,36 @@
     text-shadow: 0 0 2px rgba(61, 61, 61, 0.226);
   }
 
-  .home-text{
-    animation: slide-left 2.8s;
-  }
-  
-  .border-home{
+  // .home-text{
+  //   animation: slide-left 2.8s;
+  // }
+
+  .border-home {
     animation: slide-right 2.8s;
   }
-  
-  @keyframes slide-left {
-    from {
-      margin-left: 80%;
-      width: 70%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 70%;
-    }
-  }
-  @keyframes slide-right {
-    from {
-      margin-left: -80%;
-      width: 65%; 
-    }
-  
-    to {
-      margin-right: -0%;
-      width: 65%;
-    }
-  }
+
+  // @keyframes slide-left {
+  //   from {
+  //     margin-left: 80%;
+  //     width: 70%; 
+  //   }
+
+  //   to {
+  //     margin-left: 0%;
+  //     width: 70%;
+  //   }
+  // }
+  // @keyframes slide-right {
+  //   from {
+  //     margin-left: -80%;
+  //     width: 65%; 
+  //   }
+
+  //   to {
+  //     margin-right: -0%;
+  //     width: 65%;
+  //   }
+  // }
 
   // .gallery-card:hover {
   //   transform: translateY(10.1rem);
@@ -106,4 +108,3 @@
   display: grid;
   grid-template-rows: 5rem 1fr;
 }
-
