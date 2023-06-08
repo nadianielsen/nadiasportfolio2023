@@ -9,7 +9,7 @@ const About = () => {
             <article className="-z-30 absolute hidden md:block">
                 <img src="./images/hero.jpg" alt="" />
             </article>
-            <article className="md:w-[70%] md:h-screen md:bg-neutral-100 md:m-auto grid p-3 gap-y-3">
+            <article className="md:w-[70%] lg:h-screen md:bg-neutral-100 md:m-auto grid p-3 lg:p-6 gap-y-3">
                 <article className="flex md:justify-between items-center">
                     <p className="md:w-[45%] text-base"><span className="font-semibold"> My name is Nadia Nielsen</span> and I am 18 years old. I come from Denmark and I am right now taking the web developer education. My plan is to become a web developer, mostly frontend and then I have plans about taking the media graphic designer (mediegrafiker) education since I also have a passion for digital design.</p>
                     <span className="h-[10rem] border border-black hidden md:block"></span>
@@ -34,9 +34,9 @@ const About = () => {
                     <h2 className="text-xl font-semibold">Graphic Design/Digital Design- art</h2>
                     <h3 className="py-2">Design/art apps I have learned:</h3>
                     <article className="flex gap-x-2 md:gap-x-5">
-                        <p className="bg-clip-text bg-gradient-to-r text-transparent from-[#66e1fa] to-[#ff00ea] md:text-xl w-12">Picsart</p>
-                        <p className="md:text-xl">Procreate</p>
-                        <p className="md:text-xl">Photoshop</p>
+                        <p className="drop-shadow bg-clip-text bg-gradient-to-r text-transparent from-[#66e1fa] to-[#ff00ea] lgdrop-shadow :text-xl w-12">Picsart</p>
+                        <p className="drop-shadow lg:text-xl">Procreate</p>
+                        <p className="drop-shadow lg:text-xl">Photoshop</p>
                     </article>
                     <h3 className="py-2">Here's a link to works -
                         <span className="font-semibold">

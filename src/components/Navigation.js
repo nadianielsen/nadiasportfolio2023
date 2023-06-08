@@ -23,7 +23,7 @@ const Navigation = ({ showDropdown, setShowDropdown }) => {
         <>
             <RiMenu3Line className="md:hidden cursor-pointer text-3xl" onClick={handleMenuToggle} />
             {/* <nav className={` ${showDropdown ? "flex" : "hidden"} gap-x-10 text-center`}> */}
-            <nav className={` ${showDropdown ? "flex" : "hidden"} absolute top-full left-0 bg-white/30 backdrop-blur-[2px] w-screen py-4 flex-col gap-y-5 items-center md:bg-transparent md:static md:w-auto md:flex-row md:py-0 md:flex text-center md:gap-x-10 `}>
+            <nav className={` ${showDropdown ? "flex" : "hidden"} absolute top-full left-0 bg-white/30 backdrop-blur-sm w-screen py-4 flex-col gap-y-5 items-center md:bg-transparent md:static md:w-auto md:flex-row md:py-0 md:flex text-center md:gap-x-10 shadow md:shadow-transparent`}>
                 <NavLink to={"/"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
                 <NavLink to={"/about"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
                 <NavLink to={"/gallery"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Gallery</NavLink>
