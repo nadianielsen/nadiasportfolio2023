@@ -6,15 +6,12 @@ const Home = () => {
     return (
         <>
             <div className="w-full h-[60vh] md:h-screen z-50 flex justify-center items-center">
-                <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 py-10 md:h-[40vh] lg:h-[60vh] bg-opacity-50 absolute backdrop-blur-sm rounded-xl ">
-                    <motion.div initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden lg:mt-24 lg:ml-44 ml-16 md:mt-32 md:ml-36">
-                        <motion.p className="home-text w-[70%] font-semibold text-3xl md:text-6xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
+                <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 py-20 md:h-[40vh] lg:h-[60vh] lg:py-0 bg-opacity-50 absolute backdrop-blur-sm rounded-xl grid">
+                    <motion.div initial={{ x: 200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden self-end justify-self-center text-left">
+                        <motion.p className="home-text font-semibold text-3xl md:text-6xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
                     </motion.div>
-                    {/* <div>
-                        <div className="border-b-2 w-[30rem]"></div>
-                    </div> */}
-                    <motion.div initial={{ x: -100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }} className="overflow-hidden md:ml-36 lg:ml-44 ml-16 my-2">
-                        <div className="w-[76%] md:w-[70%] lg:w-[65%] border-b-[0.18rem] border-white"></div>
+                    <motion.div initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden justify-center">
+                        <div className="border-b-[0.18rem] mx-6 md:mx-10 border-white"></div>
                     </motion.div>
                 </div>
                 <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
