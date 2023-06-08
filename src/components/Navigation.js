@@ -13,7 +13,7 @@ const Navigation = ({ showDropdown, setShowDropdown }) => {
 
     useEffect(() => {
         setShowDropdown(false)
-    }, [location]);
+    }, [location, setShowDropdown]);
 
 
     const activeLink = "font-medium text-[1.1rem] w-12 border-b-2 border-black";
