@@ -11,7 +11,7 @@ const Home = () => {
                         <motion.p className="home-text font-semibold text-3xl md:text-6xl lg:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
                     </motion.div>
                     <motion.div initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden justify-center">
-                        <div className="border-b-[0.18rem] mx-6 md:mx-10 border-white"></div>
+                        <div className="border-b-[0.18rem] mx-6 lg:mx-10 border-white"></div>
                     </motion.div>
                 </div>
                 <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
