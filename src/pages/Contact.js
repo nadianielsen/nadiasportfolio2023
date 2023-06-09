@@ -31,7 +31,7 @@ const Contact = () => {
                         </div>
                     </div>
                         <div className="flex gap-x-2 justify-center items-center">
-                        <SiGmail className="lg:text-5xl"/> 
+                        <SiGmail className="lg:text-4xl"/> 
                         <p className="text-sm md:text-base">nadiamarie2111@gmail.com</p>
                         </div>
             </article>
