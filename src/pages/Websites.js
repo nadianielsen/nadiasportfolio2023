@@ -30,6 +30,16 @@ const Websites = () => {
             link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
             text: "Movibes with React - Github"
         },
+        {
+            img: "./images/websites/moviebase - next js.jpg",
+            link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
+            text: "MovieBase - first project in Next js - Github"
+        },
+        {
+            img: "./images/websites/iplaymusic.jpg",
+            link: "https://github.com/In-Wess-Tation/iplaymusic",
+            text: "IPlayMusic with Next js - Github"
+        },
         
     ]
 
