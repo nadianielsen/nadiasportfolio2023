@@ -19,11 +19,6 @@ const Albums = () => {
             text: "A song by The Weeknd"
         },
         {
-            img: "./images/albums/eyes.jpg",
-            headline: "Eyes - Poster/Album Cover",
-            text: "I got my eyes on you - Poster/Album Cover",
-        },
-        {
             img: "./images/albums/Miley Cyrus.jpg",
             headline: "Flowers - Album cover",
             text: "A song by Miley Cyrus"
