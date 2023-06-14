@@ -1,4 +1,3 @@
-import GalleryImg from "../components/GalleryImg";
 import GalleryPagesLinks from "../components/GalleryPagesLinks";
 
 

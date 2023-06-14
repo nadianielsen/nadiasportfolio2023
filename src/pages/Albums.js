@@ -1,5 +1,4 @@
 import GalleryPagesLinks from "../components/GalleryPagesLinks";
-import GalleryImg from "../components/GalleryImg";
 
 const Albums = () => {
 
