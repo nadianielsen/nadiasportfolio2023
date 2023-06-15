@@ -108,7 +108,7 @@ const Posters = () => {
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
-                    <div className="w-[24rem] h-[30rem] md:h-[32rem] group [perspective:1000px]">
+                    <div className="w-[24rem] h-[32rem] md:h-[34rem] group [perspective:1000px]">
                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                    <div className="absolute inset-0">
                        <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
