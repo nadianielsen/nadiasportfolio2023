@@ -11,7 +11,7 @@ const Albums = () => {
         {
             img: "./images/albums/Die for you - Album Cover.jpg",
             headline: "Die for you - Album cover",
-            text: "Die for you song feat. The Weeknd and Ariana Grande"
+            text: "Die for you song - The Weeknd and Ariana Grande"
         },
         {
             img: "./images/albums/theweeknd - take my breath - Album Cover.jpg",
