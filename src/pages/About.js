@@ -17,7 +17,7 @@ const About = () => {
                 </article>
                 <article className="">
                     <h2 className="text-xl font-semibold">Web developer education</h2>
-                    <h3 className="py-2">Coding languages & frameworks I have learned:</h3>
+                    <h3 className="py-2">Coding languages & frameworks, & libraries I have learned:</h3>
                     <article className="grid md:flex gap-x-3 md:gap-x-5">
                         <p className="text-orange-600 drop-shadow lg:text-xl">HTML</p>
                         <p className="text-blue-500 drop-shadow lg:text-xl">CSS</p>
