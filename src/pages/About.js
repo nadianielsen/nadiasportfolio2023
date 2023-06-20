@@ -28,7 +28,7 @@ const About = () => {
                         <p className="text-black drop-shadow lg:text-xl">NEXT JS</p>
                         <p className="text-pink-400 drop-shadow lg:text-xl">Styled Components</p>
                     </article>
-                    <p className="">You can see most of it on my <Link to={"https://github.com/nadianielsen"} className="underline font-semibold hover:text-[#f03fa9] hover:underline transition-all">github</Link></p>
+                    <p className="">You can see most of it on my <Link to={"https://github.com/nadianielsen?tab=repositories"} className="underline font-semibold hover:text-[#f03fa9] hover:underline transition-all">github</Link></p>
                 </article>
                 <article className="">
                     <h2 className="text-xl font-semibold">Graphic Design/Digital Design- art</h2>
