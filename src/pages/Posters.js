@@ -70,9 +70,29 @@ const Posters = () => {
             text: "What we have is now, now is now",
         },
         {
+            img: "./images/posters-wallpapers/Poster - Angel.jpg",
+            headline: "Angel - Poster",
+            text: "An angel poster",
+        },
+        {
+            img: "./images/posters-wallpapers/Poster - Blend.jpg",
+            headline: "Blend - Poster",
+            text: "Word Blend with some Gaussion blur and Motion blur",
+        },
+        {
             img: "./images/posters-wallpapers/mirror.jpg",
             headline: "Mirror - Poster",
             text: "A mirror poster",
+        },
+        {
+            img: "./images/posters-wallpapers/Poster---Live---246-2023.jpg",
+            headline: "Live - Poster",
+            text: "Nature picture with the word - Live",
+        },
+        {
+            img: "./images/posters-wallpapers/Poster---The-OVERTHINKER---226-2023.jpg",
+            headline: "Overthinker - Poster",
+            text: "Overthinker",
         },
         {
             img: "./images/posters-wallpapers/moon.jpg",
@@ -99,6 +119,7 @@ const Posters = () => {
             headline: "Colby Brock - Poster/wallpaper",
             text: "A poster of youtuber Colby Brock",
         },
+        
     ]
 
     return (
