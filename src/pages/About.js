@@ -38,9 +38,9 @@ const About = () => {
                         <p className="drop-shadow lg:text-xl">Procreate</p>
                         <p className="drop-shadow lg:text-xl">Photoshop</p>
                     </article>
-                    <h3 className="py-2">Here's a link to works -
+                    <h3 className="py-2">Here's links to my art projects -
                         <span className="font-semibold">
-                            <Link to={"/websites"} className="hover:text-[#f03fa9] hover:underline transition-all">websites</Link> & <Link to={"/graphicdesigns"} className="hover:text-[#f03fa9] hover:underline transition-all">graphic designs</Link>
+                            <Link to={"/websites"} className="hover:text-[#f03fa9] hover:underline transition-all"> websites</Link> & <Link to={"/graphicdesigns"} className="hover:text-[#f03fa9] hover:underline transition-all">graphic designs</Link>
                         </span>
                     </h3>
                 </article>
