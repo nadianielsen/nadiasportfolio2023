@@ -22,12 +22,12 @@ const Posters = () => {
         {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
-            text: "Crush - poster",
+            text: "Inspired by a song named Crush - poster",
         },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Green---95-2023.jpg",
             headline: "Green - Poster",
-            text: "Green - poster",
+            text: "Represents nature - Green - poster",
         },
         {
             img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
