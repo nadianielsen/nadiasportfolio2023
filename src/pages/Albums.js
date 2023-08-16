@@ -31,7 +31,7 @@ const Albums = () => {
         {
             img: "./images/albums/ay-yo - nct 127.jpg",
             headline: "Ay-Yo - Album cover",
-            text: "My recreation of the kpop group NCT 127's album - Ay-yo"
+            text: "Recreation of NCT 127's album - Ay-yo"
         },
         {
             img: "./images/albums/Zara Larsson - End of time - Album Cover.jpg",
