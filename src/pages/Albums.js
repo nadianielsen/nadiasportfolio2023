@@ -19,9 +19,19 @@ const Albums = () => {
             text: "A song by The Weeknd"
         },
         {
+            img: "./images/albums/Album-Cover-Bad-Michael-Jackson.jpg",
+            headline: "Bad - Album cover",
+            text: "Bad by Michael Jackson"
+        },
+        {
             img: "./images/albums/Miley Cyrus.jpg",
             headline: "Flowers - Album cover",
             text: "A song by Miley Cyrus"
+        },  
+        {
+            img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.jpg",
+            headline: "Treasure - Album cover",
+            text: "A song by Bruno Mars"
         },
         {
             img: "./images/albums/BTS - Playlist Cover.jpg",
@@ -57,11 +67,6 @@ const Albums = () => {
             img: "./images/albums/Harry Styles - Golden - Album Cover.jpg",
             headline: "Golden - Album Cover",
             text: "A song by Harry Styles"
-        },
-        {
-            img: "./images/albums/Coldplay & BTS - Album Cover.jpg",
-            headline: "My universe - Album cover",
-            text: "A song by Coldplay and BTS"
         },
     ]
 
