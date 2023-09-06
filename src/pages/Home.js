@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
     return (
-        <>
+        <article className="grid ">
             <div className="w-full h-[60vh] md:h-screen z-50 flex justify-center items-center">
                 <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 py-20 md:h-[40vh] lg:h-[60vh] lg:py-0 bg-opacity-50 absolute backdrop-blur-sm rounded-xl grid">
                     <motion.div initial={{ x: 200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden self-end justify-self-center text-left">
@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
             </article>
-        </>
+        </article>
     );
 }
 

@@ -1,4 +1,4 @@
-import GalleryPagesLinks from "../components/GalleryPagesLinks";
+import PagesLinks from "../components/PagesLinks";
 
 const Albums = () => {
 
@@ -27,7 +27,7 @@ const Albums = () => {
             img: "./images/albums/Miley Cyrus.jpg",
             headline: "Flowers - Album cover",
             text: "A song by Miley Cyrus"
-        },  
+        },
         {
             img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.jpg",
             headline: "Treasure - Album cover",
@@ -72,21 +72,21 @@ const Albums = () => {
 
     return (
         <>
-            <GalleryPagesLinks galleryPageLink={"/graphicdesign"} galleryPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
+            <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
             <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
-                <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
-                 <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                <div className="absolute inset-0">
-                    <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
-                </div>
-                <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                    <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
-                    <p className="text-white text-lg">{text}</p>
-                </div>
-                    </div>
+                    <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
+                        <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div className="absolute inset-0">
+                                <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
+                            </div>
+                            <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
+                                <p className="text-white text-lg">{text}</p>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </article>
