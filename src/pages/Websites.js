@@ -40,6 +40,11 @@ const Websites = () => {
             link: "https://github.com/In-Wess-Tation/iplaymusic",
             text: "IPlayMusic with Next js - Github"
         },
+        {
+            img: "./images/websites/weather-app.jpg",
+            link: "https://weather-app-nadia.netlify.app",
+            text: "Weather app with react - PWA"
+        },
 
     ]
 
