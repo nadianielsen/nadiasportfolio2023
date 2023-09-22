@@ -80,6 +80,11 @@ const Posters = () => {
             text: "Matching wallpaper to the flower poster",
         },
         {
+            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
+            headline: "Butterfly - Poster",
+            text: "A pink/red butterfly",
+        },
+        {
             img: "./images/posters-wallpapers/flowers.jpg",
             headline: "Flowers - wallpaper/poster",
             text: "Inspired by Miley Cyrus' song flowers",
@@ -113,11 +118,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/mirror.jpg",
             headline: "Mirror - Poster",
             text: "A mirror poster",
-        },
-        {
-            img: "./images/posters-wallpapers/Poster---Live---246-2023.jpg",
-            headline: "Live - Poster",
-            text: "Nature picture with the word - Live",
         },
         {
             img: "./images/posters-wallpapers/Poster---The-OVERTHINKER---226-2023.jpg",

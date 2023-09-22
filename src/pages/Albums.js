@@ -34,6 +34,11 @@ const Albums = () => {
             text: "A song by Bruno Mars"
         },
         {
+            img: "./images/albums/PosterAlbum-Cover---Back-For-More---Txt-&-Anitta---16-2023.jpg",
+            headline: "TXT & Anitta - Album cover",
+            text: "Album cover of back for more song"
+        },
+        {
             img: "./images/albums/BTS - Playlist Cover.jpg",
             headline: "BTS - Playlist cover",
             text: "Made a playlist cover of the known boyband - BTS"
