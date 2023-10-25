@@ -24,7 +24,7 @@ const Navigation = ({ showDropdown, setShowDropdown }) => {
         <>
             <RiMenu3Line className="md:hidden cursor-pointer text-3xl" onClick={handleMenuToggle} />
             {/* <nav className={` ${showDropdown ? "flex" : "hidden"} gap-x-10 text-center`}> */}
-            <nav className={` ${showDropdown ? "flex" : "hidden"} absolute top-0 h-screen left-0 bg-white/30 backdrop-blur-sm md:backdrop-blur-0 w-screen py-4 flex-col gap-y-5 items-center justify-center md:bg-transparent md:static md:w-auto md:flex-row md:py-0 md:flex text-center md:gap-x-10 shadow md:shadow-transparent`}>
+            <nav className={` ${showDropdown ? "flex" : "hidden"} absolute top-0 h-screen left-0 bg-neutral-200/70 backdrop-blur-sm md:backdrop-blur-0 w-screen py-4 flex-col gap-y-5 items-center justify-center md:bg-transparent md:static md:w-auto md:flex-row md:py-0 md:flex text-center md:gap-x-10 shadow md:shadow-transparent`}>
                 <HiXMark className="text-3xl cursor-pointer md:hidden" onClick={handleMenuToggle}/>
                 <NavLink to={"/"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
                 <NavLink to={"/about"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
