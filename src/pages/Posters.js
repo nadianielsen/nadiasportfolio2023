@@ -1,3 +1,4 @@
+import ContentWrapper from "../components/ContentWrapper";
 import PagesLinks from "../components/PagesLinks";
 
 
@@ -50,6 +51,11 @@ const Posters = () => {
             text: "Made a poster with a trending design 2023",
         },
         {
+            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
+            headline: "Flowers poster - Miley Cyrus",
+            text: "Made a poster with Miley Cyrus",
+        },
+        {
             img: "./images/posters-wallpapers/Wallpaperposter---Luxury---Maniac-Board---117-2023.jpg",
             headline: "Luxury - Maniac Board Trend 2023",
             text: "Made a poster with a trending design 2023",
@@ -85,19 +91,14 @@ const Posters = () => {
             text: "A pink/red butterfly",
         },
         {
-            img: "./images/posters-wallpapers/flowers.jpg",
-            headline: "Flowers - wallpaper/poster",
-            text: "Inspired by Miley Cyrus' song flowers",
+            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
+            headline: "Floral Flower - poster",
+            text: "Purple flower poster",
         },
         {
             img: "./images/posters-wallpapers/friends.jpg",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
-        },
-        {
-            img: "./images/posters-wallpapers/refusetolove.jpg",
-            headline: "Refuse to love - wallpaper/poster",
-            text: "Made a poster with the message - refuse to love",
         },
         {
             img: "./images/posters-wallpapers/PosterWallpaper---Green-Water---228-2023.jpg",
@@ -120,11 +121,6 @@ const Posters = () => {
             text: "A mirror poster",
         },
         {
-            img: "./images/posters-wallpapers/Poster---The-OVERTHINKER---226-2023.jpg",
-            headline: "Overthinker - Poster",
-            text: "Overthinker",
-        },
-        {
             img: "./images/posters-wallpapers/moon.jpg",
             headline: "Moon - Poster",
             text: "A hand reaching for the moon - poster",
@@ -136,21 +132,35 @@ const Posters = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"} />
-            <article className="grid grid-cols-1 md:grid-cols-2 md:gap-x-20 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-12">
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 md:gap-x-20 gap-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
-                    <div className="w-[24rem] h-[32rem] md:h-[34rem] group [perspective:1000px]">
-                        <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                            <div className="absolute inset-0">
-                                <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
-                            </div>
-                            <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
-                                <p className="text-white text-lg">{text}</p>
-                            </div>
-                        </div>
-                    </div>
+                   <ContentWrapper content={ 
+                        <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
+                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                     <div className="absolute inset-0">
+                         <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
+                     </div>
+                     <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                         <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
+                         <p className="text-white text-lg">{text}</p>
+                     </div>
+                 </div>
+             </div>
+               }/>
+
+            // <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
+            //          <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            //              <div className="absolute inset-0">
+            //                  <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
+            //              </div>
+            //              <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
+            //                  <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
+            //                  <p className="text-white text-lg">{text}</p>
+            //              </div>
+            //          </div>
+            //      </div>
                 ))}
             </article>
         </>

@@ -1,3 +1,4 @@
+import ContentWrapper from "../components/ContentWrapper";
 import PagesLinks from "../components/PagesLinks";
 
 
@@ -53,7 +54,8 @@ const Drawings = () => {
                 {drawingsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
-                    <div className="w-[22rem] h-[22rem] group [perspective:1000px]">
+                   <ContentWrapper content={ 
+                        <div className="w-[22rem] h-[22rem] group [perspective:1000px]">
                         <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
@@ -64,6 +66,7 @@ const Drawings = () => {
                             </div>
                         </div>
                     </div>
+                    }/>
                 ))}
             </article>
         </>

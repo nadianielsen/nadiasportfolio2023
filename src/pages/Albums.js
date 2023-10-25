@@ -1,3 +1,4 @@
+import ContentWrapper from "../components/ContentWrapper";
 import PagesLinks from "../components/PagesLinks";
 
 const Albums = () => {
@@ -78,11 +79,12 @@ const Albums = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
-            <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
-                    <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
+                    <ContentWrapper content={
+                        <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
                         <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0">
                                 <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
@@ -93,6 +95,7 @@ const Albums = () => {
                             </div>
                         </div>
                     </div>
+                }/>
                 ))}
             </article>
         </>
