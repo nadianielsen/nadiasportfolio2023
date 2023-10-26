@@ -19,8 +19,8 @@ const Home = () => {
             <article className="w-full h-screen grid md:grid-cols-2">
                 <img src="./images/me - photo 2.jpg" alt="" className="w-[30rem] place-self-center" />
                 <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center hidden md:block"></div>
-                <div className="w-[53%] place-self-center md:col-start-2 md:row-start-1 row-start-2 py-4">
-                    <p className=" text-xl ">Hello and welcome. My name is Nadia Nielsen and I am 18 years old. I come from Denmark and I have just finished the web developer education.</p>
+                <div className="w-[58%] sm:w-[53%] place-self-center md:col-start-2 md:row-start-1 row-start-2 py-4">
+                    <p className="sm:text-xl ">Hello and welcome. My name is Nadia Nielsen and I am 18 years old. I come from Denmark and I have just finished the web developer education.</p>
                     <div className="group ">
                         <Link to={"/about"} className="font-semibold flex gap-x-1 underline hover:text-[#f03fa9] hover:transition-colors hover:delay-75 hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1" /></Link>
                     </div>
