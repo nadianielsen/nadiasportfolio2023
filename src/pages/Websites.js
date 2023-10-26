@@ -1,4 +1,4 @@
-import GalleryPagesLinks from "../components/GalleryPagesLinks";
+import PagesLinks from "../components/PagesLinks";
 import WebsiteCard from "../components/WebsiteCard";
 
 
@@ -40,19 +40,24 @@ const Websites = () => {
             link: "https://github.com/In-Wess-Tation/iplaymusic",
             text: "IPlayMusic with Next js - Github"
         },
-        
+        {
+            img: "./images/websites/weather-app.jpg",
+            link: "https://weather-app-nadia.netlify.app",
+            text: "Weather app with react - PWA"
+        },
+
     ]
 
-    return ( 
+    return (
         <>
-        <GalleryPagesLinks galleryPageLink={"/gallery"} galleryPage={"Gallery"} location={"/websites"} page="Websites" />
-        <article className="w-[70%] grid gap-y-20 my-10 gap-x-12 lg:grid-cols-3 m-auto">
-            {websites.map(({img, link, text}) => (
-                <WebsiteCard img={img} link={link} text={text}/>
-            ))}
-        </article>
+            <PagesLinks prevPage={"Gallery"} location={"/websites"} page="Websites" />
+            <article className="w-[70%] grid gap-y-20 my-10 gap-x-12 lg:grid-cols-3 m-auto">
+                {websites.map(({ img, link, text }) => (
+                    <WebsiteCard img={img} link={link} text={text} />
+                ))}
+            </article>
         </>
-     );
+    );
 }
- 
+
 export default Websites;
