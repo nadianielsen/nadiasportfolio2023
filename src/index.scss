@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;600;800&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  
+
   body {
     margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
   }
-  
+
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
@@ -21,7 +22,7 @@
     }
 
     .border-transition {
-       display:inline-block;
+      display: inline-block;
     }
 
     .border-transition:after {
@@ -32,9 +33,11 @@
       transition: transform 250ms ease-in-out;
     }
 
-    .border-transition:hover:after { transform: scaleX(1);}
+    .border-transition:hover:after {
+      transform: scaleX(1);
+    }
   }
-  
+
   .text-shadow {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.188);
   }
@@ -47,9 +50,9 @@
     box-shadow: 0 0 10px white;
   }
 
-  .card-shadow {
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
-  }
+  // .card-shadow {
+  //   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+  // }
 
   .gallery-card-shadow {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.138);
@@ -59,42 +62,42 @@
     text-shadow: 0 0 2px rgba(61, 61, 61, 0.226);
   }
 
-  .home-text{
-    animation: slide-left 2.8s;
-  }
-  
-  .border-home{
+  // .home-text{
+  //   animation: slide-left 2.8s;
+  // }
+
+  .border-home {
     animation: slide-right 2.8s;
   }
-  
-  @keyframes slide-left {
-    from {
-      margin-left: 80%;
-      width: 70%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 70%;
-    }
-  }
-  @keyframes slide-right {
-    from {
-      margin-left: -80%;
-      width: 65%; 
-    }
-  
-    to {
-      margin-right: -0%;
-      width: 65%;
-    }
-  }
 
-  .gallery-card:hover {
-    transform: translateY(10.1rem);
-    transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
-    opacity: 0%;
-  }
+  // @keyframes slide-left {
+  //   from {
+  //     margin-left: 80%;
+  //     width: 70%; 
+  //   }
+
+  //   to {
+  //     margin-left: 0%;
+  //     width: 70%;
+  //   }
+  // }
+  // @keyframes slide-right {
+  //   from {
+  //     margin-left: -80%;
+  //     width: 65%; 
+  //   }
+
+  //   to {
+  //     margin-right: -0%;
+  //     width: 65%;
+  //   }
+  // }
+
+  // .gallery-card:hover {
+  //   transform: translateY(10.1rem);
+  //   transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+  //   opacity: 0%;
+  // }
 
   .website-card-shadow {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.242);
@@ -106,4 +109,3 @@
   display: grid;
   grid-template-rows: 5rem 1fr;
 }
-
