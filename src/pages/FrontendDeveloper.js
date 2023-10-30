@@ -29,10 +29,12 @@ const FrontendDeveloper = () => {
                             <SmallCard name={"SASS/SCSS"} logo={"./images/sass.png"} bgPrimary={"bg-gradient-to-t from-pink-600/50 to-transparent"} />
                         </Link>
                     </article>
-                    <p>I have learned how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
-                    <p>With Wordpress I have learned how you set it with xxamp and MySQL database. I learned how to make a theme. </p>
-                    <p>With CSS I have learned regular css, tailwind, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
-                    <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
+                    <div className="flex flex-col gap-y-2">
+                        <p>I have learned how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
+                        <p>With Wordpress I have learned how you set it with xxamp and MySQL database. I learned how to make a theme. </p>
+                        <p>With CSS I have learned regular css, tailwind, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
+                        <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
+                    </div>
                 </article>
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">Where I have studied</h2>
