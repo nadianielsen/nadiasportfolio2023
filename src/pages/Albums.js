@@ -60,9 +60,9 @@ const Albums = () => {
             text: "Made a album cover of Jimin BTS' album - Face"
         },
         {
-            img: "./images/albums/bts v.jpg",
-            headline: "BTS V - Playlist cover",
-            text: "Made a playlist cover or poster of BTS' V"
+            img: "./images/albums/Poster-Album Cover - Super SVT - 27-10-2023.jpg",
+            headline: "Seventeen Kpop Group",
+            text: "Made a album cover of Super - Their recent song"
         },
         {
             img: "./images/albums/AhLove - Seventeen - Album Cover.jpg",

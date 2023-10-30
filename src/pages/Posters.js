@@ -106,9 +106,9 @@ const Posters = () => {
             text: "Made a poster with a green lake",
         },
         {
-            img: "./images/posters-wallpapers/Poster - Angel.jpg",
-            headline: "Angel - Poster",
-            text: "An angel poster",
+            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg",
+            headline: "You - Song - Poster",
+            text: "Song by Regard, Troye Sivan & Tate Mcrae",
         },
         {
             img: "./images/posters-wallpapers/Poster - Blend.jpg",
