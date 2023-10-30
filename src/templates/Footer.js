@@ -25,7 +25,7 @@ const Footer = () => {
                 <section className="col-start-1 row-start-3 flex justify-center items-center gap-x-2 mr-6">
                     <FaFacebookSquare className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/facebook.png" alt="" className="w-6"/> */}
-                    <Link to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="font-medium hover:text-blue-900 transition-all">FaceBook</Link>
+                    <Link to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="font-medium hover:text-blue-900 transition-all">Facebook</Link>
                 </section>
                 <section className="hidden sm:flex justify-center items-center gap-x-2">
                     <SiGmail className="md:text-xl" />
