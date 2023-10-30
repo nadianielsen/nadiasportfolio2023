@@ -18,7 +18,8 @@ function Layout() {
                     type: "tween",
                     //bounce: 0.55, 
                     //damping: 10,
-                    duration: 0.30
+                    duration: 0.30,
+                    delay: 0.40
                 }} >
                     <main className="row-start-2">
                         <Outlet />
