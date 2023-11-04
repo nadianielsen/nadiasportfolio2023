@@ -10,11 +10,6 @@ const Albums = () => {
             text: "Playlist Cover of The Weeknd"
         },
         {
-            img: "./images/albums/Die for you - Album Cover.jpg",
-            headline: "Die for you - Album cover",
-            text: "Die for you song - The Weeknd and Ariana Grande"
-        },
-        {
             img: "./images/albums/theweeknd - take my breath - Album Cover.jpg",
             headline: "Take My Breath - Album cover",
             text: "A song by The Weeknd"
@@ -53,6 +48,11 @@ const Albums = () => {
             img: "./images/albums/Zara Larsson - End of time - Album Cover.jpg",
             headline: "End of time - Album Cover",
             text: "A song by Zara Larsson"
+        },
+        {
+            img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.jpg",
+            headline: "Golden - Album Cover",
+            text: "An Album by Jung Kook from BTS"
         },
         {
             img: "./images/albums/Jimin BTS - Album Cover - Face.jpg",
