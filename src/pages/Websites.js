@@ -51,7 +51,7 @@ const Websites = () => {
     return (
         <>
             <PagesLinks prevPage={"Gallery"} location={"/websites"} page="Websites" />
-            <article className="w-[70%] grid gap-y-20 my-10 gap-x-12 lg:grid-cols-3 m-auto">
+            <article className="w-[70%] grid gap-y-20 my-10 gap-x-12 size1200:grid-cols-2 size1470:grid-cols-3 m-auto">
                 {websites.map(({ img, link, text }) => (
                     <WebsiteCard img={img} link={link} text={text} />
                 ))}

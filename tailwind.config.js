@@ -6,9 +6,11 @@ module.exports = {
       screens: {
         size300: "300px",
         mdlg: "779px",
+        size866: "866px",
         size1470: "1470px",
+        size1200: "1200px",
       },
-    },  
+    },
   },
   plugins: [],
 }

@@ -79,7 +79,7 @@ const Albums = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
-            <article className="grid grid-cols-1 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />

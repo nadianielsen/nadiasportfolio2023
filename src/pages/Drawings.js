@@ -50,7 +50,7 @@ const Drawings = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/drawings"} page={"Drawings"} />
-            <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
