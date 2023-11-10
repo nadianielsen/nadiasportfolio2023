@@ -40,9 +40,9 @@ const Albums = () => {
             text: "Made a playlist cover of the known boyband - BTS"
         },
         {
-            img: "./images/albums/ay-yo - nct 127.jpg",
-            headline: "Ay-Yo - Album cover",
-            text: "Recreation of NCT 127's album - Ay-yo"
+            img: "./images/albums/Poster_-_Little_Mix_-_911-2023.jpg",
+            headline: "Little Mix - Album cover/Poster",
+            text: "Album Cover or Poster of Litte Mix"
         },
         {
             img: "./images/albums/Zara Larsson - End of time - Album Cover.jpg",
