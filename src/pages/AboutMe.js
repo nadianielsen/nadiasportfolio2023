@@ -7,7 +7,7 @@ const AboutMe = () => {
             <PagesLinks location={"/aboutme"} prevPage={"About"} page={"About Me"} />
             <article className="mx-20 my-6">
                 <article className="flex flex-col gap-y-4 md:flex-row gap-x-10">
-                    <img src="./images/me.jpg" alt="" className="w-60" />
+                    <img src="./images/me.jpg" alt="" className="w-[16rem] h-[24rem]" />
                     <div className="flex flex-col gap-y-2">
                         <h1 className="capitalize text-xl font-medium underline">About me</h1>
                         <p className="">My name is Nadia Nielsen and I am 18 years old. I come from Denmark and I have finished taking the web developer education. My plan after I have graduated from my web developer education, I then plan on taking the media graphic designer (mediegrafiker) education because I like digital design and love to do something with the visual.</p>

@@ -132,7 +132,7 @@ const Posters = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"} />
-            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 md:gap-x-20 gap-12">
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 size600:gap-x-20 gap-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
