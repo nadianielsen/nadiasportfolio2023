@@ -1,26 +1,14 @@
-import { Outlet, useLocation, useNavigation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import ScrollToTop from "../ScrollToTop";
 import Footer from "../templates/Footer";
 import Header from "./Header";
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useState } from "react";
-// import Loading from "./Loading";
+import Loading from "./Loading";
 
 
 function Layout() {
-    
+
     const location = useLocation()
-
-    const navigation = useNavigation()
-
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-       setTimeout(() => {
-        setLoading(false)
-       }, 5000)
-    }, []);
-
 
     return (
         <>
@@ -35,7 +23,7 @@ function Layout() {
                     delay: 0.40
                 }} >
                     <main className="row-start-2">
-                        {navigation.state === loading ? <p className="m-auto text-8xl">Loading...</p> : <Outlet />}
+                        <Loading layout={<Outlet />}/>
                     </main>
                 </motion.div>
             </AnimatePresence>
