@@ -4,7 +4,7 @@ import Footer from "../templates/Footer";
 import Header from "./Header";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import Loading from "./Loading";
+// import Loading from "./Loading";
 
 
 function Layout() {
