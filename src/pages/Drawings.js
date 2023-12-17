@@ -11,11 +11,6 @@ const Drawings = () => {
             text: "Made a drawing Adele",
         },
         {
-            img: "./images/drawings/Nct - Haechan - Drawing.jpg",
-            headline: "Haechan - NCT 127 - Drawing",
-            text: "Drew a kpop idol, who's called Haechan NCT 127",
-        },
-        {
             img: "./images/drawings/Billie Ellish.jpg",
             headline: "Billie Ellish - Drawing",
             text: "A drawing of Billie Ellish",
@@ -34,11 +29,6 @@ const Drawings = () => {
             img: "./images/drawings/Taylor Swift.jpg",
             headline: "Taylor Swift - Drawing",
             text: "Drawing of Taylor Swift",
-        },
-        {
-            img: "./images/drawings/Twilight.jpg",
-            headline: "Twilight - Drawing",
-            text: "A drawing of twilight",
         },
         {
             img: "./images/drawings/Leonardo di caprio.jpg",

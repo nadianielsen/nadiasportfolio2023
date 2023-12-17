@@ -9,7 +9,7 @@ const Loading = ({layout}) => {
         setTimeout(() => {
             setLoading(false)
             //sætter loading state til at være false efter 3 sekunder
-        }, 2000)
+        }, 1500)
     }, []);
 
     return ( 
