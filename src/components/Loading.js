@@ -8,7 +8,7 @@ const Loading = ({layout}) => {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-            //sætter loading state til at være false efter 3 sekunder
+            //sætter loading state til at være false efter 3 sekunder eller 1.5 sekund for at få loading til at ikke være at for langsom
         }, 1500)
     }, []);
 
