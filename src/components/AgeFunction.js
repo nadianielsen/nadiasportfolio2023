@@ -28,7 +28,7 @@ const AgeFunction = () => {
 
     return ( 
         <>
-            <p className="sm:text-xl ">Hello and welcome. My name is Nadia Nielsen and I am {age} years old. I come from Denmark and I have just finished the web developer education.</p>
+            <p className="sm:text-xl ">My name is Nadia Nielsen and I am {age} years old.</p>
         </>
      );
 }
