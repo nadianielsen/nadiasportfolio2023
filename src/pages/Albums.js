@@ -30,14 +30,19 @@ const Albums = () => {
             text: "A song by Bruno Mars"
         },
         {
+            img: "./images/albums/Album cover - Wham - 20-1-2024.jpg",
+            headline: "Wham - Make it big Album",
+            text: "Made a album cover of Wham"
+        },
+        {
+            img: "./images/albums/Album cover - Dua Lipa Houdini - 10-1-2024.jpg",
+            headline: "Houdini - Album cover",
+            text: "A song by Dua Lipa"
+        },
+        {
             img: "./images/albums/PosterAlbum-Cover---Back-For-More---Txt-&-Anitta---16-2023.jpg",
             headline: "TXT & Anitta - Album cover",
             text: "Album cover of back for more song"
-        },
-        {
-            img: "./images/albums/BTS - Playlist Cover.jpg",
-            headline: "BTS - Playlist cover",
-            text: "Made a playlist cover of the known boyband - BTS"
         },
         {
             img: "./images/albums/Poster_-_Little_Mix_-_911-2023.jpg",
@@ -53,21 +58,6 @@ const Albums = () => {
             img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.jpg",
             headline: "Golden - Album Cover",
             text: "An Album by Jung Kook from BTS"
-        },
-        {
-            img: "./images/albums/Jimin BTS - Album Cover - Face.jpg",
-            headline: "Face - Album Cover",
-            text: "Made a album cover of Jimin BTS' album - Face"
-        },
-        {
-            img: "./images/albums/Poster-Album Cover - Super SVT - 27-10-2023.jpg",
-            headline: "Seventeen Kpop Group",
-            text: "Made a album cover of Super - Their recent song"
-        },
-        {
-            img: "./images/albums/AhLove - Seventeen - Album Cover.jpg",
-            headline: "Ah Love - Album cover",
-            text: "A song by the kpop band - Seventeen"
         },
         {
             img: "./images/albums/Harry Styles - Golden - Album Cover.jpg",
