@@ -11,11 +11,6 @@ const Posters = () => {
             text: "A reaching hand into the dark poster ",
         },
         {
-            img: "./images/posters-wallpapers/PosterAd---Nike-Air-Max-270👌🏻---194-2023 (1).jpg",
-            headline: "Nike Shoes - Poster - Ad",
-            text: "Nike shoes - model air max 270 - purple",
-        },
-        {
             img: "./images/posters-wallpapers/PosterAd---Nike-Air-Max-270👌🏻---194-2023.jpg",
             headline: "Nike Shoes - Poster - Ad",
             text: "Nike shoes - model air max 270 - black",
@@ -56,11 +51,6 @@ const Posters = () => {
             text: "Made a poster with Miley Cyrus",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaperposter---Luxury---Maniac-Board---117-2023.jpg",
-            headline: "Luxury - Maniac Board Trend 2023",
-            text: "Made a poster with a trending design 2023",
-        },
-        {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
@@ -74,11 +64,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
             headline: "Sun & Moon - Poster",
             text: "Sun & moon - poster",
-        },
-        {
-            img: "./images/posters-wallpapers/Flower - Matching wallpaper.jpg",
-            headline: "Flower - Poster",
-            text: "A flower poster",
         },
         {
             img: "./images/posters-wallpapers/PosterAlbum_Cover_-_Charli_XCX_&_Sam_Smith_-_311-2023.jpg",
