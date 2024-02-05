@@ -11,7 +11,7 @@ const Posters = () => {
             text: "A reaching hand into the dark poster ",
         },
         {
-            img: "./images/posters-wallpapers/PosterAd---Nike-Air-Max-270👌🏻---194-2023.jpg",
+            img: "./images/posters-wallpapers/PosterAd---Nike-Air-Max-270---194-2023.jpg",
             headline: "Nike Shoes - Poster - Ad",
             text: "Nike shoes - model air max 270 - black",
         },
