@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="w-[58%] sm:w-[53%] place-self-center md:col-start-2 md:row-start-1 row-start-2 py-4">
                     <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I have just finished the web developer education.</p>
                     <div className="group ">
-                        <Link to={"/about"} className="font-semibold flex gap-x-1 underline hover:text-[#f03fa9] hover:transition-colors hover:delay-75 hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1" /></Link>
+                        <Link to={"/about"} className="font-semibold flex gap-x-1 underline group-hover:text-[#f03fa9] group-hover:transition-colors group-hover:delay-75 group-hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1" /></Link>
                     </div>
                 </div>
             </article>
