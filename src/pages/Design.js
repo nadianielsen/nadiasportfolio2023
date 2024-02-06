@@ -25,10 +25,10 @@ const Design = () => {
                 <Link to={"https://www.adobe.com/dk/products/photoshop.html"}>
                     <SmallCard name={"Photoshop"} logo={"./images/photoshop.png"} bgPrimary={"bg-gradient-to-t from-[#6aa6f7]/70 to-transparent"}/>            
                 </Link>
-                <Link to={"https://www.canva.com"}>
+                <Link to={"https://www.adobe.com/dk/products/illustrator.html"}>
                     <SmallCard name={"Illustrator"} logo={"./images/illustrator.png"} bgPrimary={"bg-gradient-to-t from-[#fe9900]/70 to-transparent"}/>
                 </Link>
-                <Link to={"https://www.canva.com"}>
+                <Link to={"https://www.adobe.com/dk/products/indesign.html"}>
                     <SmallCard name={"InDesign"} logo={"./images/indesign.png"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"}/>
                 </Link>
                 {/* senere put også illustrator og indesign jo bedre du bliver til det */}
