@@ -35,7 +35,7 @@ const FrontendDeveloper = () => {
                         <p>With CSS I have learned regular css, tailwindcss, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
                         <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
                     </div>
-                    <div className="flex flex-col gap-y-2">
+                    <div className="py-4">
                         <h2 className="font-semibold">Animation:</h2>
                         <p>I have learned how to use tailwindcss animated and I have some experience in Framer Motion.</p>
                     </div>

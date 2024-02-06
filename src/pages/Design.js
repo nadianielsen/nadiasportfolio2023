@@ -31,7 +31,6 @@ const Design = () => {
                 <Link to={"https://www.adobe.com/products/indesign.html"}>
                     <SmallCard name={"InDesign"} logo={"./images/indesign.png"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"}/>
                 </Link>
-                {/* senere put også illustrator og indesign jo bedre du bliver til det */}
             </article>
             <p>I have designed some things in Photoshop, so I have some expertise in it.</p>
             <p>With picsart, was the app I started out on when I was interested in learning graphic design.</p>
