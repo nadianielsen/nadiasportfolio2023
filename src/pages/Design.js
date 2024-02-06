@@ -32,7 +32,7 @@ const Design = () => {
                     <SmallCard name={"InDesign"} logo={"./images/indesign.png"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"}/>
                 </Link>
             </article>
-            <p>I have designed some things in Photoshop, so I have some expertise in it.</p>
+            <p>I am taking the media graphic design education right now and I am for example Photoshop, Illustrator and InDesign.</p>
             <p>With picsart, was the app I started out on when I was interested in learning graphic design.</p>
             <p>I am just starting out on Canva, trying to learn it since it has become very popular these past few years.</p>
             <article>
