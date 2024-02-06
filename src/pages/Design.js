@@ -22,13 +22,13 @@ const Design = () => {
                 <Link to={"https://www.canva.com"}>
                     <SmallCard name={"Canva"} logo={"./images/canva.png"} bgPrimary={"bg-gradient-to-t from-[#00c1cb]/70 to-transparent"}/>
                 </Link>
-                <Link to={"https://www.adobe.com/dk/products/photoshop.html"}>
+                <Link to={"https://www.adobe.com/products/photoshop.html"}>
                     <SmallCard name={"Photoshop"} logo={"./images/photoshop.png"} bgPrimary={"bg-gradient-to-t from-[#6aa6f7]/70 to-transparent"}/>            
                 </Link>
-                <Link to={"https://www.adobe.com/dk/products/illustrator.html"}>
+                <Link to={"https://www.adobe.com/products/illustrator.html"}>
                     <SmallCard name={"Illustrator"} logo={"./images/illustrator.png"} bgPrimary={"bg-gradient-to-t from-[#fe9900]/70 to-transparent"}/>
                 </Link>
-                <Link to={"https://www.adobe.com/dk/products/indesign.html"}>
+                <Link to={"https://www.adobe.com/products/indesign.html"}>
                     <SmallCard name={"InDesign"} logo={"./images/indesign.png"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"}/>
                 </Link>
                 {/* senere put også illustrator og indesign jo bedre du bliver til det */}
