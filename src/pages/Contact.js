@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="flex items-center justify-center gap-x-3 row-start-2 mr-2">
                     <FaLinkedin className="sm:text-2xl lg:text-4xl"/>
                 <div className="">
-                        <Link to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"} className="pt-6 font- hover:text-sky-600 transition-all text-sm md:text-base">Linkedin</Link> 
+                        <Link to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"} className="pt-6 hover:text-sky-600 transition-all text-sm md:text-base">Linkedin</Link> 
                 </div>
                 </div>
                     <div className="flex items-center justify-center row-start-3 gap-x-3">

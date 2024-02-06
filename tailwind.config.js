@@ -8,6 +8,7 @@ module.exports = {
         size300: "300px",
         size600: "600px",
         size700: "700px",
+        size770: "770px",
         mdlg: "779px",
         size866: "866px",
         size1470: "1470px",
