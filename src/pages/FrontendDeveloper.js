@@ -32,8 +32,12 @@ const FrontendDeveloper = () => {
                     <div className="flex flex-col gap-y-2">
                         <p>I have learned how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
                         <p>With Wordpress I have learned how you set it with xxamp and MySQL database. I learned how to make a theme. </p>
-                        <p>With CSS I have learned regular css, tailwind, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
+                        <p>With CSS I have learned regular css, tailwindcss, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
                         <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
+                    </div>
+                    <div className="flex flex-col gap-y-2">
+                        <h2 className="font-semibold">Animation:</h2>
+                        <p>I have learned how to use tailwindcss animated and I have some experience in Framer Motion.</p>
                     </div>
                 </article>
                 <article>
