@@ -16,11 +16,6 @@ const Websites = () => {
             text: "Exam assignment 2022"
         },
         {
-            img: "./images/websites/theBox.jpg",
-            link: "https://examtryoutnadianielsen.netlify.app",
-            text: "Pre exam assignment 2022"
-        },
-        {
             img: "./images/websites/mymovies.jpg",
             link: "https://mymoviesnadianielsen.netlify.app/",
             text: "Mymovies with Javascript"
