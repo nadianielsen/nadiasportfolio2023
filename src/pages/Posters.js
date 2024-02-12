@@ -26,14 +26,14 @@ const Posters = () => {
             text: "Made a poster with a trending design 2023",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
-            headline: "Flowers poster - Miley Cyrus",
-            text: "Made a poster with Miley Cyrus",
-        },
-        {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
+        },
+        {
+            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
+            headline: "Flowers poster - Miley Cyrus",
+            text: "Made a poster with Miley Cyrus",
         },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Green---95-2023.jpg",
