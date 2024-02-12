@@ -10,36 +10,16 @@ const Posters = () => {
             headline: "The dark - Poster",
             text: "A reaching hand into the dark poster ",
         },
-        {
-            img: "./images/posters-wallpapers/PosterAd---Nike-Air-Max-270---194-2023.jpg",
-            headline: "Nike Shoes - Poster - Ad",
-            text: "Nike shoes - model air max 270 - black",
-        },
-        {
-            img: "./images/posters-wallpapers/redbull.jpeg",
-            headline: "Redbull - Poster",
-            text: "Made a redbull poster/ad",
-        },
-        {
-            img: "./images/posters-wallpapers/Poster---Chanel-Perfume---48-2023.jpg",
-            headline: "Chanel Perfume - Poster",
-            text: "Made a Chanel Perfume poster/ad",
-        },
-        {
-            img: "./images/posters-wallpapers/Poster---Starbucks---48-2023.jpg",
-            headline: "Starbucks - Poster",
-            text: "Made a Starbucks poster",
-        },
-        {
-            img: "./images/posters-wallpapers/Poster---iPad-10-Generation---67-2023.jpg",
-            headline: "IPad - Poster",
-            text: "Made a iPad Generation 10 poster/ad",
-        },
-        {
-            img: "./images/posters-wallpapers/Poster---Coca-Cola---67-2023.jpg",
-            headline: "Coca Cola - Poster",
-            text: "Made a Coca Cola poster",
-        },
+        // {
+        //     img: "./images/posters-wallpapers/Poster---Chanel-Perfume---48-2023.jpg",
+        //     headline: "Chanel Perfume - Poster",
+        //     text: "Made a Chanel Perfume poster/ad",
+        // },
+        // {
+        //     img: "./images/posters-wallpapers/Poster---Starbucks---48-2023.jpg",
+        //     headline: "Starbucks - Poster",
+        //     text: "Made a Starbucks poster",
+        // },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Crying---Maniac-Board---127-2023.jpg",
             headline: "Crying - Maniac Board Trend 2023",
