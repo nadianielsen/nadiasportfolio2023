@@ -11,7 +11,7 @@ const Footer = () => {
 
     return (
         <footer className="w-full border-t-2 border-black border-opacity-5 h-[15rem]">
-            <section className=" border-y-2 border-black w-[90%] md:w-[50%] h-[8rem] m-auto grid grid-rows-2 grid-cols-2 mt-10 py-2 sm:py-4">
+            <section className=" border-y-2 border-black w-[90%] md:w-[50%] h-[8rem] m-auto flex flex-col gap-y-2 justify-center size626:grid size626:grid-rows-2 size626:grid-cols-2 mt-10 py-2 sm:py-4">
                 <section className="flex gap-x-2 justify-center items-center">
                     <BsInstagram className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/instagram.png" alt="" className="w-6"/> */}
@@ -22,7 +22,7 @@ const Footer = () => {
                     {/* <img src="./images/linkedin.png" alt="" className="w-6"/> */}
                     <Link className="font-medium hover:text-sky-600 transition-all" to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"}>LinkedIn</Link>
                 </section>
-                <section className="col-start-2 row-start-2 flex justify-center items-center gap-x-2 mr-[5.8rem]">
+                <section className="col-start-2 row-start-2 flex justify-center items-center gap-x-2 mr-6 size626:mr[5.80rem]">
                     <FaFacebookSquare className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/facebook.png" alt="" className="w-6"/> */}
                     <Link to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="font-medium hover:text-blue-900 transition-all">Facebook</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <BsFillTelephoneFill className="size300:text-base md:text-xl" />
                     <p>60 66 84 87</p>
                 </section> */}
-                <p className="flex items-center justify-center pr-4 size300:hidden">Contact me on any platform</p>
+                {/* <p className="flex items-center justify-center pr-4 size300:hidden">Contact me on any platform</p> */}
             </section>
             <h3 className="flex justify-center pt-2 pb-3">©Copyright {year} - Nadia Nielsen</h3>
         </footer>
