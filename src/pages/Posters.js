@@ -10,16 +10,11 @@ const Posters = () => {
             headline: "The dark - Poster",
             text: "A reaching hand into the dark poster ",
         },
-        // {
-        //     img: "./images/posters-wallpapers/Poster---Chanel-Perfume---48-2023.jpg",
-        //     headline: "Chanel Perfume - Poster",
-        //     text: "Made a Chanel Perfume poster/ad",
-        // },
-        // {
-        //     img: "./images/posters-wallpapers/Poster---Starbucks---48-2023.jpg",
-        //     headline: "Starbucks - Poster",
-        //     text: "Made a Starbucks poster",
-        // },
+        {
+            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
+            headline: "Enjoy the sun - Poster",
+            text: "A poster made with Photoshop and Illustrator",
+        },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Crying---Maniac-Board---127-2023.jpg",
             headline: "Crying - Maniac Board Trend 2023",
@@ -64,11 +59,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/friends.jpg",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
-        },
-        {
-            img: "./images/posters-wallpapers/PosterWallpaper---Green-Water---228-2023.jpg",
-            headline: "Green Water - Poster/wallpaper",
-            text: "Made a poster with a green lake",
         },
         {
             img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg",
