@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
             </div>
-            <article className="place-self-center my-6">
+            <article className="place-self-center my-6 hidden lg:block">
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
                     <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[40vw] border-2" poster="video thumbnail.png"></video>
             </article>
