@@ -17,6 +17,10 @@ const Home = () => {
                 </div>
                 <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
             </div>
+            <article className="place-self-center my-6">
+                <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
+                    <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[40vw] border-2" poster="video thumbnail.png"></video>
+            </article>
             <article className="w-full h-[70vh] sm:h-screen grid md:grid-cols-2">
                 <img src="./images/me - photo 2.jpg" alt="" className="w-[30rem] place-self-center" />
                 <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center hidden md:block"></div>
