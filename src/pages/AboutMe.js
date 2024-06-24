@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <>
             <PagesLinks location={"/aboutme"} prevPage={"About"} page={"About Me"} />
-            <article className="mx-20 my-6">
+            <article className="mx-10 md:mx-20 my-6">
                 <article className="flex flex-col gap-y-4 md:flex-row gap-x-10">
                     <img src="./images/me.png" alt="" className="w-[16rem] h-[24rem] object-cover" />
                     <div className="flex flex-col gap-y-2">

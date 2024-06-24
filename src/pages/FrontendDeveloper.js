@@ -8,7 +8,7 @@ const FrontendDeveloper = () => {
     return (
         <>
             <PagesLinks prevPage={"About"} location={"/frontenddeveloper"} page={"Frontend developer"} />
-            <article className="mx-20 my-2 grid gap-y-4">
+            <article className="mx-10 md:mx-20 my-2 grid gap-y-4">
                 <h1 className="text-2xl font-semibold capitalize">Frontend developer</h1>
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">Languages and libraries</h2>
