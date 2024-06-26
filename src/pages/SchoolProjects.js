@@ -2,7 +2,7 @@ import ContentWrapper from "../components/ContentWrapper";
 import PagesLinks from "../components/PagesLinks";
 
 
-const SchoolProjects = () => {
+const Schoolprojects = () => {
 
     const projectsImg = [
         {
@@ -71,4 +71,4 @@ const SchoolProjects = () => {
     );
 }
 
-export default SchoolProjects;
+export default Schoolprojects;
