@@ -10,19 +10,9 @@ const Albums = () => {
             text: "Playlist Cover of The Weeknd"
         },
         {
-            img: "./images/albums/theweeknd - take my breath - Album Cover.jpg",
-            headline: "Take My Breath - Album cover",
-            text: "A song by The Weeknd"
-        },
-        {
             img: "./images/albums/Album-Cover-Bad-Michael-Jackson.jpg",
             headline: "Bad - Album cover",
             text: "Bad by Michael Jackson"
-        },
-        {
-            img: "./images/albums/Miley Cyrus.jpg",
-            headline: "Flowers - Album cover",
-            text: "A song by Miley Cyrus"
         },
         {
             img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.jpg",
@@ -38,11 +28,6 @@ const Albums = () => {
             img: "./images/albums/Album cover - Dua Lipa Houdini - 10-1-2024.jpg",
             headline: "Houdini - Album cover",
             text: "A song by Dua Lipa"
-        },
-        {
-            img: "./images/albums/PosterAlbum-Cover---Back-For-More---Txt-&-Anitta---16-2023.jpg",
-            headline: "TXT & Anitta - Album cover",
-            text: "Album cover of back for more song"
         },
         {
             img: "./images/albums/Poster_-_Little_Mix_-_911-2023.jpg",
@@ -66,13 +51,50 @@ const Albums = () => {
         },
     ]
 
+    const drawingsImg = [
+        {
+            img: "./images/drawings/Adele.jpg",
+            headline: "Adele - Drawing",
+            text: "Made a drawing Adele",
+        },
+        {
+            img: "./images/drawings/Billie Ellish.jpg",
+            headline: "Billie Ellish - Drawing",
+            text: "A drawing of Billie Ellish",
+        },
+        {
+            img: "./images/drawings/Taylor Swift.jpg",
+            headline: "Taylor Swift - Drawing",
+            text: "Drawing of Taylor Swift",
+        },
+    ]
+
     return (
         <>
-            <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums"} />
+            <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums & Drawings"} />
             <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
+                    <ContentWrapper content={
+                        <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
+                            <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                                <div className="absolute inset-0">
+                                    <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
+                                </div>
+                                <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                    <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
+                                    <p className="text-white text-lg">{text}</p>
+                                </div>
+                            </div>
+                        </div>
+                    } />
+                ))}
+                </article>
+                <h2 className="mr-auto ml-8 md:ml-20 mt-8 font-semibold text-center text-xl">Digtale Drawings</h2>
+                <div className="border-b-2 border-black mx-80 my-2"></div>
+                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+                {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper content={
                         <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
