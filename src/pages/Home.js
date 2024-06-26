@@ -25,7 +25,7 @@ const Home = () => {
                 <img src="./images/me - photo 2.png" alt="" className="w-[30rem] h-[25rem] size866:h-[35rem] lg:mb-10 place-self-center object-cover" />
                 <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center hidden md:block"></div>
                 <div className="w-[58%] sm:w-[53%] place-self-center md:col-start-2 md:row-start-1 row-start-2 pb-20 size700:pb-0 lg:py-4">
-                    <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I have just finished the web developer education.</p>
+                    <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I am taking the media graphic design education.</p>
                     <div className="group ">
                         <Link to={"/about"} className="font-semibold flex gap-x-1 underline group-hover:text-[#f03fa9] group-hover:transition-colors group-hover:delay-75 group-hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1 hidden size300:block" /></Link>
                     </div>
