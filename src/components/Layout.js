@@ -3,6 +3,7 @@ import ScrollToTop from "../ScrollToTop";
 import Footer from "../templates/Footer";
 import Header from "./Header";
 import { AnimatePresence, motion } from "framer-motion";
+import Loading from "./Loading";
 
 
 function Layout() {
@@ -18,10 +19,11 @@ function Layout() {
                     type: "tween",
                     //bounce: 0.55, 
                     //damping: 10,
-                    duration: 0.30
+                    duration: 0.30,
+                    delay: 0.40
                 }} >
                     <main className="row-start-2">
-                        <Outlet />
+                        <Loading layout={<Outlet />}/>
                     </main>
                 </motion.div>
             </AnimatePresence>
