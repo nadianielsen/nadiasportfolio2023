@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <article className="grid z-50">
             <div className="w-full h-[60vh] size400:h-screen flex justify-center items-center">
-                <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 py-20 md:h-[30vh] size1470:h-[60vh] lg:py-0 bg-opacity-50 absolute backdrop-blur-sm rounded-xl grid">
+                <div className="w-[80vw] lg:w-[50vw] bg-neutral-100 py-20 md:h-[30vh] size1470:h-[60vh] lg:py-0 bg-opacity-50 absolute backdrop-blur-[2px] drop-shadow-md rounded-xl grid">
                     <motion.div initial={{ x: 200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden self-end justify-self-center text-left">
                         <motion.p className="home-text font-semibold w-80 pl-16 text-xl md:w-auto md:pl-0 md:text-5xl size1200:6xl size1470:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
                     </motion.div>
@@ -15,9 +15,9 @@ const Home = () => {
                         <div className="border-b-[0.18rem] mx-6 size1470:mx-10 border-white"></div>
                     </motion.div>
                 </div>
-                <img src="./images/hero.jpg" alt="" className="object-cover w-full h-full" />
+                <img src="./images/website banner.jpg" alt="" className="object-cover w-full h-full" />
             </div>
-            <article className="place-self-center my-6 hidden lg:block">
+            <article className="place-self-center my-6 hidden lg:block"> 
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
                 <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[40vw] border-2" poster="video thumbnail.png"></video>
             </article>
