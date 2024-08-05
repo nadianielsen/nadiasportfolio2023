@@ -46,7 +46,7 @@ const FrontendDeveloper = () => {
                 </article>
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">A link to Github profile</h2>
-                    <Link to={"https://github.com/nadianielsen"} className="hover:text-[#f03fa9] hover:underline transition-all flex gap-x-1 text-lg"><FaGithub className="my-1" />My Github Profile</Link>
+                    <Link to={"https://github.com/nadianielsen"} className="hover:text-[#00A5E7] hover:underline transition-all flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
                 </article>
             </article>
         </>
