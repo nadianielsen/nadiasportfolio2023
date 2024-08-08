@@ -6,24 +6,24 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
-            img: "./images/posters-wallpapers/Wallpaper---The-Dark---294-2023.jpg",
-            headline: "The dark - Poster",
-            text: "A reaching hand into the dark poster ",
-        },
-        {
             img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaperposter---Crying---Maniac-Board---127-2023.jpg",
-            headline: "Crying - Maniac Board Trend 2023",
-            text: "Made a poster with a trending design 2023",
+            img: "./images/posters-wallpapers/Chanel perfume - poster.jpg",
+            headline: "Chanel No5 perfume - poster",
+            text: "Made a poster/ad of the known Chanel perfume",
         },
         {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
+        },
+        {
+            img: "./images/posters-wallpapers/Wallpaper---The-Dark---294-2023.jpg",
+            headline: "The dark - Poster",
+            text: "A reaching hand into the dark poster ",
         },
         {
             img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
@@ -41,9 +41,9 @@ const Posters = () => {
             text: "Sun & moon - poster",
         },
         {
-            img: "./images/posters-wallpapers/PosterAlbum_Cover_-_Charli_XCX_&_Sam_Smith_-_311-2023.jpg",
-            headline: "Sam Smith and Charli XCX",
-            text: "Poster of their new song together",
+            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
+            headline: "Made a poster called mysterious",
+            text: "Made this poster with path blur and gradient in Photoshop",
         },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
