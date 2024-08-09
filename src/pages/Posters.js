@@ -92,7 +92,7 @@ const Posters = () => {
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
                     <ContentWrapper key={text} content={
-                        <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
+                        <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
