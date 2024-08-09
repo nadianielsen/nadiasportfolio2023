@@ -17,9 +17,9 @@ const Home = () => {
                 </div>
                 <img src="./images/website banner.jpg" alt="" className="object-fill w-full h-full" />
             </div>
-            <article className="place-self-center my-6 hidden lg:block"> 
+            <article className="place-self-center my-6"> 
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
-                <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[40vw] border-2" poster="video thumbnail.png"></video>
+                <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[70vw] lg:w-[40vw] border-2" poster="video thumbnail.png"></video>
             </article>
             <article className="w-full h-[80vh] sm:h-screen grid md:grid-cols-2">
                 <img src="./images/me - photo 2.png" alt="" className="w-[30rem] h-[25rem] size866:h-[35rem] lg:mb-10 place-self-center object-cover" />
