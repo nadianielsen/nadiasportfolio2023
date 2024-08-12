@@ -10,17 +10,15 @@ const WebsiteCard = ({ link, heading, img, text }) => {
       //       <Link className="text-[0.92rem] lg:text-base group-hover:underline transition duration-200 delay-250" to={link}>{text}</Link>
       //    </div>
       // </div>
-      <div className="place-self-center w-[20rem] h-[25rem] border-2 border-black rounded-2xl relative">
-        <div className="flex flex-col w-full h-full absolute gap-y-2 my-2">
+      <Link to={link} className="place-self-center w-[15rem] h-[23rem] md:w-[20rem] md:h-[20rem] border-2 border-black rounded-2xl relative hover:bg-black/60 hover:duration-300 transition-opacity hover:ease-in-out">
+        <div className="flex flex-col w-full h-full absolute gap-y-4 my-2 hover:opacity-25 hover:duration-300 transition-opacity hover:ease-in-out">
             <h2 className="text-center">{heading}</h2>
             <img src={img} alt="" className="object-cover w-full h-[11.5rem]" />
             <p className="px-2">{text}</p>        
-            <Link to={link} className="text-center place-self-center bg-[#00A5E7] py-2 my-6 w-24 rounded-md text-white hover:text-[#00A5E7] hover:bg-white hover:duration-300 hover:ease-in-out hover:border-[#00A5E7] hover:border">See more</Link>
+            {/* <Link to={link} className="text-center place-self-center bg-[#00A5E7] py-2 my-6 w-24 rounded-md text-white hover:text-[#00A5E7] hover:bg-white hover:duration-300 hover:ease-in-out hover:border-[#00A5E7] hover:border">See more</Link> */}
         </div>
-         {/* <div className="group hover:transition-colors duration-200 delay-150 hover:bg-neutral-300/80 w-full h-[30%] bg-neutral-100/80 backdrop-blur-sm bottom-0 absolute rounded-xl flex justify-center items-center">
-            <Link className="text-[0.92rem] lg:text-base group-hover:underline transition duration-200 delay-250" to={link}>{text}</Link>
-         </div> */}
-      </div>
+        
+      </Link>
    );
 }
 
