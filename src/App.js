@@ -8,10 +8,10 @@ import { createRoutesFromElements, Route, createBrowserRouter, RouterProvider } 
 import Layout from './components/Layout';
 import Albums from './pages/Albums';
 import Posters from './pages/Posters';
-import Drawings from './pages/Drawings';
 import FrontendDeveloper from './pages/FrontendDeveloper';
 import Design from './pages/Design';
 import AboutMe from './pages/AboutMe';
+import Schoolprojects from './pages/SchoolProjects';
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
         <Route path='/graphicdesign' element={<GraphicDesign />} />
         <Route path='/albums' element={<Albums />} />
         <Route path='/posters' element={<Posters />} />
-        <Route path='/drawings' element={<Drawings />} />
+        <Route path='/schoolprojects' element={<Schoolprojects />} />
         <Route path='/contact' element={<Contact />} />
       </Route>
     )
