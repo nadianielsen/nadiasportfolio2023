@@ -6,37 +6,37 @@ const Websites = () => {
 
     const websites = [
         {
-            img: "./images/websites/mymovies.jpg",
+            img: "./images/websites/mymovies.webp",
             link: "https://mymoviesnadianielsen.netlify.app/",
             heading: "Mymovies with Javascript",
             text: "Our assignment was to make a movie database websites."
         },
         {
-            img: "./images/websites/movibes.jpg",
+            img: "./images/websites/movibes.webp",
             link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
             heading: "Movibes with React - Github",
             text: "Our first huge assignment after learning React, was to create a movie database."
         },
         {
-            img: "./images/websites/moviebase - next js.jpg",
+            img: "./images/websites/moviebase - next js.webp",
             link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
             heading: "MovieBase - first project in Next js - Github",
             text: "By learning Next js, I wanted to try and built a movie database in Next js."
         },
         {
-            img: "./images/websites/iplaymusic.jpg",
+            img: "./images/websites/iplaymusic.webp",
             link: "https://github.com/In-Wess-Tation/iplaymusic",
             heading: "IPlayMusic with Next js - Github",
             text: "Coded a music app while using the spotify database with Next js"
         },
         {
-            img: "./images/websites/weather-app.jpg",
+            img: "./images/websites/weather-app.webp",
             link: "https://weather-app-nadia.netlify.app",
             heading: "Weather app with react - PWA",
             text: "Learning how to create an app - PWA, while making it into a weather app with React js."
         },
         {
-            img: "./images/websites/dyrenes butik website.jpg",
+            img: "./images/websites/dyrenes butik website.webp",
             link: "https://grundforloeb-eksamens-website-nadia.netlify.app/",
             heading: "Exam website for media graphic designer education",
             text: "For my exam on media graphic design education I had to make website about the subject we had in the exam. "
