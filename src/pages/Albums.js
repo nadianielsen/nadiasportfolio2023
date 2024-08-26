@@ -72,12 +72,12 @@ const Albums = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums & Drawings"} />
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
                     <ContentWrapper content={
-                        <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
+                        <div className="w-[20rem] h-[20rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
@@ -91,9 +91,9 @@ const Albums = () => {
                     } />
                 ))}
                 </article>
-                <h2 className="mr-auto ml-8 md:ml-20 mt-8 font-semibold text-center text-xl">Digtale Drawings</h2>
-                <div className="border-b-2 border-black mx-80 my-2"></div>
-                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">
+                <h2 className="font-semibold text-center text-xl">Digtale Drawings</h2>
+                <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
+                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper content={
                         <div className="w-[20rem] h-[20rem] group [perspective:1000px]">

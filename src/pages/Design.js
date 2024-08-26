@@ -38,7 +38,7 @@ const Design = () => {
                 <p>I am just starting out on Canva, trying to learn it since it has become very popular these past few years.</p>
                 <article>
                     <h2 className="text-xl font-medium underline py-2">Link to the gallery to see my designs</h2>
-                    <Link to={"/graphicdesign"} className="hover:text-[#f03fa9] underline transition-all">Graphic design</Link>
+                    <Link to={"/graphicdesign"} className="hover:text-[#00A5E7] underline transition-all">Graphic design</Link>
                 </article>
             </article>
         </>

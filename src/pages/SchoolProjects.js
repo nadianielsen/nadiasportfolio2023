@@ -21,7 +21,12 @@ const Schoolprojects = () => {
             text: "A logo for an existing business - school assignment",
         },
         {
-            img: "./images/school/Logo - Dyrenes Butik.svg",
+            img: "./images/school/funky organic - finale logo.jpg",
+            headline: "Logo - Funky Organic",
+            text: "A logo for an made-up business - school assignment",
+        },
+        {
+            img: "./images/school/Logo - dyrenes butik.jpg",
             headline: "Logo - Dyrenes Butik",
             text: "A logo for an exam project 2024 - school assignment",
         },
@@ -40,7 +45,7 @@ const Schoolprojects = () => {
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
                     <ContentWrapper content={
-                        <div className="w-[20rem] h-[30rem] md:w-[22rem] lg:h-[30rem] group [perspective:1000px]">
+                        <div className="w-[20rem] h-[30rem] md:w-[22rem] lg:h-[30rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
@@ -55,7 +60,7 @@ const Schoolprojects = () => {
                 ))}
             </article>
             <ContentWrapper content={
-                <div className="w-[20rem] h-[20rem] lg:w-[62rem] lg:h-[30rem] group [perspective:1000px] ">
+                <div className="w-[20rem] h-[12rem] md:w-[30rem] md:h-[20rem] lg:w-[62rem] lg:h-[30rem] group [perspective:1000px] my-8 drop-shadow-md">
                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
                             <img className="rounded-2xl w-full h-full object-contain lg:object-cover" src={"/images/school/Banner - Afprøvning 2.jpg"} alt="headline" />

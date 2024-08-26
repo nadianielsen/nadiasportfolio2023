@@ -6,24 +6,24 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
-            img: "./images/posters-wallpapers/Wallpaper---The-Dark---294-2023.jpg",
-            headline: "The dark - Poster",
-            text: "A reaching hand into the dark poster ",
-        },
-        {
             img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaperposter---Crying---Maniac-Board---127-2023.jpg",
-            headline: "Crying - Maniac Board Trend 2023",
-            text: "Made a poster with a trending design 2023",
+            img: "./images/posters-wallpapers/Chanel perfume - poster.jpg",
+            headline: "Chanel No5 perfume - poster",
+            text: "Made a poster/ad of the known Chanel perfume",
         },
         {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
+        },
+        {
+            img: "./images/posters-wallpapers/nike poster.jpg",
+            headline: "Nike - poster",
+            text: "Was inspired to make a poster of Nike shoes ",
         },
         {
             img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
@@ -41,9 +41,9 @@ const Posters = () => {
             text: "Sun & moon - poster",
         },
         {
-            img: "./images/posters-wallpapers/PosterAlbum_Cover_-_Charli_XCX_&_Sam_Smith_-_311-2023.jpg",
-            headline: "Sam Smith and Charli XCX",
-            text: "Poster of their new song together",
+            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
+            headline: "Made a poster called mysterious",
+            text: "Made this poster with path blur and gradient in Photoshop",
         },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
@@ -86,13 +86,13 @@ const Posters = () => {
 
     return (
         <>
-            <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters and Wallpapers"} />
+            <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters & etc..."} />
             <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 size300:gap-x-20 gap-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
                     <ContentWrapper key={text} content={
-                        <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
+                        <div className="w-[20rem] h-[28rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
