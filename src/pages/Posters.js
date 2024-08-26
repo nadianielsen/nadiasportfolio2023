@@ -36,7 +36,7 @@ const Posters = () => {
         //     text: "Represents nature - Green - poster",
         // },
         {
-            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
+            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.webp",
             headline: "Sun & Moon - Poster",
             text: "Sun & moon - poster",
         },
