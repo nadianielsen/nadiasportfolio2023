@@ -13,7 +13,6 @@ import Design from './pages/Design';
 import AboutMe from './pages/AboutMe';
 import Schoolprojects from './pages/SchoolProjects';
 
-
 function App() {
 
   const router = createBrowserRouter(

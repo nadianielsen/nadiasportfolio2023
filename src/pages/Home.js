@@ -15,7 +15,7 @@ const Home = () => {
                         <div className="border-b-[0.12rem] md:border-b-[0.18rem] mx-12 size1470:mx-10 border-white"></div>
                     </motion.div>
                 </div>
-                <img src="./images/website banner.webp" alt="website banner" className="object-fill w-full h-full" />
+                <img src="./images/website banner.webp" alt="website banner" className="object-fill w-full h-full " />
             </div>
             <article className="place-self-center my-6">
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>

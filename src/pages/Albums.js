@@ -5,47 +5,47 @@ const Albums = () => {
 
     const albumsImg = [
         {
-            img: "./images/albums/The Weeknd - Playlist Cover - Red.jpg",
+            img: "./images/albums/The Weeknd - Playlist Cover - Red.webp",
             headline: "The Weeknd - Playlist cover",
             text: "Playlist Cover of The Weeknd"
         },
         {
-            img: "./images/albums/Album-Cover-Bad-Michael-Jackson.jpg",
+            img: "./images/albums/Album-Cover-Bad-Michael-Jackson.webp",
             headline: "Bad - Album cover",
             text: "Bad by Michael Jackson"
         },
         {
-            img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.jpg",
+            img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.webp",
             headline: "Treasure - Album cover",
             text: "A song by Bruno Mars"
         },
         {
-            img: "./images/albums/Album cover - Wham - 20-1-2024.jpg",
+            img: "./images/albums/Album cover - Wham - 20-1-2024.webp",
             headline: "Wham - Make it big Album",
             text: "Made a album cover of Wham"
         },
         {
-            img: "./images/albums/Album cover - Dua Lipa Houdini - 10-1-2024.jpg",
+            img: "./images/albums/Album cover - Dua Lipa Houdini - 10-1-2024.webp",
             headline: "Houdini - Album cover",
             text: "A song by Dua Lipa"
         },
         {
-            img: "./images/albums/Poster_-_Little_Mix_-_911-2023.jpg",
+            img: "./images/albums/Poster_-_Little_Mix_-_911-2023.webp",
             headline: "Little Mix - Album cover/Poster",
             text: "Album Cover or Poster of Litte Mix"
         },
         {
-            img: "./images/albums/Zara Larsson - End of time - Album Cover.jpg",
+            img: "./images/albums/Zara Larsson - End of time - Album Cover.webp",
             headline: "End of time - Album Cover",
             text: "A song by Zara Larsson"
         },
         {
-            img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.jpg",
+            img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.webp",
             headline: "Golden - Album Cover",
             text: "An Album by Jung Kook from BTS"
         },
         {
-            img: "./images/albums/Harry Styles - Golden - Album Cover.jpg",
+            img: "./images/albums/Harry Styles - Golden - Album Cover.webp",
             headline: "Golden - Album Cover",
             text: "A song by Harry Styles"
         },
@@ -53,17 +53,17 @@ const Albums = () => {
 
     const drawingsImg = [
         {
-            img: "./images/drawings/Adele.jpg",
+            img: "./images/drawings/Adele.webp",
             headline: "Adele - Drawing",
             text: "Made a drawing Adele",
         },
         {
-            img: "./images/drawings/Billie Ellish.jpg",
-            headline: "Billie Ellish - Drawing",
-            text: "A drawing of Billie Ellish",
+            img: "./images/drawings/Nct - Haechan - Drawing.webp",
+            headline: "Kpop idol - Drawing",
+            text: "Drawing of an kpop idol",
         },
         {
-            img: "./images/drawings/Taylor Swift.jpg",
+            img: "./images/drawings/Taylor Swift.webp",
             headline: "Taylor Swift - Drawing",
             text: "Drawing of Taylor Swift",
         },

@@ -6,32 +6,32 @@ const Schoolprojects = () => {
 
     const projectsImg = [
         {
-            img: "./images/school/Roskilde - fjorland plakat - art deco.jpg",
+            img: "./images/school/Roskilde - fjorland plakat - art deco.webp",
             headline: "Tourist Travel Poster - Fjordlandet",
             text: "A tourist travel poster with the style of art deco - school assignment",
         },
         {
-            img: "./images/school/Forside og artikel.jpg",
+            img: "./images/school/Forside og artikel.webp",
             headline: "Naturli Front Page - Magazine",
             text: "A magazine project using same name of an existing magazine - school assignment",
         },
         {
-            img: "./images/school/Logo - afprøvninger-01.jpg",
+            img: "./images/school/Logo - afprøvninger-01.webp",
             headline: "Logo - Valby Kino",
             text: "A logo for an existing business - school assignment",
         },
         {
-            img: "./images/school/funky organic - finale logo.jpg",
+            img: "./images/school/funky organic - finale logo.webp",
             headline: "Logo - Funky Organic",
             text: "A logo for an made-up business - school assignment",
         },
         {
-            img: "./images/school/Logo - dyrenes butik.jpg",
+            img: "./images/school/Logo - dyrenes butik.webp",
             headline: "Logo - Dyrenes Butik",
             text: "A logo for an exam project 2024 - school assignment",
         },
         {
-            img: "./images/school/Odense Chokoladehus - forside folder with text.jpg",
+            img: "./images/school/Odense Chokoladehus - forside folder with text.webp",
             headline: "Folder - Front Page",
             text: "A folder for an existing businesss - school assignment",
         },
