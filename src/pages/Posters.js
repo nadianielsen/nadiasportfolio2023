@@ -10,11 +10,11 @@ const Posters = () => {
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
-        {
-            img: "./images/posters-wallpapers/Chanel perfume - poster.jpg",
-            headline: "Chanel No5 perfume - poster",
-            text: "Made a poster/ad of the known Chanel perfume",
-        },
+        // {
+        //     img: "./images/posters-wallpapers/Chanel perfume - poster.jpg",
+        //     headline: "Chanel No5 perfume - poster",
+        //     text: "Made a poster/ad of the known Chanel perfume",
+        // },
         {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",

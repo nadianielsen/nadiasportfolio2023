@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header ref={ref} className="w-full sticky top-0 flex items-center justify-between px-10 md:justify-around bg-white/20 backdrop-blur-sm z-50 header-box-shadow">
-            <Link to={"/"} className=""><img src="./images/logo/logo with name.png" alt="" className="h-16" /></Link>
+            <Link to={"/"} className=""><img src="./images/logo/logo - NM.svg" alt="" className="h-16" /></Link>
             <Navigation showDropdown={showDropdown} setShowDropdown={setShowDropdown} />
         </header>
     );
