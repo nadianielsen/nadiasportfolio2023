@@ -27,7 +27,7 @@ const Home = () => {
                 <div className="w-[58%] sm:w-[53%] place-self-center md:col-start-2 md:row-start-1 row-start-2 pb-20 size700:pb-0 lg:py-4">
                     <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I am taking the media graphic design education.</p>
                     <div className="group ">
-                        <Link to={"/about"} className="font-semibold flex gap-x-1 underline group-hover:text-[#00A5E7] group-hover:transition-colors group-hover:delay-75 group-hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1 hidden size300:block" /></Link>
+                        <Link to={"/about"} className="font-semibold flex gap-x-1c underline group-hover:text-[#00A5E7] group-hover:transition-colors group-hover:delay-75 group-hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1 hidden size300:block" /></Link>
                     </div>
                 </div>
             </article>
