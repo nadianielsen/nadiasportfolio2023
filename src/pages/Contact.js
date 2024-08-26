@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return ( 
-        <article className="h-[65vh] sm:h-[80vh] md:h-[60vh] lg:h-[90vh] grid w-full md:flex md:flex-row md:items-center relative">
+        <article className="h-[40vh] sm:h-[80vh] md:h-[60vh] lg:h-[90vh] grid w-full md:flex md:flex-row md:items-center relative">
             <img src="./images/contact banner.webp" alt="" className=" absolute object-fill w-full h-full -z-10 opacity-70"/>
             <h2 className="uppercase text-4xl sm:text-5xl md:text-6xl lg:text-9xl m-auto md:m-0 px-10 md:pl-14 lg:pl-40 lg:w-[50%] font-light">Let's get <span className="">in touch</span></h2>
-            <article className="border-y-2 border-black sm:w-[35%] h-[20rem] grid grid-cols-1 grid-rows-4 m-auto md:m-0">
+            <article className="border-y-2 border-black sm:w-[35%] h-[20vh] grid grid-cols-1 grid-rows-4 m-auto md:m-0">
                 <div className="flex justify-center items-center gap-x-3">
                     <BsInstagram className="md:text-2xl lg:text-4xl" />
                     <Link to={"https://www.instagram.com/nadiamarie2111/"} className="pr-2 hover:text-transparent duration-500 delay-100 bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] transition-all text-sm md:text-base">nadiamarie2111</Link>
