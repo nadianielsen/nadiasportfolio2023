@@ -27,7 +27,7 @@ const Websites = () => {
             img: "./images/websites/iplaymusic.jpg",
             link: "https://github.com/In-Wess-Tation/iplaymusic",
             heading: "IPlayMusic with Next js - Github",
-            text: "Coded a music app while using the spotify database with Next js."
+            text: "Coded a music app while using the spotify database with Next js"
         },
         {
             img: "./images/websites/weather-app.jpg",

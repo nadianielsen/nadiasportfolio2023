@@ -21,9 +21,9 @@ const Posters = () => {
             text: "Inspired by a song named Crush - poster",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaper---The-Dark---294-2023.jpg",
-            headline: "The dark - Poster",
-            text: "A reaching hand into the dark poster ",
+            img: "./images/posters-wallpapers/nike poster.jpg",
+            headline: "Nike - poster",
+            text: "Was inspired to make a poster of Nike shoes ",
         },
         {
             img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
