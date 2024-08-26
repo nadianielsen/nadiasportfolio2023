@@ -12,14 +12,14 @@ const Home = () => {
                         <motion.p className="home-text font-semibold w-80 pl-16 text-xl md:w-auto md:pl-0 md:text-5xl size1200:6xl size1470:text-7xl uppercase text-white text-shadow" initial={{ x: 100 }} animate={{ x: 0 }} transition={{ duration: 0.60 }}>Welcome to my portfolio</motion.p>
                     </motion.div>
                     <motion.div initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.50 }} className="overflow-hidden justify-center">
-                        <div className="border-b-[0.18rem] mx-6 size1470:mx-10 border-white"></div>
+                        <div className="border-b-[0.12rem] md:border-b-[0.18rem] mx-12 size1470:mx-10 border-white"></div>
                     </motion.div>
                 </div>
                 <img src="./images/website banner copy.webp" alt="website banner" className="object-fill w-full h-full" />
             </div>
-            <article className="place-self-center my-6"> 
+            <article className="place-self-center my-6">
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
-                <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[70vw] lg:w-[40vw] border-2" poster="video thumbnail.png"></video>
+                <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[70vw] lg:w-[40vw] border-2" poster="video thumbnail.webp"></video>
             </article>
             <article className="w-full h-[80vh] sm:h-screen grid md:grid-cols-2">
                 <img src="./images/me - photo 2.webp" alt="" className="w-[30rem] h-[25rem] size866:h-[35rem] lg:mb-10 place-self-center object-cover" />
