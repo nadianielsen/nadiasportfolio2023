@@ -14,24 +14,25 @@ const FrontendDeveloper = () => {
                     <h2 className="text-xl font-medium underline capitalize">Languages and libraries</h2>
                     <p>Throughout my education I have learned these languages and libraries.</p>
                     <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10">
-                        <SmallCard name={"HTML"} logo={"./images/html.png"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
-                        <SmallCard name={"CSS"} logo={"./images/css.png"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
-                        <SmallCard name={"Javascript"} logo={"./images/JavaScript.png"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
-                        <SmallCard name={"React"} logo={"./images/react.png"} bgPrimary={"bg-gradient-to-t from-[#61d9fb]/50 to-transparent"} />
+                        <SmallCard name={"HTML"} logo={"./images/html.webp"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
+                        <SmallCard name={"CSS"} logo={"./images/css.webp"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
+                        <SmallCard name={"Javascript"} logo={"./images/JavaScript.webp"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
+                        <SmallCard name={"React"} logo={"./images/react.webp"} bgPrimary={"bg-gradient-to-t from-[#61d9fb]/50 to-transparent"} />
                         <Link to={"https://nextjs.org/"}>
-                            <SmallCard name={"Next JS"} logo={"./images/nextjs.png"} bgPrimary={"bg-gradient-to-t from-black/50 to-transparent"} />
+                            <SmallCard name={"Next JS"} logo={"./images/nextjs.webp"} bgPrimary={"bg-gradient-to-t from-black/50 to-transparent"} />
                         </Link>
                         <Link to={"https://tailwindcss.com/"}>
-                            <SmallCard name={"Tailwind"} logo={"./images/tailwind.png"} bgPrimary={"bg-gradient-to-t from-[#38bdf8]/50 to-transparent"} />
+                            <SmallCard name={"Tailwind"} logo={"./images/tailwind.webp"} bgPrimary={"bg-gradient-to-t from-[#38bdf8]/50 to-transparent"} />
                         </Link>
-                        <SmallCard name={"Wordpress"} logo={"./images/wordpress.png"} bgPrimary={"bg-gradient-to-t from-[#477397]/60 to-transparent"} />
+                        <SmallCard name={"Wordpress"} logo={"./images/wordpress.webp"} bgPrimary={"bg-gradient-to-t from-[#477397]/60 to-transparent"} />
                         <Link to={"https://sass-lang.com/"}>
-                            <SmallCard name={"SASS/SCSS"} logo={"./images/sass.png"} bgPrimary={"bg-gradient-to-t from-pink-600/50 to-transparent"} />
+                            <SmallCard name={"SASS/SCSS"} logo={"./images/sass.webp"} bgPrimary={"bg-gradient-to-t from-pink-600/50 to-transparent"} />
                         </Link>
                     </article>
                     <div className="flex flex-col gap-y-2">
                         <p>I have learned how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
                         <p>With Wordpress I have learned how you set it with xxamp and MySQL database. I learned how to make a theme. </p>
+                        <p>I am also learning how to use wordpress without setting up a database and using xxamp.</p>
                         <p>With CSS I have learned regular css, tailwindcss, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
                         <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
                     </div>

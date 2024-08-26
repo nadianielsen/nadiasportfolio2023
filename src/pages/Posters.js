@@ -6,7 +6,7 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
-            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
+            img: "./images/posters-wallpapers/enjoy the sun - poster.webp",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
@@ -16,67 +16,67 @@ const Posters = () => {
         //     text: "Made a poster/ad of the known Chanel perfume",
         // },
         {
-            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
+            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.webp",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
         },
         {
-            img: "./images/posters-wallpapers/nike poster.jpg",
+            img: "./images/posters-wallpapers/nike poster.webp",
             headline: "Nike - poster",
             text: "Was inspired to make a poster of Nike shoes ",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
+            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.webp",
             headline: "Flowers poster - Miley Cyrus",
             text: "Made a poster with Miley Cyrus",
         },
-        {
-            img: "./images/posters-wallpapers/Wallpaperposter---Green---95-2023.jpg",
-            headline: "Green - Poster",
-            text: "Represents nature - Green - poster",
-        },
+        // {
+        //     img: "./images/posters-wallpapers/Wallpaperposter---Green---95-2023.jpg",
+        //     headline: "Green - Poster",
+        //     text: "Represents nature - Green - poster",
+        // },
         {
             img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
             headline: "Sun & Moon - Poster",
             text: "Sun & moon - poster",
         },
         {
-            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
+            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.webp",
             headline: "Made a poster called mysterious",
             text: "Made this poster with path blur and gradient in Photoshop",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
+            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.webp",
             headline: "Butterfly - Poster",
             text: "A pink/red butterfly",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
+            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.webp",
             headline: "Floral Flower - poster",
             text: "Purple flower poster",
         },
         {
-            img: "./images/posters-wallpapers/friends.jpg",
+            img: "./images/posters-wallpapers/friends.webp",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg",
+            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.webp",
             headline: "You - Song - Poster",
             text: "Song by Regard, Troye Sivan & Tate Mcrae",
         },
         {
-            img: "./images/posters-wallpapers/Poster - Blend.jpg",
+            img: "./images/posters-wallpapers/Poster - Blend.webp",
             headline: "Blend - Poster",
             text: "Word Blend with some Gaussion blur and Motion blur",
         },
         {
-            img: "./images/posters-wallpapers/mirror.jpg",
+            img: "./images/posters-wallpapers/mirror.webp",
             headline: "Mirror - Poster",
             text: "A mirror poster",
         },
         {
-            img: "./images/posters-wallpapers/moon.jpg",
+            img: "./images/posters-wallpapers/moon.webp",
             headline: "Moon - Poster",
             text: "A hand reaching for the moon - poster",
         },

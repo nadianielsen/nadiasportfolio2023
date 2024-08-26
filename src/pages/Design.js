@@ -15,22 +15,22 @@ const Design = () => {
                 <p>The education I am taking right now, I have learned more about the mainly used adobe programs and now have more experience.</p>
                 <article className="grid gap-y-6 md:grid-cols-2 lg:grid-cols-3 place-items-center my-10">
                     <Link to={"https://procreate.com/"}>
-                        <SmallCard name={"Procreate"} logo={"./images/procreate.png"} bgPrimary={"bg-gradient-to-t from-black/70 to-transparent"} />
+                        <SmallCard name={"Procreate"} logo={"./images/procreate.webp"} bgPrimary={"bg-gradient-to-t from-black/70 to-transparent"} />
                     </Link>
                     <Link to={"https://picsart.com/"}>
-                        <SmallCard name={"Picsart"} logo={"./images/picsart.jpg"} bgPrimary={"bg-gradient-to-t from-[#cf02bc]/50 to-transparent"} />
+                        <SmallCard name={"Picsart"} logo={"./images/picsart.webp"} bgPrimary={"bg-gradient-to-t from-[#cf02bc]/50 to-transparent"} />
                     </Link>
                     <Link to={"https://www.canva.com"}>
-                        <SmallCard name={"Canva"} logo={"./images/canva.png"} bgPrimary={"bg-gradient-to-t from-[#00c1cb]/70 to-transparent"} />
+                        <SmallCard name={"Canva"} logo={"./images/canva.webp"} bgPrimary={"bg-gradient-to-t from-[#00c1cb]/70 to-transparent"} />
                     </Link>
                     <Link to={"https://www.adobe.com/products/photoshop.html"}>
-                        <SmallCard name={"Photoshop"} logo={"./images/photoshop.png"} bgPrimary={"bg-gradient-to-t from-[#6aa6f7]/70 to-transparent"} />
+                        <SmallCard name={"Photoshop"} logo={"./images/photoshop.webp"} bgPrimary={"bg-gradient-to-t from-[#6aa6f7]/70 to-transparent"} />
                     </Link>
                     <Link to={"https://www.adobe.com/products/illustrator.html"}>
-                        <SmallCard name={"Illustrator"} logo={"./images/illustrator.png"} bgPrimary={"bg-gradient-to-t from-[#fe9900]/70 to-transparent"} />
+                        <SmallCard name={"Illustrator"} logo={"./images/illustrator.webp"} bgPrimary={"bg-gradient-to-t from-[#fe9900]/70 to-transparent"} />
                     </Link>
                     <Link to={"https://www.adobe.com/products/indesign.html"}>
-                        <SmallCard name={"InDesign"} logo={"./images/indesign.png"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"} />
+                        <SmallCard name={"InDesign"} logo={"./images/indesign.webp"} bgPrimary={"bg-gradient-to-t from-[#de4868]/70 to-transparent"} />
                     </Link>
                 </article>
                 <p>Gotten more experience in Photoshop, Illustrator, Indesign...</p>

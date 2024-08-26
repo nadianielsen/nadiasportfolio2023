@@ -8,7 +8,7 @@ const AboutMe = () => {
             <PagesLinks location={"/aboutme"} prevPage={"About"} page={"About Me"} />
             <article className="mx-10 md:mx-20 my-6">
                 <article className="flex flex-col gap-y-4 md:flex-row gap-x-10">
-                    <img src="./images/me.png" alt="" className="w-[16rem] h-[24rem] object-cover rounded-2xl" />
+                    <img src="./images/me copy.webp" alt="" className="w-[16rem] h-[24rem] object-cover rounded-2xl" />
                     <div className="flex flex-col gap-y-2">
                         <h1 className="capitalize text-xl font-medium underline">About me</h1>
                         <p className=""> <AgeFunction /> I come from Denmark and I have finished taking the web developer education in 2023. </p>

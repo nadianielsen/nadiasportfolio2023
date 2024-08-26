@@ -63,7 +63,7 @@ const Schoolprojects = () => {
                 <div className="w-[20rem] h-[12rem] md:w-[30rem] md:h-[20rem] lg:w-[62rem] lg:h-[30rem] group [perspective:1000px] my-8 drop-shadow-md">
                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className="rounded-2xl w-full h-full object-contain lg:object-cover" src={"/images/school/Banner - Afprøvning 2.jpg"} alt="headline" />
+                            <img className="rounded-2xl w-full h-full object-contain lg:object-cover" src={"/images/school/Banner - Afprøvning 2.webp"} alt="headline" />
                         </div>
                         <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
                             <h1 className="text-white text-2xl font-semibold capitalize">Banner - Knoll Barcelona Relax Chair</h1>
