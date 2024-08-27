@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 
 
-const SmallCard = ({logo, alt, name, bgPrimary}) => {
+const SmallCard = ({logo, alt, name, bgPrimary, link}) => {
     return ( 
-        <div className={`w-40 h-40 bg-neutral-200/60 rounded-2xl flex flex-col justify-center items-center ${bgPrimary} drop-shadow-lg`}>
+        <Link to={link} target="_blank" className={`w-40 h-40 bg-neutral-200/60 rounded-2xl flex flex-col justify-center items-center ${bgPrimary} drop-shadow-lg`}>
             <img src={logo} alt={alt} className="w-24 h-24"/>
             <p className="text-white drop-shadow">{name}</p>
-        </div>
+        </Link>
      );
 }
  
