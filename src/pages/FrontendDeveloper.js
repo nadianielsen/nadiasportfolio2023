@@ -14,14 +14,14 @@ const FrontendDeveloper = () => {
                     <h2 className="text-xl font-medium underline capitalize">Languages and libraries</h2>
                     <p>Throughout my education I have learned these languages and libraries.</p>
                     <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10 size1100:w-[70vw] size1100:m-auto size1100:my-8">
-                        <SmallCard link={"https://www.w3schools.com/html/"} name={"HTML"} logo={"./images/html.webp"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
-                        <SmallCard link={"https://www.w3schools.com/css/"} name={"CSS"} logo={"./images/css.webp"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
-                        <SmallCard link={"https://www.w3schools.com/js/"} name={"Javascript"} logo={"./images/JavaScript.webp"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
-                        <SmallCard link={"https://react.dev/"} name={"React"} logo={"./images/react.webp"} bgPrimary={"bg-gradient-to-t from-[#61d9fb]/50 to-transparent"} />
-                            <SmallCard link={"https://nextjs.org/"} name={"Next JS"} logo={"./images/nextjs.webp"} bgPrimary={"bg-gradient-to-t from-black/50 to-transparent"} />
-                            <SmallCard link={"https://tailwindcss.com/"} name={"Tailwind"} logo={"./images/tailwind.webp"} bgPrimary={"bg-gradient-to-t from-[#38bdf8]/50 to-transparent"} />
-                        <SmallCard link={"https://wordpress.com/"} name={"Wordpress"} logo={"./images/wordpress.webp"} bgPrimary={"bg-gradient-to-t from-[#477397]/60 to-transparent"} />
-                            <SmallCard link={"https://sass-lang.com/"} name={"SASS/SCSS"} logo={"./images/sass.webp"} bgPrimary={"bg-gradient-to-t from-pink-600/50 to-transparent"} />
+                        <SmallCard link={"https://www.w3schools.com/html/"} name={"HTML"} logo={"./images/html.webp"} bgHover={"group-hover:bg-orange-500/70"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
+                        <SmallCard link={"https://www.w3schools.com/css/"} name={"CSS"} logo={"./images/css.webp"} bgHover={"group-hover:bg-blue-400/70"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
+                        <SmallCard link={"https://www.w3schools.com/js/"} name={"Javascript"} logo={"./images/JavaScript.webp"} bgHover={"group-hover:bg-yellow-400/70"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
+                        <SmallCard link={"https://react.dev/"} name={"React"} logo={"./images/react.webp"} bgHover={"group-hover:bg-[#61d9fb]/70"} bgPrimary={"bg-gradient-to-t from-[#61d9fb]/50 to-transparent"} />
+                            <SmallCard link={"https://nextjs.org/"} name={"Next JS"} logo={"./images/nextjs.webp"} bgHover={"group-hover:bg-black/70"} bgPrimary={"bg-gradient-to-t from-black/50 to-transparent"} />
+                            <SmallCard link={"https://tailwindcss.com/"} name={"Tailwind"} logo={"./images/tailwind.webp"} bgHover={"group-hover:bg-[#38bdf8]/70"} bgPrimary={"bg-gradient-to-t from-[#38bdf8]/50 to-transparent"} />
+                        <SmallCard link={"https://wordpress.com/"} name={"Wordpress"} logo={"./images/wordpress.webp"} bgHover={"group-hover:bg-[#477397]/70"} bgPrimary={"bg-gradient-to-t from-[#477397]/60 to-transparent"} />
+                            <SmallCard link={"https://sass-lang.com/"} name={"SASS/SCSS"} logo={"./images/sass.webp"} bgHover={"group-hover:bg-pink-600/70"} bgPrimary={"bg-gradient-to-t from-pink-600/50 to-transparent"} />
                     </article>
                     <div className="flex flex-col gap-y-2">
                         <p><span className="font-semibold">I have learned</span> how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
