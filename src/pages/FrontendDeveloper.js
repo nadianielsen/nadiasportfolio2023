@@ -13,7 +13,7 @@ const FrontendDeveloper = () => {
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">Languages and libraries</h2>
                     <p>Throughout my education I have learned these languages and libraries.</p>
-                    <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10">
+                    <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10 size1100:w-[70vw] size1100:m-auto size1100:my-8">
                         <SmallCard name={"HTML"} logo={"./images/html.webp"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
                         <SmallCard name={"CSS"} logo={"./images/css.webp"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
                         <SmallCard name={"Javascript"} logo={"./images/JavaScript.webp"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
@@ -30,10 +30,10 @@ const FrontendDeveloper = () => {
                         </Link>
                     </article>
                     <div className="flex flex-col gap-y-2">
-                        <p>I have learned how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
+                        <p><span className="font-semibold">I have learned</span> how to make for example React and vanilla Javascript into PWA - Progressive Web App.</p>
                         <p>With Wordpress I have learned how you set it with xxamp and MySQL database. I learned how to make a theme. </p>
                         <p>I am also learning how to use wordpress without setting up a database and using xxamp.</p>
-                        <p>With CSS I have learned regular css, tailwindcss, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
+                        <p><span className="font-semibold">With CSS I have learned</span> regular css, tailwindcss, sass/scss, bootstrap and styled components. Those I am most skilled in is regular css and tailwind.</p>
                         <p>Besides learning all of these languages, frameworks and libraries, I have learned how to fetch from an api, styling after a given figma design, how to make things dynamic and not static, html stucture - semantic and etc... </p>
                     </div>
                     <div className="py-4">

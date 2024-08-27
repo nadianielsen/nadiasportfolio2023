@@ -12,12 +12,6 @@ const Websites = () => {
             text: "Our assignment was to make a movie database websites."
         },
         {
-            img: "./images/websites/movibes.webp",
-            link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
-            heading: "Movibes with React - Github",
-            text: "Our first huge assignment after learning React, was to create a movie database."
-        },
-        {
             img: "./images/websites/moviebase - next js.webp",
             link: "https://github.com/nadianielsen/movibes-website-assignment-2023",
             heading: "MovieBase - first project in Next js - Github",
@@ -34,6 +28,12 @@ const Websites = () => {
             link: "https://weather-app-nadia.netlify.app",
             heading: "Weather app with react - PWA",
             text: "Learning how to create an app - PWA, while making it into a weather app with React js."
+        },
+        {
+            img: "./images/websites/statusopgave - website.webp",
+            link: "https://statusopgave-website.netlify.app",
+            heading: "Status assignment for medie graphic designer education",
+            text: "Prep assignment for the exam assignment website"
         },
         {
             img: "./images/websites/dyrenes butik website.webp",
