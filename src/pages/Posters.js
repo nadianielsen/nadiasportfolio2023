@@ -30,11 +30,11 @@ const Posters = () => {
             headline: "Flowers poster - Miley Cyrus",
             text: "Made a poster with Miley Cyrus",
         },
-        // {
-        //     img: "./images/posters-wallpapers/Wallpaperposter---Green---95-2023.jpg",
-        //     headline: "Green - Poster",
-        //     text: "Represents nature - Green - poster",
-        // },
+        {
+            img: "./images/posters-wallpapers/Hibicus poster.webp",
+            headline: "Hibicus - Poster",
+            text: "Poster of the flower Hibicus",
+        },
         {
             img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.webp",
             headline: "Sun & Moon - Poster",

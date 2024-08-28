@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      dropShadow: {
+        linkCards: "0 0 2px rgb(187, 186, 186)"
+      },
       screens: {
         size200: "200px",
         size300: "300px",
@@ -20,7 +23,7 @@ module.exports = {
     },
   },
   plugins: [
-		require("tailwindcss-animated"),
-	],
+    require("tailwindcss-animated"),
+  ],
 }
 
