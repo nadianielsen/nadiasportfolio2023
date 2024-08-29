@@ -18,7 +18,7 @@ const Navigation = ({ showDropdown, setShowDropdown }) => {
 
 
     const activeLink = "font-medium text-xl md:text-[1.1rem] w-12 border-b-2 border-black";
-    const normalLink = "font-medium text-xl md:text-[1.1rem] w-12 inline-block after:block after:border-b-2 after:border-black after:transition-[250ms] after:ease-in-out after:scale-x-0 hover:after:scale-x-100"
+    const normalLink = "font-medium text-xl md:text-[1.1rem] w-12 inline-block after:block after:border-b-2 after:border-black after:transition-[250ms] after:duration-300 after:ease-in-out after:scale-x-0 hover:after:scale-x-100"
     // const activeLink = "font-medium text-xl md:text-[1.1rem] w-12 border-b-2 border-black";
     // const normalLink = "font-medium text-xl md:text-[1.1rem] w-12 border-transition border-transition:after border-transition:hover:after"
 

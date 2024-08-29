@@ -15,17 +15,17 @@ const Footer = () => {
                 <section className="flex gap-x-2 justify-center items-center">
                     <BsInstagram className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/instagram.png" alt="" className="w-6"/> */}
-                    <Link to={"https://www.instagram.com/nadiamarie2111/"} className="font-medium hover:text-transparent bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] w-20 transition-all">Instagram</Link>
+                    <Link target="_blank" to={"https://www.instagram.com/nadiamarie2111/"} className="font-medium hover:text-transparent bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] w-20 transition-all">Instagram</Link>
                 </section>
                 <section className="cols-start-1 row-start-2 flex justify-center gap-x-2 items-center mr-8">
                     <FaLinkedin className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/linkedin.png" alt="" className="w-6"/> */}
-                    <Link className="font-medium hover:text-sky-600 transition-all" to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"}>LinkedIn</Link>
+                    <Link target="_blank" className="font-medium hover:text-sky-600 transition-all" to={"https://www.linkedin.com/in/nadia-nielsen-b313b6222/"}>LinkedIn</Link>
                 </section>
                 <section className="col-start-2 row-start-2 flex justify-center items-center gap-x-2 mr-6 size626:mr-[5.80rem]">
                     <FaFacebookSquare className="size300:text-base text-xl md:text-2xl" />
                     {/* <img src="./images/facebook.png" alt="" className="w-6"/> */}
-                    <Link to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="font-medium hover:text-blue-900 transition-all">Facebook</Link>
+                    <Link target="_blank" to={"https://www.facebook.com/nadia.nielsen.5817300/"} className="font-medium hover:text-blue-900 transition-all">Facebook</Link>
                 </section>
                 <section className="hidden sm:flex justify-center items-center gap-x-2">
                     <SiGmail className="md:text-xl" />
