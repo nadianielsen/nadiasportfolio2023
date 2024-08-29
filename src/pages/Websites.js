@@ -41,13 +41,13 @@ const Websites = () => {
             heading: "Exam website for media graphic designer education",
             text: "For my exam on media graphic design education I had to make website about the subject we had in the exam. "
         },
-        
+
     ]
-    
+
     return (
         <>
             <PagesLinks prevPage={"Gallery"} location={"/websites"} page="Websites" />
-            <article className="w-[70%] grid gap-y-20 my-10 gap-x-12 size1200:grid-cols-2 size1470:grid-cols-3 m-auto">
+            <article className="w-full px-6 size400:px-0 lg:w-[70%] grid gap-y-20 my-10 gap-x-12 size1200:grid-cols-2 size1470:grid-cols-3 m-auto">
                 {websites.map(({ img, link, text, heading }) => (
                     <WebsiteCard key={text} img={img} link={link} heading={heading} text={text} />
                 ))}
