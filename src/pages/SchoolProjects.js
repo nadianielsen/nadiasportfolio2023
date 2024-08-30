@@ -44,7 +44,7 @@ const Schoolprojects = () => {
                 {projectsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
-                    <ContentWrapper content={
+                    <ContentWrapper key={text} content={
                         <div className="w-[15rem] h-[20rem] size300:w-[20rem] size300:h-[30rem] md:w-[22rem] lg:h-[30rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
