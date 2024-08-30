@@ -77,14 +77,14 @@ const Albums = () => {
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
                     <ContentWrapper content={
-                        <div className="w-[20rem] h-[20rem] group [perspective:1000px] drop-shadow-md">
+                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
                                 </div>
                                 <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                    <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
-                                    <p className="text-white text-lg">{text}</p>
+                                    <h1 className="text-white text-xl size300:text-2xl font-semibold capitalize">{headline}</h1>
+                                    <p className="text-white text-base size-300:text-lg">{text}</p>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +96,14 @@ const Albums = () => {
                 <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper content={
-                        <div className="w-[20rem] h-[20rem] group [perspective:1000px]">
+                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px]">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
                                 </div>
                                 <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                    <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
-                                    <p className="text-white text-lg">{text}</p>
+                                    <h1 className="text-white size300:text-2xl font-semibold capitalize">{headline}</h1>
+                                    <p className="text-white text-[0.9rem] size-300:text-lg">{text}</p>
                                 </div>
                             </div>
                         </div>

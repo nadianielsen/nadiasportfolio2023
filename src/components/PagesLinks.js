@@ -11,10 +11,10 @@ const PagesLinks = ({ prevPage, location, page }) => {
     }
 
     return (
-        <div className={`flex gap-x-2 mr-auto ml-8 md:ml-20 mt-8`}>
-            <button onClick={prevLink} className="hover:text-[#00A5E7] hover:font-semibold transition-all">{prevPage}</button>
+        <div className={`flex gap-x-2 mr-auto ml-4 size300:ml-8 md:ml-20 mt-8`}>
+            <button onClick={prevLink} className="hover:text-[#00A5E7] hover:font-semibold hover:transition-colors hover:duration-500 hover:ease-in-out">{prevPage}</button>
             <HiOutlineArrowRight className="mt-1.5" />
-            <Link to={location} className="font-semibold underline">{page}</Link>
+            <Link to={location} className="font-semibold underline hover:no-underline hover:duration-300 hover:transition-all hover:ease-in-out">{page}</Link>
         </div>
 
     );

@@ -7,7 +7,7 @@ const Design = () => {
     return (
         <>
             <PagesLinks page={"Design"} prevPage={"About"} location={"/design"} />
-            <article className="grid mx-10 md:mx-20 gap-y-2.5 my-6">
+            <article className="grid mx-10 md:mx-20 gap-y-2.5 my-10">
                 <h1 className="text-xl font-semibold">Design</h1>
                 <h2 className="text-lg font-medium underline">Since I have passion for design, I also want to pursue the graphic design education</h2>
                 <p>I am currently taking the media graphic designer education because I love the digital world.</p>

@@ -92,14 +92,14 @@ const Posters = () => {
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
                     <ContentWrapper key={text} content={
-                        <div className="w-[20rem] h-[28rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px] drop-shadow-md">
+                        <div className="w-[15rem] h-[20rem] size300:w-[20rem] size300:h-[28rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
                                 </div>
                                 <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                    <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>
-                                    <p className="text-white text-lg">{text}</p>
+                                    <h1 className="text-white text-xl size300:text-2xl font-semibold capitalize">{headline}</h1>
+                                    <p className="text-white text-base w-[70%] text-center size400:w-full size300:text-lg">{text}</p>
                                 </div>
                             </div>
                         </div>
