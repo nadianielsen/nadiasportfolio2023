@@ -1,9 +1,36 @@
 import { Link } from "react-router-dom";
 import { IoMdArrowRoundForward } from "react-icons/io"
 import { motion } from "framer-motion";
-import AgeFunction from "../components/AgeFunction";
+// import AgeFunction from "../components/AgeFunction";
+import { useState, useEffect } from "react";
+import moment from "moment";
+
 
 const Home = () => {
+
+    const [birthDate, setBirthDate] = useState("2004-11-21");
+    const [age, setAge] = useState('');
+    
+    const calculateAge = (dateString) => {
+        const birthDate = moment(dateString, "YYYY-MM-DD")
+
+        const today = moment();
+
+        const age = today.diff(birthDate, 'years')
+
+        return age;
+
+    }
+
+    useEffect(() => {
+        if (moment(birthDate, "YYYY-MM-DD").isValid()) {
+            setAge(calculateAge(birthDate))
+        } else {
+            setAge('')
+        }
+    }, [birthDate, setBirthDate]);
+
+
     return (
         <article className="grid z-50">
             <div className="w-full h-[40vh] size866:h-screen flex justify-center items-center">
@@ -25,7 +52,8 @@ const Home = () => {
                 <img src="./images/me - photo 2.webp" alt="" className="w-[30rem] h-[25rem] size700::h-[35rem] lg:mb-10 place-self-center object-cover" />
                 <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center hidden md:block"></div>
                 <div className="px-6 size400:px-0 place-content-center place-self-center md:w-[53%] md:col-start-2 md:row-start-1 row-start-2 pb-20 size700:pb-0 lg:py-4">
-                    <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I am taking the media graphic design education.</p>
+                    <p className="sm:text-xl ">Hello and welcome. My name is Nadia Nielsen and I am {age} years old.  I come from Denmark and I am taking the media graphic design education.</p>
+                    {/* <p className="sm:text-xl ">Hello and welcome. <AgeFunction />  I come from Denmark and I am taking the media graphic design education.</p> */}
                     <div className="group ">
                         <Link to={"/about"} className="font-semibold flex gap-x-1c underline group-hover:text-[#00A5E7] group-hover:transition-colors group-hover:delay-75 group-hover:duration-300">For more knowledge about me <IoMdArrowRoundForward className="text-xl my-1 hidden size300:block" /></Link>
                     </div>
