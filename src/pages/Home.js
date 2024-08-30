@@ -21,7 +21,7 @@ const Home = () => {
                 <h2 className="font-semibold text-center text-3xl py-4 underline">Video portfolio</h2>
                 <video src="Nadia Nielsen - Video portfolio.mp4" controls className="w-[70vw] lg:w-[40vw] border-2" poster="video thumbnail.webp"></video>
             </article>
-            <article className="w-full h-[75vh] py-4 md:py-0 size1100:h-[80vh] grid md:grid-cols-2 size400:gap-y-4">
+            <article className="w-full h-[75vh] py-6 md:py-0 size1100:h-[80vh] grid md:grid-cols-2 size400:gap-y-4">
                 <img src="./images/me - photo 2.webp" alt="" className="w-[30rem] h-[25rem] size700::h-[35rem] lg:mb-10 place-self-center object-cover" />
                 <div className="col-start-2 row-start-1 border-r-2 w-2 h-40 border-black self-center hidden md:block"></div>
                 <div className="px-6 size400:px-0 place-content-center place-self-center md:w-[53%] md:col-start-2 md:row-start-1 row-start-2 pb-20 size700:pb-0 lg:py-4">
