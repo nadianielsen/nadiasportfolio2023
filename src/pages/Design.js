@@ -24,6 +24,7 @@ const Design = () => {
                 <p>I have a minimum experience in AfterEffects & Premiere Pro...</p>
                 <p>With picsart, was the app I started out on when I was interested in learning graphic design.</p>
                 <p>I am just starting out on Canva, trying to learn it since it has become very popular these past few years.</p>
+                <p>I have also started to learn Adobe Dimension...</p>
                 <article>
                     <h2 className="text-xl font-medium underline py-2">Link to the gallery to see my designs</h2>
                     <Link to={"/graphicdesign"} className="hover:text-[#00A5E7] underline hover:duration-500 hover:transition-colors hover:ease-in-out">Graphic design</Link>
