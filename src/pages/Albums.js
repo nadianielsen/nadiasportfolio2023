@@ -47,7 +47,7 @@ const Albums = () => {
         {
             img: "./images/albums/Poster with 3D + adobe dimension - tried at least copy.webp",
             headline: "Beauty - Album Cover/Poster",
-            text: "Made this in Photoshop and Dimension"
+            text: "Made this in Photoshop and Dimension - I tried..."
         },
     ]
 
