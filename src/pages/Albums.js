@@ -45,9 +45,9 @@ const Albums = () => {
             text: "An Album by Jung Kook from BTS"
         },
         {
-            img: "./images/albums/Harry Styles - Golden - Album Cover.webp",
-            headline: "Golden - Album Cover",
-            text: "A song by Harry Styles"
+            img: "./images/albums/Poster with 3D + adobe dimension - tried at least copy.webp",
+            headline: "Beauty - Album Cover/Poster",
+            text: "Made this in Photoshop and Dimension"
         },
     ]
 
