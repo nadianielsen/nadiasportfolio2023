@@ -20,6 +20,11 @@ const Albums = () => {
             text: "A song by Bruno Mars"
         },
         {
+            img: "./images/albums/Album cover - Sabrina Carpenter Espresso.webp",
+            headline: "Espresso - Album Cover",
+            text: "A song by Sabrina Carpenter"
+        },
+        {
             img: "./images/albums/Album cover - Wham - 20-1-2024.webp",
             headline: "Wham - Make it big Album",
             text: "Made a album cover of Wham"
@@ -33,11 +38,6 @@ const Albums = () => {
             img: "./images/albums/Poster_-_Little_Mix_-_911-2023.webp",
             headline: "Little Mix - Album cover/Poster",
             text: "Album Cover or Poster of Litte Mix"
-        },
-        {
-            img: "./images/albums/Zara Larsson - End of time - Album Cover.webp",
-            headline: "End of time - Album Cover",
-            text: "A song by Zara Larsson"
         },
         {
             img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.webp",
