@@ -10,8 +10,8 @@ const GraphicDesign = () => {
             <PagesLinks margin={"mt"} prevPage={"Gallery"} location={"/graphicdesign"} page="Graphic Design" />
             <article className="grid gap-y-20 my-14 size1200:grid-cols-3 justify-items-center m-auto lg:w-[80%] lg:gap-x-20 ">
                 <LinkCards url={"/albums"} subscription={"Here is my album covers of musicians and drawings"} heading={"Albums & Drawings"} img={"./images/albums/The Weeknd - Playlist Cover - Red.webp"} alt={"Albums - Page - Link"} />
-                <LinkCards bgGradient={"bg-gradient-to-b from-transparent via-transparent to-black/60"} url={"/schoolprojects"} subscription={"The school projects I am most proud of "} heading={"School Projects"} img={"./images/school/Roskilde - fjorland plakat - art deco.webp"} alt={"Drawings - Page - Link"} />
-                <LinkCards bgGradient={"bg-gradient-to-b from-transparent via-transparent to-black/60"} url={"/posters"} subscription={"Here is my posters and wallpapers of actors and celebrities, etc..."} heading={"Posters & etc..."} img={"./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.webp"} alt={"Posters and Wallpapers - Page - Link"} />
+                <LinkCards bgGradient={"bg-gradient-to-b from-transparent via-transparent to-black/60"} url={"/schoolprojects"} subscription={"The school projects I am most proud of "} heading={"School Projects"} img={"./images/school/Roskilde - fjorland plakat - art deco.jpg"} alt={"Drawings - Page - Link"} />
+                <LinkCards bgGradient={"bg-gradient-to-b from-transparent via-transparent to-black/60"} url={"/posters"} subscription={"Here is my posters and wallpapers of actors and celebrities, etc..."} heading={"Posters & etc..."} img={"./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg"} alt={"Posters and Wallpapers - Page - Link"} />
             </article>
             <h1 className="flex justify-center py-10 font-semibold underline size200:mx-10 size866:00:mx-0">Sources/items that are used for my designs are personal use sources from the internet, just with some of my own touch ups to create posters or something else.</h1>
         </>

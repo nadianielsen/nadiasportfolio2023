@@ -6,17 +6,17 @@ const Schoolprojects = () => {
 
     const projectsImg = [
         {
-            img: "./images/school/Roskilde - fjorland plakat - art deco.webp",
+            img: "./images/school/Roskilde - fjorland plakat - art deco.jpg",
             headline: "Tourist Travel Poster - Fjordlandet",
             text: "A tourist travel poster with the style of art deco - school assignment",
         },
         {
-            img: "./images/school/Forside og artikel.webp",
+            img: "./images/school/Forside og artikel.jpg",
             headline: "Naturli Front Page - Magazine",
             text: "A magazine project using same name of an existing magazine - school assignment",
         },
         {
-            img: "./images/school/Logo - afprøvninger-01.webp",
+            img: "./images/school/Logo - afprøvninger-01.jpg",
             headline: "Logo - Valby Kino",
             text: "A logo for an existing business - school assignment",
         },
@@ -26,12 +26,12 @@ const Schoolprojects = () => {
             text: "A logo for an made-up business - school assignment",
         },
         {
-            img: "./images/school/Logo - dyrenes butik.webp",
+            img: "./images/school/Logo - dyrenes butik.svg",
             headline: "Logo - Dyrenes Butik",
             text: "A logo for an exam project 2024 - school assignment",
         },
         {
-            img: "./images/school/Odense Chokoladehus - forside folder with text.webp",
+            img: "./images/school/Odense Chokoladehus - forside folder with text.jpg",
             headline: "Folder - Front Page",
             text: "A folder for an existing businesss - school assignment",
         },
@@ -63,7 +63,7 @@ const Schoolprojects = () => {
                 <div className="hidden size600:block w-[20rem] h-[12rem] md:w-[30rem] md:h-[20rem] lg:w-[62rem] lg:h-[30rem] group [perspective:1000px] my-8 drop-shadow-md">
                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
-                            <img className="rounded-2xl w-full h-full object-contain lg:object-cover" src={"/images/school/Banner - Afprøvning 2.webp"} alt="headline" />
+                            <img className="rounded-2xl w-full h-full object-contain lg:object-cover" src={"/images/school/Banner - Afprøvning 2.jpg"} alt="headline" />
                         </div>
                         <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
                             <h1 className="text-white text-2xl font-semibold capitalize">Banner - Knoll Barcelona Relax Chair</h1>

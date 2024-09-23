@@ -6,44 +6,49 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
-            img: "./images/posters-wallpapers/enjoy the sun - poster.webp",
+            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
         {
-            img: "./images/posters-wallpapers/Fake perfume poster - 27-8-2024.webp",
+            img: "./images/posters-wallpapers/Fake perfume poster - 27-8-2024.jpg",
             headline: "Fake perfume - poster",
             text: "Made a poster of a fake perfume",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.webp",
+            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
         },
         {
-            img: "./images/posters-wallpapers/nike poster.webp",
+            img: "./images/posters-wallpapers/nike poster.jpg",
             headline: "Nike - poster",
             text: "Was inspired to make a poster of Nike shoes ",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.webp",
+            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
             headline: "Flowers poster - Miley Cyrus",
             text: "Made a poster with Miley Cyrus",
         },
         {
-            img: "./images/posters-wallpapers/Hibicus poster.webp",
+            img: "./images/posters-wallpapers/Hibicus poster.jpg",
             headline: "Hibicus - Poster",
             text: "Poster of the flower Hibicus",
         },
         {
-            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.webp",
-            headline: "Sun & Moon - Poster",
-            text: "Sun & moon - poster",
+            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg",
+            headline: "You - Song - Poster",
+            text: "Song by Regard, Troye Sivan & Tate Mcrae",
         },
         {
-            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.webp",
+            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
             headline: "Made a poster called mysterious",
             text: "Made this poster with path blur and gradient in Photoshop",
+        },
+        {
+            img: "./images/posters-wallpapers/Vans poster - 20-9-2024.jpg",
+            headline: "Vans - Poster",
+            text: "Was inspired by my nike poster",
         },
         {
             img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.webp",
@@ -51,32 +56,27 @@ const Posters = () => {
             text: "A pink/red butterfly",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.webp",
+            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
             headline: "Floral Flower - poster",
             text: "Purple flower poster",
         },
         {
-            img: "./images/posters-wallpapers/friends.webp",
+            img: "./images/posters-wallpapers/friends.jpg",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.webp",
-            headline: "You - Song - Poster",
-            text: "Song by Regard, Troye Sivan & Tate Mcrae",
+            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.webp",
+            headline: "Sun & Moon - Poster",
+            text: "Sun & moon - poster",
         },
         {
-            img: "./images/posters-wallpapers/Poster - Blend.webp",
-            headline: "Blend - Poster",
-            text: "Word Blend with some Gaussion blur and Motion blur",
-        },
-        {
-            img: "./images/posters-wallpapers/mirror.webp",
+            img: "./images/posters-wallpapers/mirror.jpg",
             headline: "Mirror - Poster",
             text: "A mirror poster",
         },
         {
-            img: "./images/posters-wallpapers/moon.webp",
+            img: "./images/posters-wallpapers/moon.jpg",
             headline: "Moon - Poster",
             text: "A hand reaching for the moon - poster",
         },
