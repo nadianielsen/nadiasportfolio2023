@@ -51,7 +51,7 @@ const Posters = () => {
             text: "Was inspired by my nike poster",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.webp",
+            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
             headline: "Butterfly - Poster",
             text: "A pink/red butterfly",
         },
@@ -66,7 +66,7 @@ const Posters = () => {
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.webp",
+            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
             headline: "Sun & Moon - Poster",
             text: "Sun & moon - poster",
         },
