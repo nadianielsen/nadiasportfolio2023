@@ -1,4 +1,5 @@
 import ContentWrapper from "../components/ContentWrapper";
+import DescriptionArt from "../components/DescriptionArt";
 import PagesLinks from "../components/PagesLinks";
 
 const Albums = () => {
@@ -72,6 +73,13 @@ const Albums = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums & Drawings"} />
+            <DescriptionArt heading={"Info about my artworks"} text={(
+                <>
+                <p>One of the things I enjoy in my free time is to make album covers and draw people as realistic as I can.</p>
+                <p>The reason why I love to make album covers is because I really love music, and I think it's really cool to make my own version of an album.</p>
+                <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
+                </>
+            )}/>
             <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />

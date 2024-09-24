@@ -1,4 +1,5 @@
 import ContentWrapper from "../components/ContentWrapper";
+import DescriptionArt from "../components/DescriptionArt";
 import PagesLinks from "../components/PagesLinks";
 
 
@@ -87,7 +88,12 @@ const Posters = () => {
     return (
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters & etc..."} />
-            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 size300:gap-x-20 gap-y-12">
+            <DescriptionArt heading={"Info about my artworks"} 
+                text={(<> <p>When it comes for example posters, I like to play around with colors and text.</p>
+                <p>I like to either keep it simple or out of the box.</p>
+                <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p> 
+            </>)}/>
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-14 size300:gap-x-20 gap-y-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
@@ -104,7 +110,7 @@ const Posters = () => {
                             </div>
                         </div>
                     } />
-
+                    
                     // <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
                     //          <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                     //              <div className="absolute inset-0">
