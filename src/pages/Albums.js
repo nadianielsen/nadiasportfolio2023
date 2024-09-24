@@ -16,6 +16,11 @@ const Albums = () => {
             text: "Bad by Michael Jackson"
         },
         {
+            img: "./images/albums/If I could - poster-album cover.jpg",
+            headline: "If I Could - Album Cover/Poster",
+            text: "Made this in Photoshop and Adobe Dimension"
+        },
+        {
             img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.webp",
             headline: "Treasure - Album cover",
             text: "A song by Bruno Mars"
@@ -44,11 +49,6 @@ const Albums = () => {
             img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.webp",
             headline: "Golden - Album Cover",
             text: "An Album by Jung Kook from BTS"
-        },
-        {
-            img: "./images/albums/Poster with 3D + adobe dimension - tried at least copy.webp",
-            headline: "Beauty - Album Cover/Poster",
-            text: "Made this in Photoshop and Dimension - I tried..."
         },
     ]
 
