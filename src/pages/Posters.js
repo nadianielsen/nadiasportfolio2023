@@ -17,6 +17,11 @@ const Posters = () => {
             text: "Made a poster of a fake perfume",
         },
         {
+            img: "./images/posters-wallpapers/Circle - poster - radial blur - 25-9-2024.jpg",
+            headline: "Circle - Poster",
+            text: "Saw a tutorial on how to make blur filter in Photoshop",
+        },
+        {
             img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
@@ -50,11 +55,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/Vans poster - 20-9-2024.jpg",
             headline: "Vans - Poster",
             text: "Was inspired by my nike poster",
-        },
-        {
-            img: "./images/posters-wallpapers/Wallpaperposter---Butterfly---209-2023.jpg",
-            headline: "Butterfly - Poster",
-            text: "A pink/red butterfly",
         },
         {
             img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
