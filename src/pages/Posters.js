@@ -32,6 +32,11 @@ const Posters = () => {
             text: "Was inspired to make a poster of Nike shoes ",
         },
         {
+            img: "./images/posters-wallpapers/Futuristic poster - 26-9-2024.jpg",
+            headline: "Futuristic - Poster",
+            text: "Followed a tutorial on making these shapes",
+        },
+        {
             img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
             headline: "Flowers poster - Miley Cyrus",
             text: "Made a poster with Miley Cyrus",
@@ -57,19 +62,14 @@ const Posters = () => {
             text: "Was inspired by my nike poster",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
-            headline: "Floral Flower - poster",
-            text: "Purple flower poster",
-        },
-        {
             img: "./images/posters-wallpapers/friends.jpg",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/WallpaperPoster---Sun-&-Moon---106-2023.jpg",
-            headline: "Sun & Moon - Poster",
-            text: "Sun & moon - poster",
+            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
+            headline: "Floral Flower - poster",
+            text: "Purple flower poster",
         },
         {
             img: "./images/posters-wallpapers/mirror.jpg",
