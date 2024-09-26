@@ -36,6 +36,11 @@ const Schoolprojects = () => {
             headline: "Folder - Front Page",
             text: "A folder for an existing businesss - school assignment",
         },
+        {
+            img: "./images/school/Forbudt plakat - færdig version-03.jpg",
+            headline: "Forbidden poster - client project",
+            text: "A poster for one of the leaders of my school",
+        },
     ]
 
     return (
@@ -66,7 +71,7 @@ const Schoolprojects = () => {
                     } />
                 ))}
             </article>
-            <ContentWrapper content={
+            {/* <ContentWrapper content={
                 <div className="hidden size600:block w-[20rem] h-[12rem] md:w-[30rem] md:h-[20rem] lg:w-[62rem] lg:h-[30rem] group [perspective:1000px] my-8 drop-shadow-md">
                     <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <div className="absolute inset-0">
@@ -78,7 +83,7 @@ const Schoolprojects = () => {
                         </div>
                     </div>
                 </div>
-            } />
+            } /> */}
         </article>
     );
 }
