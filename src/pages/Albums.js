@@ -59,14 +59,14 @@ const Albums = () => {
             text: "Made a drawing Adele",
         },
         {
-            img: "./images/drawings/Nct - Haechan - Drawing.webp",
+            img: "./images/drawings/Drawing - S.COUPS SVT.webp",
             headline: "Kpop idol - Drawing",
             text: "Drawing of an kpop idol",
         },
         {
-            img: "./images/drawings/Taylor Swift.webp",
-            headline: "Taylor Swift - Drawing",
-            text: "Drawing of Taylor Swift",
+            img: "./images/drawings/Drawing - Joshua SVT.webp",
+            headline: "Kpop idol - Drawing",
+            text: "Drawing of an kpop idol",
         },
     ]
 
@@ -75,11 +75,11 @@ const Albums = () => {
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums & Drawings"} />
             <DescriptionArt heading={"Info about my artworks"} text={(
                 <>
-                <p>One of the things I enjoy in my free time is to make album covers and draw people as realistic as I can.</p>
-                <p>The reason why I love to make album covers is because I really love music, and I think it's really cool to make my own version of an album.</p>
-                <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
+                    <p>One of the things I enjoy in my free time is to make album covers and draw people as realistic as I can.</p>
+                    <p>The reason why I love to make album covers is because I really love music, and I think it's really cool to make my own version of an album.</p>
+                    <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
                 </>
-            )}/>
+            )} />
             <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
@@ -98,10 +98,10 @@ const Albums = () => {
                         </div>
                     } />
                 ))}
-                </article>
-                <h2 className="font-semibold text-center text-xl">Digtale Drawings</h2>
-                <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
-                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
+            </article>
+            <h2 className="font-semibold text-center text-xl">Digtale Drawings</h2>
+            <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper key={text} content={
                         <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px]">
