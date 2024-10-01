@@ -49,7 +49,7 @@ const Schoolprojects = () => {
                 <DescriptionArt heading={"Info about school projects"} 
                 text={( <>
                 <p>These artwork I am most proud of from all of the school projects I've had in my education.</p>
-                <p>I have made during basic training course (grundforløb 2) at the media graphic designer education (mediegrafiker uddannelsen).</p>
+                <p>I have made these projects/assignments during basic training course (grundforløb 2) at the media graphic designer education (mediegrafiker uddannelsen).</p>
                 <p>The things I have learned during an assignment is, that I start out with a mindmap, after that a moodboard and after the moodboard, I begin to either make a logo or something else for the made-up client.</p> 
                 </> )}/>
             <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-10 gap-10">

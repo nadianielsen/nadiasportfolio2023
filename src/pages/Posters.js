@@ -89,7 +89,7 @@ const Posters = () => {
         <>
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters & etc..."} />
             <DescriptionArt heading={"Info about my artworks"} 
-                text={(<> <p>When it comes for example posters, I like to play around with colors and text.</p>
+                text={(<> <p>When it comes to for example posters, I like to play around with colors, pictures and text.</p>
                 <p>I like to either keep it simple or out of the box.</p>
                 <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p> 
             </>)}/>
