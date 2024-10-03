@@ -7,6 +7,11 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
+            img: "./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg",
+            headline: "Mother Nature - Portrait - Poster",
+            text: "Tried something new in Photoshop - poster",
+        },
+        {
             img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
@@ -75,11 +80,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/mirror.jpg",
             headline: "Mirror - Poster",
             text: "A mirror poster",
-        },
-        {
-            img: "./images/posters-wallpapers/moon.jpg",
-            headline: "Moon - Poster",
-            text: "A hand reaching for the moon - poster",
         },
 
 
