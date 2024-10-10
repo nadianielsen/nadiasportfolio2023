@@ -37,7 +37,7 @@ const FrontendDeveloper = () => {
                 </article>
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">Where I have studied</h2>
-                    <p>The school where I have been taking the web developer education at, is Roskilde Technical Education in Denmark.</p>
+                    <p>The school where I have been taking the web developer education (webudvikler) at, is Roskilde Technical College in Denmark.</p>
                 </article>
                 <article>
                     <h2 className="text-xl font-medium underline capitalize">A link to Github profile</h2>
