@@ -1,6 +1,7 @@
 import ContentWrapper from "../components/ContentWrapper";
 import DescriptionArt from "../components/DescriptionArt";
 import PagesLinks from "../components/PagesLinks";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Albums = () => {
 
@@ -72,6 +73,7 @@ const Albums = () => {
 
     return (
         <>
+            <ScrollToTopButton />
             <PagesLinks prevPage={"Graphic Design"} location={"/albums"} page={"Albums & Drawings"} />
             <DescriptionArt heading={"Info about my artworks"} text={(
                 <>

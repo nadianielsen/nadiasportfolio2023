@@ -10,7 +10,7 @@ const Footer = () => {
     const year = today.getFullYear();
 
     return (
-        <footer className="w-full border-t-2 border-black border-opacity-5 h-[15rem]">
+        <footer className="w-full bg-white border-t-2 border-black border-opacity-5 h-[15rem]">
             <section className=" border-y-2 border-black w-[90%] md:w-[50%] h-[8rem] m-auto flex flex-col gap-y-2 justify-center size626:grid size626:grid-rows-2 size626:grid-cols-2 mt-10 py-2 sm:py-4">
                 <section className="flex gap-x-2 justify-center items-center">
                     <BsInstagram className="size300:text-base text-xl md:text-2xl" />

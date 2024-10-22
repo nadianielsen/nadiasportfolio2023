@@ -1,6 +1,7 @@
 import ContentWrapper from "../components/ContentWrapper";
 import DescriptionArt from "../components/DescriptionArt";
 import PagesLinks from "../components/PagesLinks";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 
 const Schoolprojects = () => {
@@ -44,7 +45,9 @@ const Schoolprojects = () => {
     ]
 
     return (
-        <article className="flex flex-col justify-center items-center">
+        <>
+        <ScrollToTopButton />
+              <article className="flex flex-col justify-center items-center">
             <PagesLinks prevPage={"Graphic Design"} location={"/schoolprojects"} page={"School Projects"} />
                 <DescriptionArt heading={"Info about school projects"} 
                 text={( <>
@@ -85,6 +88,7 @@ const Schoolprojects = () => {
                 </div>
             } /> */}
         </article>
+        </>
     );
 }
 

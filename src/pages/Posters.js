@@ -1,6 +1,7 @@
 import ContentWrapper from "../components/ContentWrapper";
 import DescriptionArt from "../components/DescriptionArt";
 import PagesLinks from "../components/PagesLinks";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 
 const Posters = () => {
@@ -87,6 +88,7 @@ const Posters = () => {
 
     return (
         <>
+            <ScrollToTopButton />
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters & etc..."} />
             <DescriptionArt heading={"Info about my artworks"} 
                 text={(<> <p>When it comes to for example posters, I like to play around with colors, pictures and text.</p>

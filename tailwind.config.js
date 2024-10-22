@@ -19,6 +19,7 @@ module.exports = {
         size1100: "1100px",
         size1470: "1470px",
         size1200: "1200px",
+        size1400: "1400px"
       },
     },
   },
