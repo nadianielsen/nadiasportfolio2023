@@ -8,7 +8,7 @@ const Design = () => {
         <>
             <PagesLinks page={"Design"} prevPage={"About"} location={"/design"} />
             <article className="grid mx-10 md:mx-20 gap-y-2.5 my-10">
-                <h1 className="text-xl underline">Design</h1>
+                <h1 className="text-xl font-semibold">Design</h1>
                 <h2 className="text-lg font-semibold">Since I have passion for design, I also want to pursue graphic design</h2>
                 <p><span className="font-semibold">I am currently taking</span> the media graphic designer education (mediegrafiker uddannelsen) because I love the graphic/digital world.</p>
                 <p><span className="font-semibold">The graphic design programs</span> that I use is, Procreate, Photoshop, Illustrator and InDesign.</p>
