@@ -13,7 +13,7 @@ const AboutMe = () => {
                         <h1 className="capitalize text-xl lg:text-2xl font-semibold">About me</h1>
                         <p className=""> <AgeFunction fontWeight={"font-semibold"}/> I come from Denmark and I have finished taking the web developer education (webudvikler uddannelsen) in 2023. </p>
                         <p className="w-[80%]"><span className="font-semibold">I am currently taking the media graphic design education (mediegrafiker uddannelsen)</span> and the reason why is that I am passionated about graphic/digtal design and I love to make color combinations, edit pictures, illustrations etc... </p>
-                        <p><span className="font-semibold">I am person who is passionate</span>, creative, perfectionist, turn up on time - stable, up for teamwork, can work independent and loyale.</p>
+                        <p><span className="font-semibold">I am person who is passionate</span>, creative, perfectionist, turn up on time - stable, a teamplayer, can work independent...</p>
                         <p><span className="font-semibold">I am also person who loves to learn from other people,</span> who are more experienced than me and that can help me become better at what I am passionate about.</p>
                         <p><span className="font-semibold">I love being creative</span> which is why I am striking after the graphic/digital world and why I had taken the web developer education (webudvikler uddannelsen) and currently taking the media graphic designer education (mediegrafiker uddannelsen). </p>
                     </div>
