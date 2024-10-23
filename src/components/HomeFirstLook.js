@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
-import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoArrowDownOutline } from "react-icons/io5";
+import { IoIosArrowRoundForward, IoIosArrowDown } from "react-icons/io";
 
 const nameAnimation = "Nadia Nielsen"
 
@@ -72,7 +71,7 @@ const HomeFirstLook = () => {
                         <IoIosArrowRoundForward className="text-4xl mt-1" />
                     </Link>
                     <motion.div initial={{ opacity: 0, y: [ -40, 40, 0] }} whileInView={{ opacity: 1, y: [-20, 20, 0] }} transition={{ delay: 2.2, duration: 0.40, repeatDelay: 2, repeat: Infinity }} className="w-12 h-12 size1400:w-16 size1400:h-16 m-auto mt-10 lg:mt-24 size1400:mt-12 bg-[#00A5E7] flex justify-center items-center rounded-full">
-                        <IoArrowDownOutline className="text-2xl text-white" />
+                        <IoIosArrowDown className="text-3xl text-white mt-1" />
                     </motion.div>
                 </div>
             </section>
