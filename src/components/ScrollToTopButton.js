@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
     }, []);
 
     return ( 
-        <button onClick={scrollToTop} className={`fixed w-14 h-14 rounded-full cursor-pointer bg-[#87DCF8] drop-shadow-lg bottom-0 right-0 m-4 lg:m-8 ${visible ? 'block animate-jump-in animate-duration-500 animate-ease-in-out' : 'hidden'}`}>
+        <button onClick={scrollToTop} className={`fixed w-14 h-14 rounded-full cursor-pointer bg-[#87DCF8] drop-shadow-lg bottom-0 right-0 m-4 lg:m-8 z-30 ${visible ? 'block animate-jump-in animate-duration-500 animate-ease-in-out' : 'hidden'}`}>
             <IoIosArrowUp className="m-auto text-xl text-white"/>
         </button>
      );
