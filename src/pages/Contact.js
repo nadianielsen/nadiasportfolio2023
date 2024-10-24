@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
     return (
-        <article className="h-[40vh] sm:h-[80vh] md:h-[60vh] lg:h-[90vh] grid w-full md:flex md:flex-row md:items-center relative">
+        <article className="h-[60vh] sm:h-[80vh] md:h-[60vh] lg:h-[90vh] flex flex-col justify-center items-center gap-y-10 w-full md:flex md:flex-row md:justify-normal md:items-center relative">
             <img src="./images/contact banner.webp" alt="" className=" absolute object-fill w-full h-full -z-10 opacity-70" />
-            <h2 className="uppercase text-4xl sm:text-5xl md:text-6xl lg:text-9xl m-auto md:m-0 px-10 md:pl-14 lg:pl-40 lg:w-[50%] font-light">Let's get in <motion.span className="relative text-[#00A5E7]" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.30, duration: 0.60}} >touch</motion.span></h2>
-            <article className="border-y-2 border-black sm:w-[35%] h-[20vh] md:h-[45vh] grid grid-cols-1 grid-rows-4 m-auto md:m-0">
+            <h2 className="uppercase text-4xl sm:text-5xl md:text-6xl lg:text-8xl size1100:text-9xl  md:m-0 px-10 md:pl-14 lg:pl-40 lg:w-[50%] font-light">Let's get in <motion.span className="relative text-[#00A5E7]" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.30, duration: 0.60}} >touch</motion.span></h2>
+            <article className="border-y-2 border-black sm:w-[35%] h-[20vh] md:h-[45vh] grid grid-cols-1 grid-rows-4  md:m-0">
                 <div className="flex justify-center items-center gap-x-3">
                     <BsInstagram className="md:text-2xl lg:text-4xl" />
                     <Link target="_blank" to={"https://www.instagram.com/nadiamarie2111/"} className="pr-2 hover:text-transparent duration-500 delay-100 bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] transition-all text-sm md:text-base">nadiamarie2111</Link>
