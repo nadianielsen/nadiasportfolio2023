@@ -11,7 +11,7 @@ const FrontendDeveloper = () => {
             <article className="mx-10 md:mx-20 my-10 grid gap-y-4">
                 <h1 className="text-2xl font-semibold capitalize">Frontend developer</h1>
                 <article>
-                    <h2 className="text-xl font-medium underline capitalize">Languages and libraries</h2>
+                    <h2 className="text-xl font-semibold capitalize">Languages and libraries</h2>
                     <p>Throughout my education I have learned these languages and libraries.</p>
                     <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10 size1100:w-[70vw] size1100:m-auto size1100:my-8">
                         <SmallCard link={"https://www.w3schools.com/html/"} name={"HTML"} logo={"./images/coding/html.webp"} bgHover={"group-hover:bg-orange-500/70"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
@@ -36,12 +36,12 @@ const FrontendDeveloper = () => {
                     </div>
                 </article>
                 <article>
-                    <h2 className="text-xl font-medium underline capitalize">Where I have studied</h2>
+                    <h2 className="text-xl font-semibold capitalize">Where I have studied</h2>
                     <p>The school where I have been taking the web developer education (webudvikler uddannelsen) at, is Roskilde Technical College in Denmark.</p>
                 </article>
                 <article>
-                    <h2 className="text-xl font-medium underline capitalize">A link to Github profile</h2>
-                    <Link target="_target" to={"https://github.com/nadianielsen"} className="hover:text-[#00A5E7] hover:underline hover:duration-500 hover:ease-in-out hover:transition-colors flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
+                    <h2 className="text-xl font-semibold capitalize">A link to Github profile</h2>
+                    <Link target="_target" to={"https://github.com/nadianielsen"} className="underline hover:text-[#00A5E7] hover:no-underline hover:duration-500 hover:ease-in-out hover:transition-colors flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
                 </article>
             </article>
         </>
