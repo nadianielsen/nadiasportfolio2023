@@ -15,6 +15,7 @@ module.exports = {
         size700: "700px",
         size770: "770px",
         mdlg: "779px",
+        size800: "800px",
         size866: "866px",
         size1100: "1100px",
         size1300: "1300px",
