@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <motion.article initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.60}} className="grid gap-y-20 size1400:gap-y-0 z-50">
             <div className="absolute -z-50 w-full h-full">
-                <img className="fixed" src="./images/website banner copy 2.webp" alt="" />
+                <img className="fixed w-full" src="./images/website banner copy 2.webp" alt="" />
             </div>
             <HomeFirstLook />
             <section className="flex justify-center items-center text-center h-[30vh]">
