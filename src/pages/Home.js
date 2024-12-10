@@ -18,11 +18,11 @@ const Home = () => {
     return (
         <motion.article initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.60}} className="grid gap-y-20 size1400:gap-y-0 z-50">
             <div className="absolute -z-50 w-full h-full">
-                <img className="fixed w-full" src="./images/website banner - green.png" alt="" />
+                <img className="fixed w-full" src="./images/website banner copy 2.webp" alt="" />
             </div>
             <HomeFirstLook />
             <section className="flex justify-center items-center text-center h-[30vh]">
-                <motion.p initial={{opacity: 0, x: -200}} whileInView={{opacity: 1, x:0}} transition={{ease: "easeInOut", delay: 0.30}} className="text-3xl size1700:text-4xl w-[70vw]">I am currently looking for <span className="text-[#56d64f] crimson-font">apprenticeship (læreplads)</span></motion.p>
+                <motion.p initial={{opacity: 0, x: -200}} whileInView={{opacity: 1, x:0}} transition={{ease: "easeInOut", delay: 0.30}} className="text-3xl size1700:text-4xl w-[70vw]">I am currently looking for <span className="text-[#00A5E7] crimson-font">apprenticeship (læreplads)</span></motion.p>
             </section>
             <section className="flex flex-col mt-20 size1300:mt-80">
                 <h2 className="font-semibold text-center text-3xl">Video portfolio</h2>
