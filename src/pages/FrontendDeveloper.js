@@ -41,7 +41,7 @@ const FrontendDeveloper = () => {
                 </article>
                 <article>
                     <h2 className="text-xl font-semibold capitalize">A link to Github profile</h2>
-                    <Link target="_target" to={"https://github.com/nadianielsen"} className="underline hover:text-[#00A5E7] hover:no-underline hover:duration-500 hover:ease-in-out hover:transition-colors flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
+                    <Link target="_target" to={"https://github.com/nadianielsen"} className="underline hover:text-[#7ea46c] hover:no-underline hover:duration-500 hover:ease-in-out hover:transition-colors flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
                 </article>
             </article>
         </>

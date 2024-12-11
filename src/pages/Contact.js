@@ -13,7 +13,7 @@ const Contact = () => {
             <article className="border-y-2 border-black sm:w-[35%] h-[20vh] md:h-[45vh] grid grid-cols-1 grid-rows-4  md:m-0">
                 <div className="flex justify-center items-center gap-x-3">
                     <BsInstagram className="md:text-2xl lg:text-4xl" />
-                    <Link target="_blank" to={"https://www.instagram.com/nadiamarie2111/"} className="pr-2 hover:text-transparent duration-500 delay-100 bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] transition-all text-sm md:text-base">nadiamarie2111</Link>
+                    <Link target="_blank" to={"https://www.instagram.com/nadiamarie2111/"} className="pr-2 hover:text-transparent duration-500 delay-100 bg-clip-text bg-gradient-to-b from-[#833ab4] via-[#fd1d1d] to-[#fcb045] transition-all text-sm md:text-base">Instagram</Link>
                 </div>
                 <div className="flex items-center justify-center gap-x-3 row-start-2 mr-2">
                     <FaLinkedin className="sm:text-2xl lg:text-4xl" />
