@@ -31,8 +31,8 @@ const DownloadButton = ({style, filepdf, downloadPDF}) => {
   };
 
   return (
-    <button onClick={downloadPdf} className={`bg-black h-12 w-44 text-white rounded-md flex justify-center items-center gap-x-1 hover:bg-transparent hover:border-2 border-black hover:transition hover:duration-500 hover:ease-in-out ${style}`}>
-      Download PDF 
+    <button onClick={downloadPdf} className={`bg-black h-12 w-32 text-white rounded-md flex justify-center items-center gap-x-1 hover:bg-transparent hover:border-2 border-black hover:transition hover:text-black hover:duration-500 hover:ease-in-out ${style}`}>
+      Download 
       {/* <LiaDownloadSolid className='mt-1.5 text-xl' /> */}
     </button>
   );
