@@ -18,7 +18,7 @@
  
 // export default DownloadButton;
 
-const DownloadButton = ({style, filepdf, downloadPDF}) => {
+const DownloadButton = ({extraStyle, filepdf, downloadPDF}) => {
   const downloadPdf = () => {
     const fileUrl = filepdf; // File path in public folder
     const link = document.createElement('a');
@@ -30,7 +30,7 @@ const DownloadButton = ({style, filepdf, downloadPDF}) => {
   };
 
   return (
-    <button onClick={downloadPdf} className={`bg-black h-12 w-32 text-white rounded-md flex justify-center items-center gap-x-1 hover:bg-transparent hover:border-2 border-black hover:transition hover:text-black hover:duration-500 hover:ease-in-out ${style}`}>
+    <button onClick={downloadPdf} className={`bg-black h-12 w-32 text-white rounded-md flex justify-center items-center gap-x-1 hover:bg-transparent hover:border-2 border-black hover:transition hover:text-black hover:duration-500 hover:ease-in-out ${extraStyle}`}>
       Download 
     </button>
   );
