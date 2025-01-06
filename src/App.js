@@ -12,6 +12,7 @@ import FrontendDeveloper from './pages/FrontendDeveloper';
 import Design from './pages/Design';
 import AboutMe from './pages/AboutMe';
 import Schoolprojects from './pages/SchoolProjects';
+import Hf1 from './pages/Hf1';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/design' element={<Design />} />
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/gallery' element={<Gallery />} />
+        <Route path='/hf1' element={<Hf1 />} />
         <Route path='/websites' element={<Websites />} />
         <Route path='/graphicdesign' element={<GraphicDesign />} />
         <Route path='/albums' element={<Albums />} />
