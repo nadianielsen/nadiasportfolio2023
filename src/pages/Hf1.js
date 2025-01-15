@@ -22,7 +22,7 @@ const Hf1 = () => {
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="mb-4 place-self-center">
                 <h2 className="text-2xl text-center py-6">Trykt Produkt</h2>
-                <section className="flex flex-col size800:flex-row justify-center items-center gap-x-20 gap-y-4">
+                <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-4">
                     <div>
                     <h3 className="font-semibold text-center size800:text-start">Mother nature is a part of os - plakat/poster</h3>
                     <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den lægger trykklar via download knappen. </p>
