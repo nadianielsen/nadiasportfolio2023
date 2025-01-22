@@ -8,7 +8,7 @@ const Hf1 = () => {
             <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
             <div className="">
             <p className="text-center">Hovedforløb 1......</p>
-            <DownloadButton filepdf={""} downloadPDF={""} style={"my-2 m-auto"}/>
+            <DownloadButton filepdf={""} downloadPDF={""} extraStyle={"my-2 m-auto"}/>
             </div>
             <img className="w-40 h-40 border border-black" src="" alt="billed af skoleportfolio" />
             </section>
@@ -22,16 +22,17 @@ const Hf1 = () => {
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="mb-4 place-self-center">
                 <h2 className="text-2xl text-center py-6">Trykt Produkt</h2>
-                <section className="flex flex-col size800:flex-row justify-center items-center gap-x-20 gap-y-4">
+                <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-4">
                     <div>
                     <h3 className="font-semibold text-center size800:text-start">Mother nature is a part of os - plakat/poster</h3>
                     <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den lægger trykklar via download knappen. </p>
-                    <DownloadButton filepdf={"/poster - mother nature - bleed.pdf"} downloadPDF={"/poster - mother nature - bleed"} style={"mt-4 m-auto size800:m-0 size800:mt-4"}/>
+                    <DownloadButton filepdf={"/poster - mother nature - bleed.pdf"} downloadPDF={"/poster - mother nature - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"}/>
                     </div>
                     <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg" alt="" />
                 </section>
             </section>
         </article>
+        
      );
 }
  

@@ -8,7 +8,7 @@ const SmallCard = ({logo, alt, name, bgPrimary, link, bgHover}) => {
             <img src={logo} alt={alt} className="w-24 h-24"/>
             <p className="text-white drop-shadow">{name}</p>
             <div className={`${bgHover} w-full h-full absolute rounded-2xl z-20 flex justify-center items-center duration-500 transition-colors ease-in-out`}>
-                <SlArrowUp className="group-hover:opacity-100 opacity-0 text-white text-3xl drop-shadow"/>
+                <SlArrowUp className="group-hover:opacity-100 opacity-0 text-white text-3xl drop-shadow "/>
             </div>
         </Link>
      );
