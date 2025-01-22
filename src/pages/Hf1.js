@@ -14,10 +14,11 @@ const Hf1 = () => {
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="place-self-center">
-                <h2 className="text-2xl py-6 text-center">Digital Produkt</h2>
-                <h3 className="text-center font-semibold">If I Could - Video/Album Cover/Poster</h3>
-                <p className="text-center w-[20rem] size800:w-full">Her er mit digitale produkt, hvilket består af tekst, 3D tekst og bevægende sky baggrund.</p>
+                <h2 className="text-2xl pt-6 text-center">Digital Produkt</h2>
                 <video className="w-[20rem] h-[20rem] size700:w-[30rem] size700:h-[30rem] size1100:w-[40rem] size1100:h-[40rem] my-5 m-auto size800:my-10" src="./Poster-album cover + moving sky background - If I Could.mp4" controls></video>
+                    <h3 className="text-center font-semibold">If I Could - Video/Album Cover/Poster</h3>
+                    <p className="text-center w-[20rem] size800:w-full">Her er mit digitale produkt, hvilket består af tekst, 3D tekst og bevægende sky baggrund.</p>
+                    <DownloadButton filepdf={"/Poster-album cover + moving sky background - If I Could.mp4"} downloadPDF={"/Poster-album cover + moving sky background - If I Could"} extraStyle={"mt-4 m-auto mb-4"}/>
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="mb-4 place-self-center">
@@ -25,7 +26,7 @@ const Hf1 = () => {
                 <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-4">
                     <div>
                     <h3 className="font-semibold text-center size800:text-start">Mother nature is a part of os - plakat/poster</h3>
-                    <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den lægger trykklar via download knappen. </p>
+                    <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den lgger trykklar via download knappen. </p>
                     <DownloadButton filepdf={"/poster - mother nature - bleed.pdf"} downloadPDF={"/poster - mother nature - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"}/>
                     </div>
                     <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg" alt="" />
