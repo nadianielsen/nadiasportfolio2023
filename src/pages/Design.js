@@ -27,7 +27,7 @@ const Design = () => {
                 <p><span className="font-semibold">I have also started</span> to learn Adobe Dimension...</p>
                 <article>
                     <h2 className="text-xl font-semibold py-2">Link to the gallery to see my designs</h2>
-                    <Link to={"/graphicdesign"} className="hover:text-[#00A5E7] underline hover:duration-500 hover:transition-colors hover:ease-in-out">Graphic design</Link>
+                    <Link to={"/graphicdesign"} className="hover:text-[#7ea46c] underline hover:duration-500 hover:transition-colors hover:ease-in-out">Graphic design</Link>
                 </article>
             </article>
         </>

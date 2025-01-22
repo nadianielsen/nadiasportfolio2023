@@ -8,19 +8,24 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
+            img: "./images/posters-wallpapers/Eyes on you - poster.jpg",
+            headline: "Eyes on you - poster",
+            text: "A poster inspired by a song that I love",
+        },
+        {
             img: "./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg",
             headline: "Mother Nature - Portrait - Poster",
             text: "Tried something new in Photoshop - poster",
         },
         {
-            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
-            headline: "Enjoy the sun - Poster",
-            text: "A poster made with Photoshop and Illustrator",
-        },
-        {
             img: "./images/posters-wallpapers/Fake perfume poster - 27-8-2024.jpg",
             headline: "Fake perfume - poster",
             text: "Made a poster of a fake perfume",
+        },
+        {
+            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
+            headline: "Enjoy the sun - Poster",
+            text: "A poster made with Photoshop and Illustrator",
         },
         {
             img: "./images/posters-wallpapers/Circle - poster - radial blur - 25-9-2024.jpg",
@@ -73,11 +78,6 @@ const Posters = () => {
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Floral-Flower---1510-2023.jpg",
-            headline: "Floral Flower - poster",
-            text: "Purple flower poster",
-        },
-        {
             img: "./images/posters-wallpapers/mirror.jpg",
             headline: "Mirror - Poster",
             text: "A mirror poster",
@@ -90,11 +90,11 @@ const Posters = () => {
         <>
             <ScrollToTopButton />
             <PagesLinks prevPage={"Graphic Design"} location={"/posters"} page={"Posters & etc..."} />
-            <DescriptionArt heading={"Info about my artworks"} 
+            <DescriptionArt heading={"Info about my artworks"}
                 text={(<> <p>When it comes to for example posters, I like to play around with colors, pictures and text.</p>
-                <p>I like to either keep it simple or out of the box.</p>
-                <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p> 
-            </>)}/>
+                    <p>I like to either keep it simple or out of the box.</p>
+                    <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p>
+                </>)} />
             <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] m-auto my-14 size300:gap-x-20 gap-y-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
@@ -112,7 +112,7 @@ const Posters = () => {
                             </div>
                         </div>
                     } />
-                    
+
                     // <div className="w-[20rem] h-[26rem] lg:w-[24rem] lg:h-[34rem] group [perspective:1000px]">
                     //          <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                     //              <div className="absolute inset-0">
