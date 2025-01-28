@@ -8,7 +8,7 @@ const Hf1 = () => {
             <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
                 <div className="text-center size800:text-start m-auto">
                     <p className="w-[18rem] size800:w-[13rem]"><span className="font-semibold">Til mit første hovedforløb</span> har jeg valgt to produkter. Jeg har et trykt produkt som er en plakat og et digitalt produkt som er en video.</p>
-                    <DownloadButton filepdf={""} downloadPDF={""} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
+                    <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
                 <img className="w-80" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.jpg" alt="billed af skoleportfolio" />
             </section>
