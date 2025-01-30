@@ -10,7 +10,7 @@ const Hf1 = () => {
                     <p className="w-[18rem] size800:w-[13rem]"><span className="font-semibold">Til mit første hovedforløb</span> har jeg valgt to produkter. Jeg har et trykt produkt som er en plakat og et digitalt produkt som er en video.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
-                <img className="w-80" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.jpg" alt="billed af skoleportfolio" />
+                <img className="w-80 lg:w-[25rem]" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.jpg" alt="billed af skoleportfolio" />
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="place-self-center">
