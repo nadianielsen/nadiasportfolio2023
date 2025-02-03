@@ -1,4 +1,5 @@
 {
     "files.autoSave": "onFocusChange",
-    "workbench.externalBrowser": "firefox"
+    "workbench.externalBrowser": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false
 }
