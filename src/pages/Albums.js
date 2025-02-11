@@ -82,7 +82,7 @@ const Albums = () => {
                     <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
                 </>
             )} />
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[50%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
@@ -103,7 +103,7 @@ const Albums = () => {
             </article>
             <h2 className="font-semibold text-center text-xl">Digtale Drawings</h2>
             <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[50%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper key={text} content={
                         <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px]">
