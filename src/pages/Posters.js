@@ -25,7 +25,7 @@ const Posters = () => {
         {
             img: "./images/posters-wallpapers/Deer Hunter - &team - song poster.jpg",
             headline: "Deer Hunter - Poster",
-            text: "Scene from music video - used to a poster",
+            text: "Scene from music video - used to poster",
         },
         {
             img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
@@ -95,12 +95,12 @@ const Posters = () => {
                     <p>I like to either keep it simple or out of the box.</p>
                     <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p>
                 </>)} />
-            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] size1560:w-[65%] m-auto my-14 size300:gap-x-20 gap-y-12">
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[85%] size1200:w-[70%] size1470:w-[80%] size1700:w-[60%] m-auto my-14 size300:gap-x-20 gap-y-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />
                     <ContentWrapper key={text} content={
-                        <div className="w-[15rem] h-[20rem] size300:w-[20rem] size300:h-[28rem] lg:w-[24rem] lg:h-[34rem] size1560:w-[30rem] size1560:h-[42rem] group [perspective:1000px] drop-shadow-md">
+                        <div className="w-[15rem] h-[20rem] size300:w-[20rem] size300:h-[28rem] lg:w-[24rem] lg:h-[34rem] size1700:w-[30rem] size1700:h-[42rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
