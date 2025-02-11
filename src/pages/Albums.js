@@ -82,12 +82,12 @@ const Albums = () => {
                     <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
                 </>
             )} />
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[50%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[60%] m-auto my-10 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
                     <ContentWrapper key={text} content={
-                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px] drop-shadow-md">
+                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] size1560:w-[30rem] size1560:h-[30rem] group [perspective:1000px] drop-shadow-md">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
@@ -101,12 +101,12 @@ const Albums = () => {
                     } />
                 ))}
             </article>
-            <h2 className="font-semibold text-center text-xl">Digtale Drawings</h2>
+            <h2 className="font-semibold text-center text-xl size1560:text-3xl">Digtale Drawings</h2>
             <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[50%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1560:w-[60%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper key={text} content={
-                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] group [perspective:1000px]">
+                        <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] size1560:w-[30rem] size1560:h-[30rem] group [perspective:1000px]">
                             <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                 <div className="absolute inset-0">
                                     <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
