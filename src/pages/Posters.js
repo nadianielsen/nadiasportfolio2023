@@ -23,6 +23,11 @@ const Posters = () => {
             text: "Made a poster of a fake perfume",
         },
         {
+            img: "./images/posters-wallpapers/Deer Hunter - &team - song poster.jpg",
+            headline: "Deer Hunter - Poster",
+            text: "Scene from music video - used to a poster",
+        },
+        {
             img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
@@ -66,11 +71,6 @@ const Posters = () => {
             img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
             headline: "Made a poster called mysterious",
             text: "Made this poster with path blur and gradient in Photoshop",
-        },
-        {
-            img: "./images/posters-wallpapers/Vans poster - 20-9-2024.jpg",
-            headline: "Vans - Poster",
-            text: "Was inspired by my nike poster",
         },
         {
             img: "./images/posters-wallpapers/friends.jpg",
