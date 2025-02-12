@@ -63,9 +63,9 @@ const Posters = () => {
             text: "Poster of the flower Hibicus",
         },
         {
-            img: "./images/posters-wallpapers/Poster-Album cover - YOU - 27-10-2023.jpg",
-            headline: "You - Song - Poster",
-            text: "Song by Regard, Troye Sivan & Tate Mcrae",
+            img: "./images/posters-wallpapers/Born again - Lisa, Doja Cat & Raye - poster copy-kopi.webp",
+            headline: "Born Again - Song - Poster",
+            text: "Song by Lisa, Doja Cat & Raye",
         },
         {
             img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
