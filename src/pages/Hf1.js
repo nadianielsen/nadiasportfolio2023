@@ -11,7 +11,7 @@ const Hf1 = () => {
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
-                <img className="w-80 lg:w-[25rem]" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.jpg" alt="billed af skoleportfolio" />
+                <img className="w-80 lg:w-[25rem]" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.webp" alt="billed af skoleportfolio" />
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="place-self-center">
@@ -30,7 +30,7 @@ const Hf1 = () => {
                         <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den ligger trykklar via download knappen. </p>
                         <DownloadButton filepdf={"/poster - mother nature - bleed.pdf"} downloadPDF={"/poster - mother nature - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
                     </div>
-                    <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg" alt="" />
+                    <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.webp" alt="" />
                 </section>
             </section>
         </article>
