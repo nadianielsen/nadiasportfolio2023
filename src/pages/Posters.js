@@ -8,57 +8,57 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
-            img: "./images/posters-wallpapers/Eyes on you - poster.jpg",
+            img: "./images/posters-wallpapers/Eyes on you - poster.webp",
             headline: "Eyes on you - poster",
             text: "A poster inspired by a song that I love",
         },
         {
-            img: "./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.jpg",
+            img: "./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.webp",
             headline: "Mother Nature - Portrait - Poster",
             text: "Tried something new in Photoshop - poster",
         },
         {
-            img: "./images/posters-wallpapers/Fake perfume poster - 27-8-2024.jpg",
+            img: "./images/posters-wallpapers/Fake perfume poster - 27-8-2024.webp",
             headline: "Fake perfume - poster",
             text: "Made a poster of a fake perfume",
         },
         {
-            img: "./images/posters-wallpapers/Deer Hunter - &team - song poster.jpg",
+            img: "./images/posters-wallpapers/Deer Hunter - &team - song poster.webp",
             headline: "Deer Hunter - Poster",
             text: "Scene from music video - used to poster",
         },
         {
-            img: "./images/posters-wallpapers/enjoy the sun - poster.jpg",
+            img: "./images/posters-wallpapers/enjoy the sun - poster.webp",
             headline: "Enjoy the sun - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
         {
-            img: "./images/posters-wallpapers/Circle - poster - radial blur - 25-9-2024.jpg",
+            img: "./images/posters-wallpapers/Circle - poster - radial blur - 25-9-2024.webp",
             headline: "Circle - Poster",
             text: "Saw a tutorial on how to make blur filter in Photoshop",
         },
         {
-            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.jpg",
+            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.webp",
             headline: "Crush - Poster",
             text: "Inspired by a song named Crush - poster",
         },
         {
-            img: "./images/posters-wallpapers/nike poster.jpg",
+            img: "./images/posters-wallpapers/nike poster.webp",
             headline: "Nike - poster",
             text: "Was inspired to make a poster of Nike shoes ",
         },
         {
-            img: "./images/posters-wallpapers/Futuristic poster - 26-9-2024.jpg",
+            img: "./images/posters-wallpapers/Futuristic poster - 26-9-2024.webp",
             headline: "Futuristic - Poster",
             text: "Followed a tutorial on making these shapes",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2033.jpg",
+            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2023.webp",
             headline: "Flowers poster - Miley Cyrus",
             text: "Made a poster with Miley Cyrus",
         },
         {
-            img: "./images/posters-wallpapers/Hibicus poster.jpg",
+            img: "./images/posters-wallpapers/Hibicus poster.webp",
             headline: "Hibicus - Poster",
             text: "Poster of the flower Hibicus",
         },
@@ -68,17 +68,17 @@ const Posters = () => {
             text: "Song by Lisa, Doja Cat & Raye",
         },
         {
-            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.jpg",
+            img: "./images/posters-wallpapers/Mysterious poster - purple gradient - 7-8-2024.webp",
             headline: "Made a poster called mysterious",
             text: "Made this poster with path blur and gradient in Photoshop",
         },
         {
-            img: "./images/posters-wallpapers/friends.jpg",
+            img: "./images/posters-wallpapers/friends.webp",
             headline: "Friends - Poster",
             text: "A poster of the tv show - friends",
         },
         {
-            img: "./images/posters-wallpapers/mirror.jpg",
+            img: "./images/posters-wallpapers/mirror.webp",
             headline: "Mirror - Poster",
             text: "A mirror poster",
         },
