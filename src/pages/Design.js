@@ -13,7 +13,7 @@ const Design = () => {
                 <p><span className="font-semibold">I am currently taking</span> the media graphic designer education (mediegrafiker uddannelsen) because I love the graphic/digital world.</p>
                 <p><span className="font-semibold">The graphic design programs</span> that I use is, Procreate, Photoshop, Illustrator and InDesign.</p>
                 <p><span className="font-semibold">I am getting most of my experience</span> in the Adobe programs during my education.</p>
-                <article className="grid gap-y-10 md:grid-cols-2 lg:grid-cols-3 my-10 size1100:w-[60vw] place-items-center size1100:my-8 size1100:m-auto">
+                <article className="grid gap-y-10 md:grid-cols-2 lg:grid-cols-3 my-10 size1100:w-[60vw] size1560:w-[40vw] place-items-center size1100:my-8 size1100:m-auto">
                     <SmallCard link={"https://procreate.com/"} name={"Procreate"} logo={"./images/design programs/procreate.webp"} bgHover={"group-hover:bg-black/70"} bgPrimary={"bg-gradient-to-t from-black/70 to-transparent"} />
                     <SmallCard link={"https://picsart.com/"} name={"Picsart"} logo={"./images/design programs/picsart.webp"} bgHover={"group-hover:bg-[#cf02bc]/70"} bgPrimary={"bg-gradient-to-t from-[#cf02bc]/50 to-transparent"} />
                     <SmallCard link={"https://www.canva.com"} name={"Canva"} logo={"./images/design programs/canva.webp"} bgHover={"group-hover:bg-[#00c1cb]/70"} bgPrimary={"bg-gradient-to-t from-[#00c1cb]/70 to-transparent"} />
