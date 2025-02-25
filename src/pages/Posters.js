@@ -13,7 +13,7 @@ const Posters = () => {
             text: "A poster inspired by a song that I love",
         },
         {
-            img: "./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.webp",
+            img: "./images/posters-wallpapers/Poster - Mother Nature is a part of us - 3-10-2024.webp",
             headline: "Mother Nature - Portrait - Poster",
             text: "Tried something new in Photoshop - poster",
         },

@@ -28,9 +28,9 @@ const Hf1 = () => {
                     <div>
                         <h3 className="font-semibold text-center size800:text-start">Mother nature is a part of os - plakat/poster</h3>
                         <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den ligger trykklar via download knappen. </p>
-                        <DownloadButton filepdf={"/poster - mother nature - bleed.pdf"} downloadPDF={"/poster - mother nature - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
+                        <DownloadButton filepdf={"/Poster - Mother Nature is a part of us - bleed.pdf"} downloadPDF={"/Poster - Mother Nature is a part of us - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
                     </div>
-                    <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of os - 3-10-2024.webp" alt="" />
+                    <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of us - 3-10-2024.webp" alt="" />
                 </section>
             </section>
         </article>
