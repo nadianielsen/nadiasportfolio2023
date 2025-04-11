@@ -95,7 +95,7 @@ const Posters = () => {
                     <p>I like to either keep it simple or out of the box.</p>
                     <p>One of the things I really love is, play around with pictures and cut people or things out of pictures to create something creative.</p>
                 </>)} />
-            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[85%] size1200:w-[70%] size1470:w-[80%] size1700:w-[60%] m-auto my-14 size300:gap-x-20 gap-y-12">
+            <article className="grid grid-cols-1 md:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[85%] size1200:w-[70%] size1470:w-[80%] size1700:w-[70%] m-auto my-14 size300:gap-x-20 gap-y-12">
                 {posterswallpapers.map(({ img, headline, text }) => (
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"[30rem]"} mdheight={"[32rem]"} />
                     // <img src={img} alt={img} className="rounded-2xl" />

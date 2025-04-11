@@ -51,16 +51,16 @@ const Websites = () => {
             <PagesLinks prevPage={"Gallery"} location={"/websites"} page="Websites" />
             <DescriptionArt heading={"Info about my websites"} text={(
                 <>
-                <p>Some of the websites I have are from my webdeveloper education and a few from my current education - media graphic designer education</p>
+                    <p>Some of the websites I have are from my webdeveloper education and a few from my current education - media graphic designer education</p>
                 </>
-            )}/>
-        <ContentWrapper content={
-             <article className="w-full px-6 size400:px-0 lg:w-[70%] size1560:w-[50%] grid gap-y-20 my-10 gap-x-12 size1200:grid-cols-2 size1470:grid-cols-3 m-auto">
-             {websites.map(({ img, link, text, heading }) => (
-                 <WebsiteCard key={text} img={img} link={link} heading={heading} text={text} />
-             ))}
-            </article>
-        } />
+            )} />
+            <ContentWrapper content={
+                <article className="w-full px-6 size400:px-0 lg:w-[70%] size1560:w-[60%] grid gap-y-20 my-10 gap-x-12 size1200:grid-cols-2 size1470:grid-cols-3 m-auto">
+                    {websites.map(({ img, link, text, heading }) => (
+                        <WebsiteCard key={text} img={img} link={link} heading={heading} text={text} />
+                    ))}
+                </article>
+            } />
         </>
     );
 }
