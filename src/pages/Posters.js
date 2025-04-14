@@ -8,6 +8,11 @@ const Posters = () => {
 
     const posterswallpapers = [
         {
+            img: "./images/posters-wallpapers/Poster  All night long - lyric-song - 11-4-2025.webp",
+            headline: "All Night Long Song - Poster",
+            text: "A poster inspired by a song that I love",
+        },
+        {
             img: "./images/posters-wallpapers/Eyes on you - poster.webp",
             headline: "Eyes on you - poster",
             text: "A poster inspired by a song that I love",
@@ -28,19 +33,14 @@ const Posters = () => {
             text: "Scene from music video - used to poster",
         },
         {
-            img: "./images/posters-wallpapers/enjoy the sun - poster.webp",
-            headline: "Enjoy the sun - Poster",
+            img: "./images/posters-wallpapers/Xo song - Enhypen - poster - 31-1-2025.webp",
+            headline: "Song by Enhypen - Kpop - Poster",
             text: "A poster made with Photoshop and Illustrator",
         },
         {
             img: "./images/posters-wallpapers/Circle - poster - radial blur - 25-9-2024.webp",
             headline: "Circle - Poster",
             text: "Saw a tutorial on how to make blur filter in Photoshop",
-        },
-        {
-            img: "./images/posters-wallpapers/Wallpaper---CRUSH---46-2023.webp",
-            headline: "Crush - Poster",
-            text: "Inspired by a song named Crush - poster",
         },
         {
             img: "./images/posters-wallpapers/nike poster.webp",
@@ -53,9 +53,9 @@ const Posters = () => {
             text: "Followed a tutorial on making these shapes",
         },
         {
-            img: "./images/posters-wallpapers/Poster---Miley-Cyrus-Flowers---110-2023.webp",
-            headline: "Flowers poster - Miley Cyrus",
-            text: "Made a poster with Miley Cyrus",
+            img: "./images/posters-wallpapers/Poster-Album Cover - WONWOO&JEONGHAN SVT - 1-6-2024.webp",
+            headline: "This man poster - Seventeen subduo",
+            text: "Poster of Seventeen subduo album",
         },
         {
             img: "./images/posters-wallpapers/Hibicus poster.webp",

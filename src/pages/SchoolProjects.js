@@ -8,14 +8,29 @@ const Schoolprojects = () => {
 
     const projectsImg = [
         {
+            img: "./images/school/Danser afprøvning 4.webp",
+            headline: "Dancer 1 - school assignment",
+            text: "Dancer poster for a dancing school - school assignment - main course 1 - media graphic designer",
+        },
+        {
+            img: "./images/school/Danser - poster - afprøvning 2.webp",
+            headline: "Dancer 2 - school assignment",
+            text: "Dancer poster for a dancing school - school assignment - main course 1 - media graphic designer",
+        },
+        {
             img: "./images/school/Roskilde - fjorland plakat.webp",
             headline: "Tourist Travel Poster - Fjordlandet",
             text: "A tourist travel poster with the style of art deco - school assignment",
         },
         {
-            img: "./images/school/Forside og artikel.webp",
-            headline: "Naturli Front Page - Magazine",
-            text: "A magazine project using same name of an existing magazine - school assignment",
+            img: "./images/school/Grafik - Flødebolle opgave.webp",
+            headline: "Flødebolle assignment - Poster",
+            text: "Flødebolle poster - school assignment - main course 1 - Media graphic designer",
+        },
+        {
+            img: "./images/school/FIM RALLY - Logo.webp",
+            headline: "Logo - FIM Rally",
+            text: "A logo for an existing brand - motorsport logo - school assignment - main course 1 - media graphic designer",
         },
         {
             img: "./images/school/Logo - afprøvninger.webp",
@@ -36,11 +51,6 @@ const Schoolprojects = () => {
             img: "./images/school/Odense Chokoladehus - forside folder with text.webp",
             headline: "Folder - Front Page",
             text: "A folder for an existing businesss - school assignment",
-        },
-        {
-            img: "./images/school/Forbudt plakat - færdig version.webp",
-            headline: "Forbidden poster - client project",
-            text: "A poster for one of the leaders of my school",
         },
     ]
 
@@ -63,7 +73,7 @@ const Schoolprojects = () => {
                             <div className="w-[15rem] h-[20rem] size300:w-[20rem] size300:h-[30rem] md:w-[22rem] lg:h-[30rem]  size1560:w-[30rem] size1560:h-[42rem]  group [perspective:1000px] drop-shadow-md">
                                 <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                     <div className="absolute inset-0">
-                                        <img className="rounded-2xl w-full h-full object-cover" src={img} alt={headline} />
+                                        <img className="rounded-2xl w-full h-full object-center" src={img} alt={headline} />
                                     </div>
                                     <div className="absolute inset-0 bg-black/60 w-full h-full flex flex-col justify-center items-center rounded-2xl [transform:rotateY(180deg)] [backface-visibility:hidden]">
                                         <h1 className="text-white text-2xl font-semibold capitalize">{headline}</h1>

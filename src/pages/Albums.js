@@ -17,9 +17,14 @@ const Albums = () => {
             text: "Bad by Michael Jackson"
         },
         {
-            img: "./images/albums/If I could - poster-album cover.jpg",
-            headline: "If I Could - Album Cover/Poster",
-            text: "Made this in Photoshop and Adobe Dimension"
+            img: "./images/albums/Seventeen new playlist cover - 31-1-2025.webp",
+            headline: "Seventeen - Album Cover/Playlist Cover",
+            text: "Newest album from Seventeen - Playlist Cover"
+        },
+        {
+            img: "./images/albums/Playlist:Album cover - Hoshi&Woozi - Beam - 28-2-2025.webp",
+            headline: "Beam - Album Cover",
+            text: "An Album by Hoshi & Woozi - Seventeen"
         },
         {
             img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.webp",
@@ -46,11 +51,6 @@ const Albums = () => {
             headline: "Little Mix - Album cover/Poster",
             text: "Album Cover or Poster of Litte Mix"
         },
-        {
-            img: "./images/albums/Album cover - Golden Jungkook - 3-11-2023.webp",
-            headline: "Golden - Album Cover",
-            text: "An Album by Jung Kook from BTS"
-        },
     ]
 
     const drawingsImg = [
@@ -60,7 +60,7 @@ const Albums = () => {
             text: "Made a drawing Adele",
         },
         {
-            img: "./images/drawings/Drawing - S.COUPS SVT.webp",
+            img: "./images/drawings/Drawing - DK SVT.webp",
             headline: "Kpop idol - Drawing",
             text: "Drawing of an kpop idol",
         },
