@@ -47,11 +47,11 @@ const Schoolprojects = () => {
             headline: "Logo - Dyrenes Butik",
             text: "A logo for an exam project 2024 - school assignment",
         },
-        {
-            img: "./images/school/Odense Chokoladehus - forside folder with text.webp",
-            headline: "Folder - Front Page",
-            text: "A folder for an existing businesss - school assignment",
-        },
+        // {
+        //     img: "./images/school/Odense Chokoladehus - forside folder with text.webp",
+        //     headline: "Folder - Front Page",
+        //     text: "A folder for an existing businesss - school assignment",
+        // },
     ]
 
     return (
