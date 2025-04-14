@@ -60,8 +60,8 @@ const HomeFirstLook = () => {
                 ))}
             </motion.h1>
             <section className=" lg:ml-16 size1400:ml-0 size1400:mr-40 flex flex-col lg:flex-row justify-center items-center">
-                <motion.img initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.1}} className="size1200:relative size1200:bottom-28 size1400:bottom-[20rem] size1700:bottom-[18rem] w-[15rem] lg:w-[22.5rem] border-2 border-black rounded-full" src="./images/me front page.webp" alt="me - nadia nielsen" />
-                <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{ delay: 0.25}} className="size1200:relative size1200:bottom-28 size1400:bottom-[16rem] size1700:bottom-[14rem] py-12 px-16 size-1200:px-[25rem] size1400:py-32 flex flex-col">
+                <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="size1200:relative size1200:bottom-28 size1400:bottom-[20rem] size1700:bottom-[18rem] w-[15rem] lg:w-[22.5rem] border-2 border-black rounded-full" src="./images/me front page.webp" alt="me - nadia nielsen" />
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.25 }} className="size1200:relative size1200:bottom-28 size1400:bottom-[16rem] size1700:bottom-[14rem] py-12 px-16 size-1200:px-[25rem] size1400:py-32 flex flex-col">
                     <h2 className="text-3xl size1400:text-[2.5rem]">Hello and <span className="crimson-font text-[#7ea46c]">welcome</span></h2>
                     <p className="size1200:w-[26rem] size1200:text-xl">My name is Nadia Nielsen, I am {age} years old and I come from Zealand in Denmark. I am currently taking the media graphic designer education (mediegrafiker uddannelsen).</p>
                     <figure className="w-[27.5 rem] h-2 border-b-2 border-black py-2"></figure>
@@ -70,7 +70,7 @@ const HomeFirstLook = () => {
                         <p>For more knowledge about me</p>
                         <IoIosArrowRoundForward className="text-4xl mt-1" />
                     </Link>
-                    <motion.div initial={{ opacity: 0, y: [ -40, 40, 0] }} whileInView={{ opacity: 1, y: [-20, 20, 0] }} transition={{ delay: 2.2, duration: 0.40, repeatDelay: 2, repeat: Infinity }} className="w-12 h-12 size1400:w-16 size1400:h-16 m-auto mt-10 lg:mt-24 size1400:mt-12 bg-[#7ea46c] flex justify-center items-center rounded-full">
+                    <motion.div initial={{ opacity: 0, y: [-40, 40, 0] }} whileInView={{ opacity: 1, y: [-20, 20, 0] }} transition={{ delay: 2.2, duration: 0.40, repeatDelay: 2, repeat: Infinity }} className="w-12 h-12 size1400:w-16 size1400:h-16 m-auto mt-10 lg:mt-24 size1400:mt-12 bg-[#7ea46c] flex justify-center items-center rounded-full">
                         <IoIosArrowDown className="text-3xl text-white mt-1" />
                     </motion.div>
                 </motion.div>
