@@ -17,6 +17,11 @@ const Albums = () => {
             text: "Bad by Michael Jackson"
         },
         {
+            img: "./images/albums/Album cover - Dua Lipa - 16-4-2025.webp",
+            headline: "Dua Lipa - Poster/Album cover",
+            text: "Used a photo of Dua Lipa from Rolling Stone"
+        },
+        {
             img: "./images/albums/Seventeen new playlist cover - 31-1-2025.webp",
             headline: "Seventeen - Album Cover/Playlist Cover",
             text: "Newest album from Seventeen - Playlist Cover"
@@ -40,11 +45,6 @@ const Albums = () => {
             img: "./images/albums/Album cover - Wham - 20-1-2024.webp",
             headline: "Wham - Make it big Album",
             text: "Made a album cover of Wham"
-        },
-        {
-            img: "./images/albums/Album cover - Dua Lipa - 16-4-2025.webp",
-            headline: "Dua Lipa - Poster/Album cover",
-            text: "Used a photo of Dua Lipa from Rolling Stone"
         },
         {
             img: "./images/albums/Poster_-_Little_Mix_-_911-2023.webp",
