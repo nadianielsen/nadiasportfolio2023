@@ -42,9 +42,9 @@ const Albums = () => {
             text: "Made a album cover of Wham"
         },
         {
-            img: "./images/albums/Album cover - Dua Lipa Houdini - 10-1-2024.webp",
-            headline: "Houdini - Album cover",
-            text: "A song by Dua Lipa"
+            img: "./images/albums/Album cover - Dua Lipa - 16-4-2025.webp",
+            headline: "Dua Lipa - Poster/Album cover",
+            text: "Used a photo of Dua Lipa from Rolling Stone"
         },
         {
             img: "./images/albums/Poster_-_Little_Mix_-_911-2023.webp",
