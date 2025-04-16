@@ -57,7 +57,7 @@ const Albums = () => {
         {
             img: "./images/drawings/Adele.webp",
             headline: "Adele - Drawing",
-            text: "Made a drawing Adele",
+            text: "Made a drawing of Adele",
         },
         {
             img: "./images/drawings/Drawing - DK SVT.webp",
