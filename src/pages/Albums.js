@@ -32,9 +32,9 @@ const Albums = () => {
             text: "An Album by Hoshi & Woozi - Seventeen"
         },
         {
-            img: "./images/albums/Album-Cover-Bruno-Mars-TREASURE.webp",
-            headline: "Treasure - Album cover",
-            text: "A song by Bruno Mars"
+            img: "./images/albums/Album Cover - Lady Gaga Mayhem - 17-4-2025.webp",
+            headline: "Mayhem - Album cover",
+            text: "An album by Lady Gaga"
         },
         {
             img: "./images/albums/Album cover - Sabrina Carpenter Espresso.webp",
