@@ -47,9 +47,9 @@ const Albums = () => {
             text: "Made a album cover of Wham"
         },
         {
-            img: "./images/albums/Poster_-_Little_Mix_-_911-2023.webp",
-            headline: "Little Mix - Album cover/Poster",
-            text: "Album Cover or Poster of Litte Mix"
+            img: "./images/albums/Album Cover - Die with a smile - Lady Gaga & Bruno Mars - 17-4-2025.webp",
+            headline: "Die with a smile - Album cover",
+            text: "Album Cover of Lady Gaga & Bruno Mars"
         },
     ]
 
