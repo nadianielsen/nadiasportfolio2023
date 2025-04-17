@@ -66,7 +66,7 @@ const HomeFirstLook = () => {
                     <p className="size1200:w-[26rem] size1200:text-xl">My name is Nadia Nielsen, I am {age} years old and I come from Zealand in Denmark. I am currently taking the media graphic designer education (mediegrafiker uddannelsen).</p>
                     <figure className="w-[27.5 rem] h-2 border-b-2 border-black py-2"></figure>
                     <p className="text-lg pt-2.5">On my website you can browse through my artworks on the <Link to={"/gallery"} className="underline hover:text-[#7ea46c] hover:font-semibold hover:duration-500 hover:ease-in-out hover:transition-colors">gallery page.</Link></p>
-                    <Link to={"/"} className="w-[15rem] text-lg flex gap-x-1 items-center underline hover:no-underline hover:text-[#7ea46c] hover:duration-500 hover:transition-colors hover:ease-in-out hover:font-semibold">
+                    <Link to={"/about"} className="w-[15rem] text-lg flex gap-x-1 items-center underline hover:no-underline hover:text-[#7ea46c] hover:duration-500 hover:transition-colors hover:ease-in-out hover:font-semibold">
                         <p>For more knowledge about me</p>
                         <IoIosArrowRoundForward className="text-4xl mt-1" />
                     </Link>
