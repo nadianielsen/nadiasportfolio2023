@@ -11,12 +11,12 @@ const Hf1 = () => {
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
-                <img className="w-80 lg:w-[25rem]" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.webp" alt="billed af skoleportfolio" />
+                <img className="w-80 lg:w-[25rem] rounded-3xl" src="./images/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.webp" alt="billed af skoleportfolio" />
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="place-self-center">
                 <h2 className="text-2xl pt-6 text-center">Digital Produkt</h2>
-                <video className="w-[20rem] h-[20rem] size700:w-[30rem] size700:h-[30rem] size1100:w-[40rem] size1100:h-[40rem] my-5 m-auto size800:my-10" src="./Poster-album cover + moving sky background - If I Could.mp4" controls></video>
+                <video className="w-[20rem] h-[20rem] size700:w-[30rem] size700:h-[30rem] size1100:w-[40rem] size1100:h-[40rem] my-5 m-auto size800:my-10 rounded-3xl" src="./Poster-album cover + moving sky background - If I Could.mp4" controls></video>
                 <h3 className="text-center font-semibold">If I Could - Video/Album Cover/Poster</h3>
                 <p className="text-center w-[20rem] size800:w-full">Her er mit digitale produkt, hvilket består af tekst, 3D tekst og bevægende sky baggrund.</p>
                 <DownloadButton filepdf={"/Poster-album cover + moving sky background - If I Could.mp4"} downloadPDF={"/Poster-album cover + moving sky background - If I Could"} extraStyle={"mt-4 m-auto mb-4"} />
@@ -30,7 +30,7 @@ const Hf1 = () => {
                         <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg denne plakat og den ligger trykklar via download knappen. </p>
                         <DownloadButton filepdf={"/Poster - Mother Nature is a part of us - bleed.pdf"} downloadPDF={"/Poster - Mother Nature is a part of us - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
                     </div>
-                    <img className="w-60 size600:w-80 " src="./images/posters-wallpapers/Poster - Mother Nature is a part of us - 3-10-2024.webp" alt="" />
+                    <img className="w-60 size600:w-80 rounded-3xl" src="./images/posters-wallpapers/Poster - Mother Nature is a part of us - 3-10-2024.webp" alt="" />
                 </section>
             </section>
         </article>

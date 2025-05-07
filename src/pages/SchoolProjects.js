@@ -65,7 +65,7 @@ const Schoolprojects = () => {
                         <p>I have made these projects/assignments during basic training course (grundforløb 2) at the media graphic designer education (mediegrafiker uddannelsen).</p>
                         <p>The things I have learned during an assignment is, that I start out with a mindmap, after that a moodboard and after the moodboard, I begin to either make a logo or something else for the made-up client.</p>
                     </>)} />
-                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] size1560:w-[70%] m-auto my-10 gap-10">
+                <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center w-[75%] size1700:w-[50%] m-auto my-10 gap-10">
                     {projectsImg.map(({ img, headline, text }) => (
                         // <img src={img} alt={img} className="rounded-2xl" />
                         // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />

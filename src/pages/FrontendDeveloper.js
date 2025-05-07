@@ -6,14 +6,14 @@ import { FaGithub } from "react-icons/fa";
 
 const FrontendDeveloper = () => {
     return (
-        <>
+        <article className="size1400:w-[70%] size1400:m-auto size1400:my-20">
             <PagesLinks prevPage={"About"} location={"/frontenddeveloper"} page={"Frontend developer"} />
             <article className="mx-10 md:mx-20 my-10 grid gap-y-4">
                 <h1 className="text-2xl font-semibold capitalize">Frontend developer</h1>
                 <article>
                     <h2 className="text-xl font-semibold capitalize">Languages and libraries</h2>
                     <p>Throughout my education I have learned these languages and libraries.</p>
-                    <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10 size1100:w-[70vw] size1560:w-[50vw] size1100:m-auto size1100:my-8">
+                    <article className="grid gap-y-6 md:grid-cols-3  lg:grid-cols-4 grid-rows-2 place-items-center md:gap-y-10 my-10 size1100:w-[70vw] size1560:w-[50vw] size1100:m-auto size1100:my-8 size1400:my-20">
                         <SmallCard link={"https://www.w3schools.com/html/"} name={"HTML"} logo={"./images/coding/html.webp"} bgHover={"group-hover:bg-orange-500/70"} bgPrimary={"bg-gradient-to-t from-orange-500/50 to-transparent"} />
                         <SmallCard link={"https://www.w3schools.com/css/"} name={"CSS"} logo={"./images/coding/css.webp"} bgHover={"group-hover:bg-blue-400/70"} bgPrimary={"bg-gradient-to-t from-blue-400/50 to-transparent"} />
                         <SmallCard link={"https://www.w3schools.com/js/"} name={"Javascript"} logo={"./images/coding/JavaScript.webp"} bgHover={"group-hover:bg-yellow-400/70"} bgPrimary={"bg-gradient-to-t from-yellow-400/50 to-transparent"} />
@@ -44,7 +44,7 @@ const FrontendDeveloper = () => {
                     <Link target="_target" to={"https://github.com/nadianielsen"} className="underline hover:text-[#7ea46c] hover:no-underline hover:duration-500 hover:ease-in-out hover:transition-colors flex gap-x-1 text-lg"><FaGithub className="my-1.5" />My Github Profile</Link>
                 </article>
             </article>
-        </>
+        </article>
     );
 }
 

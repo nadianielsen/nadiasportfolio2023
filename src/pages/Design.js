@@ -5,7 +5,7 @@ import SmallCard from "../components/SmallCard";
 
 const Design = () => {
     return (
-        <>
+        <article className="size1400:w-[70%] size1400:m-auto size1400:my-20">
             <PagesLinks page={"Design"} prevPage={"About"} location={"/design"} />
             <article className="grid mx-10 md:mx-20 gap-y-2.5 my-10">
                 <h1 className="text-xl font-semibold">Design</h1>
@@ -30,7 +30,7 @@ const Design = () => {
                     <Link to={"/graphicdesign"} className="hover:text-[#7ea46c] underline hover:duration-500 hover:transition-colors hover:ease-in-out">Graphic design</Link>
                 </article>
             </article>
-        </>
+        </article>
     );
 }
 
