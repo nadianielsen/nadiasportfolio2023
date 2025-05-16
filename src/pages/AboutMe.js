@@ -4,7 +4,7 @@ import PagesLinks from "../components/PagesLinks";
 
 const AboutMe = () => {
     return (
-        <article className="size1400:w-[50%] size1400:m-auto size1400:my-20">
+        <article className="size2000:w-[50%] size1400:m-auto size1400:my-20">
             <PagesLinks location={"/aboutme"} prevPage={"About"} page={"About Me"} />
             <article className="mx-10 md:mx-20 my-6">
                 <article className="flex flex-col gap-y-4 lg:flex-row gap-x-10">

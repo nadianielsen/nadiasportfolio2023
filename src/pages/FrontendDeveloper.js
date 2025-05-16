@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const FrontendDeveloper = () => {
     return (
-        <article className="size1400:w-[70%] size1400:m-auto size1400:my-20">
+        <article className="size2000:w-[70%] size1400:m-auto size1400:my-20">
             <PagesLinks prevPage={"About"} location={"/frontenddeveloper"} page={"Frontend developer"} />
             <article className="mx-10 md:mx-20 my-10 grid gap-y-4">
                 <h1 className="text-2xl font-semibold capitalize">Frontend developer</h1>
