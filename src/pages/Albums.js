@@ -82,7 +82,7 @@ const Albums = () => {
                     <p>The reason why I also make drawings is that it has been a dream of mine to draw people as realistic as I can.</p>
                 </>
             )} />
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1700:w-[50%] m-auto my-20 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1700:w-[90%]  size2000:w-[65%]  m-auto my-20 gap-10">
                 {albumsImg.map(({ img, headline, text }) => (
                     // <img src={img} alt={img} className="rounded-2xl" />
                     // <GalleryImg img={img} headline={headline} text={text} alt={headline} height={"80"} mdheight={"96"} />
