@@ -103,7 +103,7 @@ const Albums = () => {
             </article>
             <h2 className="font-semibold text-center text-xl size1560:text-3xl">Digtale Drawings</h2>
             <div className="border-b-2 border-black mx-20 lg:mx-80 my-2"></div>
-            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1700:w-[50%] m-auto my-10 gap-10">
+            <article className="grid grid-cols-1 lg:grid-cols-2 size1470:grid-cols-3 justify-items-center md:justify-self-start size1470:justify-self-center w-[75%] size1700:w-[90%] size2000:w-[65%] m-auto my-10 gap-10">
                 {drawingsImg.map(({ img, headline, text }) => (
                     <ContentWrapper key={text} content={
                         <div className="w-[15rem] h-[15rem] size300:w-[20rem] size300:h-[20rem] size1560:w-[30rem] size1560:h-[30rem] group [perspective:1000px]">
