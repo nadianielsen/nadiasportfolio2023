@@ -18,7 +18,7 @@ function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Layout /> }>
+      <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/frontenddeveloper' element={<FrontendDeveloper />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/hf1' element={<Hf1 />} />
-        <Route path='/websites' element={<Websites />} />
+        {/* <Route path='/websites' element={<Websites />} /> */}
         <Route path='/graphicdesign' element={<GraphicDesign />} />
         <Route path='/albums' element={<Albums />} />
         <Route path='/posters' element={<Posters />} />
@@ -35,7 +35,7 @@ function App() {
       </Route>
     )
   )
-  return <RouterProvider router={router}/>
+  return <RouterProvider router={router} />
 }
 
 export default App;
