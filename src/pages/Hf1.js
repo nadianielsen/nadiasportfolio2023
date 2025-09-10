@@ -7,7 +7,7 @@ const Hf1 = () => {
             <h1 className="text-3xl py-10 place-self-center">Hovedforløb 1</h1>
             <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
                 <div className="text-center size800:text-start m-auto">
-                    <p className="w-[22rem] size800:w-[20rem]"><span className="font-semibold">Til mit første hovedforløb</span> har jeg valgt to produkter. Jeg har et trykt produkt som er en plakat med kernefaglighederne - "Grafisk Design" og "Grafik og Billedbehandling" og et digitalt produkt som er en video med kernefaglighederne - "Typografi og ombrydning" og "Grafisk produktionsforståelse".</p>
+                    <p className="w-[22rem] size800:w-[19rem]"><span className="font-semibold">Til mit første hovedforløb</span> har jeg valgt to produkter. Jeg har et trykt produkt som er en plakat med kernefaglighederne - "Grafisk Design" og "Grafik og Billedbehandling" og et digitalt produkt som er en video med kernefaglighederne - "Typografi og ombrydning" og "Grafisk produktionsforståelse".</p>
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
