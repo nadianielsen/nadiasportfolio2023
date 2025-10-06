@@ -7,8 +7,10 @@ const AboutMe = () => {
         <article className="size2000:w-[50%] size1400:m-auto size1400:my-20">
             <PagesLinks location={"/aboutme"} prevPage={"About"} page={"About Me"} />
             <article className="mx-10 md:mx-20 my-6">
+                <div className="w-[22rem] h-[22rem] relative rounded-full overflow-hidden border-2 border-black mb-10">
+                    <img className="w-full h-full absolute object-cover" src="./images/Billede 1 - Nadia Nielsen.webp" alt="" />
+                </div>
                 <article className="flex flex-col gap-y-4 lg:flex-row gap-x-10">
-                    <img src="./images/me copy.webp" alt="" className="w-[22rem] size626:w-[18rem] m-auto lg:m-0 lg:w-[16rem] lg:h-[24rem] object-cover rounded-tl-[3rem] rounded-br-[3rem] border-2 border-black" />
                     <div className="flex flex-col gap-y-1.5 ">
                         <h1 className="capitalize text-xl lg:text-2xl font-semibold">About me</h1>
                         <p className=""> <AgeFunction fontWeight={"font-semibold"} /> I come from Denmark and I have finished taking the web developer education (webudvikler uddannelsen) in 2023. </p>
