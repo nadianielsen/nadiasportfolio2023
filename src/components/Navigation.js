@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { RiMenu3Line } from "react-icons/ri"
 import { HiXMark } from "react-icons/hi2"
+import DropDown from "./DropDown";
 
 
 const Navigation = ({ showDropdown, setShowDropdown }) => {
@@ -31,8 +32,11 @@ const Navigation = ({ showDropdown, setShowDropdown }) => {
                 <NavLink to={"/"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
                 <NavLink to={"/about"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
                 <NavLink to={"/gallery"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Gallery</NavLink>
-                <NavLink to={"/hf1"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>HF1</NavLink>
-                <NavLink to={"/contact"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>Contact</NavLink>
+                <span className=" size770:hidden flex flex-col gap-y-5">
+                    <NavLink to={"/hf1"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>HF1</NavLink>
+                    <NavLink to={"/hf2"} className={({ isActive }) => (isActive ? activeLink : normalLink)}>HF2</NavLink>
+                </span>
+                <DropDown navHover={({ isActive }) => (isActive ? activeLink : normalLink)} />
             </nav>
         </>
     );

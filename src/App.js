@@ -1,7 +1,7 @@
 import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 // import Websites from './pages/Websites';
 import GraphicDesign from './pages/GraphicDesign';
 import { createRoutesFromElements, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -13,6 +13,7 @@ import Design from './pages/Design';
 import AboutMe from './pages/AboutMe';
 import Schoolprojects from './pages/SchoolProjects';
 import Hf1 from './pages/Hf1';
+import Hf2 from './pages/Hf2';
 
 function App() {
 
@@ -26,12 +27,13 @@ function App() {
         <Route path='/aboutme' element={<AboutMe />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/hf1' element={<Hf1 />} />
+        <Route path='/hf2' element={<Hf2 />} />
         {/* <Route path='/websites' element={<Websites />} /> */}
         <Route path='/graphicdesign' element={<GraphicDesign />} />
         <Route path='/albums' element={<Albums />} />
         <Route path='/posters' element={<Posters />} />
         <Route path='/schoolprojects' element={<Schoolprojects />} />
-        <Route path='/contact' element={<Contact />} />
+        {/* <Route path='/contact' element={<Contact />} /> */}
       </Route>
     )
   )

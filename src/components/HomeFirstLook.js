@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
-import { IoIosArrowRoundForward, IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowRoundForward, IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const nameAnimation = "Nadia Nielsen"
 
@@ -51,7 +52,7 @@ const HomeFirstLook = () => {
     }, [birthDate, setBirthDate]);
 
     return (
-        <article className="w-full">
+        <article className="w-full my-10">
             <motion.h1 initial="hidden" whileInView="visible" variants={senctence} className="text-[4rem] size700:text-[7rem] lg:text-[11rem] size1100:text-[12rem] size1200:text-[13rem] size1300:text-[14rem] size1400:text-[16rem] size1700:text-[20rem] uppercase font-semibold text-center size1200:relative size1200:bottom-20 size1400:bottom-24">
                 {nameAnimation.split("").map((char, index) => (
                     <motion.span key={char + "-" + index} variants={letter}>
@@ -70,9 +71,9 @@ const HomeFirstLook = () => {
                         <p>For more knowledge about me</p>
                         <IoIosArrowRoundForward className="text-4xl mt-1" />
                     </Link>
-                    <motion.div initial={{ opacity: 0, y: [-40, 40, 0] }} whileInView={{ opacity: 1, y: [-20, 20, 0] }} transition={{ delay: 2.2, duration: 0.40, repeatDelay: 2, repeat: Infinity }} className="w-12 h-12 size1400:w-16 size1400:h-16 m-auto mt-10 lg:mt-24 size1400:mt-12 bg-[#7ea46c] flex justify-center items-center rounded-full">
+                    {/* <motion.div initial={{ opacity: 0, y: [-40, 40, 0] }} whileInView={{ opacity: 1, y: [-20, 20, 0] }} transition={{ delay: 2.2, duration: 0.40, repeatDelay: 2, repeat: Infinity }} className="w-12 h-12 size1400:w-16 size1400:h-16 m-auto mt-10 lg:mt-24 size1400:mt-12 bg-[#7ea46c] flex justify-center items-center rounded-full">
                         <IoIosArrowDown className="text-3xl text-white mt-1" />
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
             </section>
         </article>
