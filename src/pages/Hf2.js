@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
-import DownloadButton from "../components/DownloadButton";
+// import { Link } from "react-router-dom";
+// import DownloadButton from "../components/DownloadButton";
 
 
 const Hf2 = () => {
     return (
         <article className="grid gap-y-2">
-            <h1 className="text-3xl py-10 place-self-center">Hovedforløb 2</h1>
+            {/* <h1 className="text-3xl py-10 place-self-center">Hovedforløb 2</h1>
             <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
                 <div className="text-center size800:text-start m-auto">
                     <p className="w-[22rem] size800:w-[20.5rem]"><span className="font-semibold">Til hovedforløb 2</span> har jeg valgt to produkter. Til det trykte produkt valgte jeg at lave et magasin, hvor jeg bruger kernefaglighederne - "Grafisk Design", "Typografi og ombrydning" og "Grafisk produktionsforståelse".</p>
                     <p className="w-[22rem] size800:w-[20.5rem] pt-2">Til det digtale produkt valgte jeg at tage slotmaskine app/spil som jeg lavede nede i Schweiz. Jeg bruger den sidste kernefaglighed - "Grafik og Billedbehandling".</p>
-                    {/* <p className="w-[22rem] size800:w-[20.5rem]"><span className="font-semibold">Til hovedforløb 2</span> har jeg valgt to produkter. Jeg har et trykt produkt som er et magasin med kernefaglighederne - "Grafisk Design", "Typografi og ombrydning" og "Grafisk produktionsforståelse", og et digitalt produkt som er en slotmaskine app med kernefagligheden - "Grafik og billedbehandling".</p> */}
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 1 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
@@ -23,7 +22,6 @@ const Hf2 = () => {
                 <h3 className="text-center font-semibold">Slotmaskine app</h3>
                 <p className="text-center w-[20rem] size800:w-[25rem]">Her er mit digitale produkt, hvilket er en slotmaskine app, hvor man kan vinde to præmier via UEFA WOMEN'S EURO 2025 i Schweiz.</p>
                 <Link target="_blank" to={"https://www.figma.com/design/e1iVUSGGlCwiXa5faDChM4/Schweiz---projekter?node-id=0-1&p=f"} className="bg-black h-12 w-32 text-white mt-4 m-auto mb-4 rounded-md flex justify-center items-center gap-x-1 hover:bg-transparent hover:border-2 border-black hover:transition hover:text-black hover:duration-500 hover:ease-in-out">Klik på linket</Link>
-                {/* <DownloadButton filepdf={"/Poster-album cover + moving sky background - If I Could.mp4"} downloadPDF={"/Poster-album cover + moving sky background - If I Could"} extraStyle={"mt-4 m-auto mb-4"} /> */}
             </section>
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="mb-4 place-self-center">
@@ -36,7 +34,7 @@ const Hf2 = () => {
                     </div>
                     <img className="w-60 size600:w-80 rounded-3xl" src="./images/Magazine Mockup - WEURO.webp" alt="magasin" />
                 </section>
-            </section>
+            </section> */}
         </article>
 
     );
