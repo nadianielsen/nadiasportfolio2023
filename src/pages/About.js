@@ -4,9 +4,9 @@ import LinkCards from "../components/LinkCards";
 
 const About = () => {
 
-    const textColor = ["text-[#31A8FF]", "text-[#f8a829]", "text-[#E749A0]", "text-black", "text-[#f24e1e]", "text-[#E298F2]", "text-[#CF96FD]"]
+    // const textColor = ["text-[#31A8FF]", "text-[#f8a829]", "text-[#E749A0]", "text-black", "text-[#f24e1e]", "text-[#E298F2]", "text-[#CF96FD]"]
 
-    const textColorCode = ["text-orange-500", "text-blue-400", "text-yellow-400", "text-[#61d9fb]", "text-black", "text-[#38bdf8]", "text-[#477397]", "text-pink-600"]
+    // const textColorCode = ["text-orange-500", "text-blue-400", "text-yellow-400", "text-[#61d9fb]", "text-black", "text-[#38bdf8]", "text-[#477397]", "text-pink-600"]
 
     return (
         <article className="grid gap-y-20 mb-14 size1200:grid-cols-3 justify-items-center m-auto my-5 lg:w-[80%] size2000:w-[60%] lg:gap-x-20 lg:my-32">
