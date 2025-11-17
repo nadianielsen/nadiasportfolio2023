@@ -5,8 +5,8 @@
 const Hf2 = () => {
     return (
         <article className="grid gap-y-2">
-            {/* <h1 className="text-3xl py-10 place-self-center">Hovedforløb 2</h1>
-            <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
+            <h1 className="text-3xl py-10 place-self-center">Hovedforløb 2</h1>
+            {/* <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
                 <div className="text-center size800:text-start m-auto">
                     <p className="w-[22rem] size800:w-[20.5rem]"><span className="font-semibold">Til hovedforløb 2</span> har jeg valgt to produkter. Til det trykte produkt valgte jeg at lave et magasin, hvor jeg bruger kernefaglighederne - "Grafisk Design", "Typografi og ombrydning" og "Grafisk produktionsforståelse".</p>
                     <p className="w-[22rem] size800:w-[20.5rem] pt-2">Til det digtale produkt valgte jeg at tage slotmaskine app/spil som jeg lavede nede i Schweiz. Jeg bruger den sidste kernefaglighed - "Grafik og Billedbehandling".</p>
