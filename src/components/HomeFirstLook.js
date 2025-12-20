@@ -63,7 +63,7 @@ const HomeFirstLook = () => {
             <section className=" lg:ml-16 size1400:ml-0 size1400:mr-40 flex flex-col lg:flex-row justify-center items-center">
                 <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="size1200:relative size1200:bottom-28 size1400:bottom-[20rem] size1700:bottom-[18rem] w-[15rem] h-[15rem] size866:w-[22.5rem] size866:h-[22.5rem] border-2 border-black rounded-full object-cover" src="./images/Billede 1 - Nadia Nielsen.webp" alt="me - nadia nielsen" />
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.25 }} className="size1200:relative size1200:bottom-28 size1400:bottom-[16rem] size1700:bottom-[14rem] py-12 px-16 size-1200:px-[25rem] size1400:py-32 flex flex-col">
-                    <h2 className="text-3xl size1400:text-[2.5rem]">Hello and <span className="crimson-font text-[#7ea46c]">welcome</span></h2>
+                    <h2 className="text-3xl size1400:text-[2.5rem] pb-2">Hello and <span className="ivy_font italic text-[#7ea46c]">welcome</span></h2>
                     <p className="size1200:w-[26rem] size1200:text-xl">My name is Nadia Nielsen, I am {age} years old and I come from Zealand in Denmark. I am currently taking the media graphic designer education (mediegrafiker uddannelsen).</p>
                     <figure className="w-[27.5 rem] h-2 border-b-2 border-black py-2"></figure>
                     <p className="text-lg pt-2.5">On my website you can browse through my artworks on the <Link to={"/gallery"} className="underline hover:text-[#7ea46c] hover:font-semibold hover:duration-500 hover:ease-in-out hover:transition-colors">gallery page.</Link></p>
