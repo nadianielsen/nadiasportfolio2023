@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import LinkCards from "../components/LinkCards";
+// import { Link } from "react-router-dom";
+// import LinkCards from "../components/LinkCards";
 
 
 const About = () => {
