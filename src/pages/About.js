@@ -19,7 +19,8 @@ const About = () => {
                 <section className="md:w-[40rem] lg:[w-60rem] flex flex-col gap-y-2">
                     <h1 className="ivy_font text-4xl capitalize text-[#7EA46C]">About <span className="italic">me</span></h1>
                     <p><span className="text-[#7EA46C] font-semibold">My name is Nadia Nielsen and I come from Roskilde Technical College,</span> where I am studying the media graphic designer education (mediegrafiker uddannelsen).</p>
-                    <p>I have currently finished my intership in Switzerland, where I have learned how the graphic field is in Switzerland. On a daily basis I am at a training center, where I am emproving my skills in the graphic world.</p>
+                    <p>I have currently finished my apprenticeship at BrandMonkey in Roskilde, where I have worked with a various amount of projects. From illustrations, animations to logo etc. I have enjoyed working at BrandMonkey and I have learned a lot over these past few months.</p>
+                    <p>In 2025 I have been in Switzerland, where I have been granted a internship for a few weeks, and through the those weeks I have learned how the graphic field is/works in Switzerland.</p>
                     <p>I am a creative person with a strong passion for the graphic and digital fields. I am always eager to learn new things and improve myself. </p>
                     <p>I am proactive and enjoy seeking out new knowledge when faced with challenges. I am also loyal, dependable, a good team player, kind, and always maintain a positive attitude. I am able to work independently as well.</p>
                     <h2 className="text-[#7EA46C] font-semibold pt-4 text-xl">Frontend Developer</h2>
