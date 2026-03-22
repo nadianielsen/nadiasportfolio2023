@@ -30,7 +30,6 @@ const About = () => {
                         <h2 className="ivy_font text-4xl  capitalize text-[#7EA46C] pt-10">My <span className="italic">skills</span></h2>
                         <p><span className="text-[#7EA46C] font-semibold">I believe my strongest skills include creating clear hierarchies</span> in text, harmonizing colors, having a keen eye for typography and design, as well as layout, editing, and image cutouts of pictures.</p>
                         <p>Throughout my internship in Switzerland, the program I used the most was Figma, so I got a good knowledge in Figma.</p>
-                        <p>I know the basics in After Effects and Premiere Pro, but I mostly use Photoshop, Illustrator, InDesign and Procreate.</p>
                         <div className="flex flex-wrap gap-3 mt-6 mb-4">
                             {["Photoshop", "Illustrator", "InDesign", "Procreate", "Figma", "Premiere Pro", "After Effects"].map((skill, index) => (
                                 <span key={skill} className={`text-white ${bgColor[index % bgColor.length]} px-4 py-2 rounded-full font-poppins text-sm font-medium`}>
