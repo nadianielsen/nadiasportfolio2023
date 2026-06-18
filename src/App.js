@@ -14,6 +14,7 @@ import AboutMe from './pages/AboutMe';
 import Schoolprojects from './pages/SchoolProjects';
 import Hf1 from './pages/Hf1';
 import Hf2 from './pages/Hf2';
+import Hf3 from './pages/Hf3';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/hf1' element={<Hf1 />} />
         <Route path='/hf2' element={<Hf2 />} />
+        <Route path='/hf3' element={<Hf3 />} />
         {/* <Route path='/websites' element={<Websites />} /> */}
         <Route path='/graphicdesign' element={<GraphicDesign />} />
         <Route path='/albums' element={<Albums />} />

@@ -42,6 +42,7 @@ const DropDown = ({ navHover }) => {
                 <ul className="absolute -right-2 mt-2 w-20 flex flex-col justify-center items-center py-3 bg-white text-gray-800 rounded-lg shadow-lg animate-fade-down duration-75 delay-100 ease-in-out">
                     <NavLink to={"/hf1"} className={navHover}>HF1</NavLink>
                     <NavLink to={"/hf2"} className={navHover}>HF2</NavLink>
+                    <NavLink to={"/hf3"} className={navHover}>HF3</NavLink>
                 </ul>
             )}
 
