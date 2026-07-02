@@ -27,11 +27,11 @@ const Hf3 = () => {
                 <h2 className="text-2xl text-center py-6 ivy_font">Trykt Produkt</h2>
                 <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-4">
                     <div>
-                        <h3 className="font-semibold text-center size800:text-start">UEFA WOMEN'S EURO 2025 - magasin</h3>
-                        <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, valgte jeg at lave et magasin som indebærer info omkring UEFA WOMEN'S EURO 2025 og der ligger en trykklar pdf via download knappen. </p>
-                        <DownloadButton filepdf={"/Magasin WEURO - trykt produkt - HF2.pdf"} downloadPDF={"/Magasin WEURO - trykt produkt - HF2"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
+                        <h3 className="font-semibold text-center size800:text-start">Sportswomen - hæfte/brochure</h3>
+                        <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, fik jeg en fiktiv opgave om lave en hæfte/brochure som omhandler kvinder i sport og der ligger en trykklar pdf via download knappen. </p>
+                        <DownloadButton filepdf={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed.pdf"} downloadPDF={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
                     </div>
-                    <img className="w-60 size600:w-80 rounded-3xl" src="./images/" alt="trykt produkt" />
+                    <img className="w-60 size600:w-80 rounded-3xl" src="./images/HF3 trykt produkt - mockup.webp" alt="trykt produkt" />
                 </section>
             </section>
         </article>
