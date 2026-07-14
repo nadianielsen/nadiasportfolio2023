@@ -21,9 +21,9 @@ const Home = () => {
                 <img className="fixed w-full opacity-35" src="./images/Artboard 3.png" alt="" />
             </div>
             <HomeFirstLook />
-            <section className="flex justify-center items-center text-center h-[30vh]">
+            {/* <section className="flex justify-center items-center text-center h-[30vh]">
                 <motion.p initial={{ opacity: 0, x: -200 }} whileInView={{ opacity: 1, x: 0 }} transition={{ ease: "easeInOut", delay: 0.30 }} className="text-3xl size1700:text-4xl w-[70vw]">I am currently looking for <span className="text-[#7ea46c] crimson-font">apprenticeship (læreplads)</span></motion.p>
-            </section>
+            </section> */}
         </motion.article>
     );
 }

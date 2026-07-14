@@ -7,8 +7,8 @@ const Hf3 = () => {
             <h1 className="text-3xl py-10 place-self-center ivy_font text-[#7EA46C]">Hoved<span className="italic">forløb</span> 3</h1>
             <section className="flex flex-col size800:flex-row justify-center gap-x-20 gap-y-5 place-self-center mb-4">
                 <div className="text-center size800:text-start m-auto">
-                    <p className="w-[22rem] size800:w-[20.5rem]"><span className="font-semibold">Til hovedforløb 3</span> har jeg valgt to produkter. Til det trykte produkt valgte jeg at lave , hvor jeg bruger kernefaglighederne - </p>
-                    <p className="w-[22rem] size800:w-[20.5rem] pt-2">Til det digtale produkt valgte jeg at bruge en video som jeg har lavet på min tidligere læreplads. Jeg bruger kernefaglighed - "Grafisk Produktionsforståelse".</p>
+                    <p className="w-[22rem] size800:w-[19rem]"><span className="font-semibold">Til hovedforløb 3</span> har jeg valgt to produkter. Til det trykte produkt valgte jeg at lave , hvor jeg bruger kernefaglighederne - "Grafisk Design", "Typografi og Ombrydning" og "Grafik og Billedbehandling"</p>
+                    <p className="w-[22rem] size800:w-[19rem] pt-2">Til det digtale produkt valgte jeg at bruge en video som jeg har lavet på min tidligere læreplads. Jeg bruger kernefagligheden - "Grafisk Produktionsforståelse".</p>
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
                     <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 2 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 2 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
