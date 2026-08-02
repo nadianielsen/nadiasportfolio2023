@@ -10,7 +10,7 @@ const Hf3 = () => {
                     <p className="w-[22rem] size800:w-[19rem]"><span className="font-semibold">Til hovedforløb 3</span> har jeg valgt to produkter. Til det trykte produkt valgte jeg at lave , hvor jeg bruger kernefaglighederne - "Grafisk Design", "Typografi og Ombrydning" og "Grafik og Billedbehandling"</p>
                     <p className="w-[22rem] size800:w-[19rem] pt-2">Til det digtale produkt valgte jeg at bruge en video som jeg har lavet på min tidligere læreplads. Jeg bruger kernefagligheden - "Grafisk Produktionsforståelse".</p>
                     <p className="pt-2">Min arbejdsportfolio ligger trykklar via download knappen.</p>
-                    <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 2 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 2 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
+                    <DownloadButton filepdf={"/Arbejdsportfolio - Hovedforløb 3 - Nadia Marie Nielsen.pdf"} downloadPDF={"/Arbejdsportfolio - Hovedforløb 3 - Nadia Marie Nielsen"} extraStyle={"my-4 m-auto size800:m-0 size800:my-4"} />
                 </div>
                 <img className="w-80 lg:w-[25rem] rounded-3xl m-auto size800:m-0" src="./images/Arbejdsportfolio - Hovedforløb 3 - Nadia Marie Nielsen.webp" alt="billed af skoleportfolio" />
             </section>
