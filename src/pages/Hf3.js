@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DownloadButton from "../components/DownloadButton";
 // import { BsArrowUp } from "react-icons/bs";
 
@@ -25,11 +26,14 @@ const Hf3 = () => {
             <span className="w-[50%] h-2 border-b-2 border-black place-self-center"></span>
             <section className="mb-4 place-self-center">
                 <h2 className="text-2xl text-center py-6 ivy_font">Trykt Produkt</h2>
-                <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-4">
-                    <div>
+                <section className="flex flex-col size800:flex-row justify-center items-center size800:items-start gap-x-20 gap-y-8">
+                    <div className="flex flex-col gap-y-4 size800:gap-y-2">
                         <h3 className="font-semibold text-center size800:text-start">Sportswomen - hæfte/brochure</h3>
                         <p className="size800:w-[16rem] text-center size800:text-start w-[20rem]">For mit trykte produkt, fik jeg en fiktiv opgave om lave en hæfte/brochure som omhandler kvinder i sport og der ligger en trykklar pdf via download knappen. </p>
-                        <DownloadButton filepdf={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed.pdf"} downloadPDF={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-4"} />
+                        <Link className="underline cursor-pointer hover:text-[#7EA46C] transition-colors ease-in-out" to={"https://www.flipbookpdf.net/web/site/77603fbda8bf9f0e33f6a391298a72dafc4789ce202609.pdf.html"} target="_blank" rel="noopener noreferrer">
+                            Flipbook version af hæfte/brochure
+                        </Link>
+                        <DownloadButton filepdf={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed.pdf"} downloadPDF={"/Brochure - hæfte - SportWomen - HF3 trykt produkt - bleed"} extraStyle={"mt-4 m-auto size800:m-0 size800:mt-2"} />
                     </div>
                     <img className="w-60 size600:w-80 rounded-3xl" src="./images/HF3 trykt produkt - mockup.webp" alt="trykt produkt" />
                 </section>
